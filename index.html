@@ -1,1 +1,131 @@
-Visual xHarbour
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="utf-8">
+<meta name="referrer" content="origin">
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content">
+
+<meta name="keywords" content="VXH, Visual-xHarbour, Visual xHarbour, xHarbour, Harbour, Clipper, xBase, database, compiler, 32-bit">
+
+<title>Visual xHarbour Reference Guide · Index</title>
+
+<link rel="stylesheet" referrerpolicy="no-referrer" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism-okaidia.min.css" integrity="sha384-XHIkHrF2GAIZf8n8FpuN43YPTV4JE4h3je69N9L1dZavZmxbmZlQCO1X/6Y/cge2" crossorigin="anonymous">
+<link rel="stylesheet" href="vxhdoc.css">
+
+<body>
+      
+
+<header>
+
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="44px" height="44px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">  <image id="image0" width="32" height="32" x="0" y="0"
+         href="data:image/png;base64,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" />
+     </svg>
+
+<div>
+<div><a href="index.html">Visual xHarbour Reference Guide</a></div>
+<div>
+<nav class="menu">
+<nav class="dropdown">
+<span class="dropbtn" onclick="">Index</span>
+<nav class="dropdown-content">
+      <a href="">Class reference</a> 
+      <a href="">Function reference</a>
+      <a href="">Advanced Service API</a>
+      <a href="">Base Service (Kernel) API</a>
+      <a href="">Common Control Library</a>
+      <a href="">Common Dialog Box Library</a>
+      <a href="">Graphics Device Interface</a>
+      <a href="">Macros (pseudo functions)</a>
+      <a href="">Mail API</a>
+      <a href="">Microsoft Image API</a>
+      <a href="">Network Service API</a>
+      <a href="">Ole API</a>
+      <a href="">User interface API</a>
+      <hr>
+      <a href="">Windows Shell API</a>
+      <a href="">Windows Sockets V2 lib</a>
+</nav>
+</nav>
+</nav>
+</div>
+</div>
+</header>
+
+<aside>
+      <a href="">Class reference</a> 
+      <a href="">Function reference</a>
+      <a href="">Advanced Service API</a>
+      <a href="">Base Service (Kernel) API</a>
+      <a href="">Common Control Library</a>
+      <a href="">Common Dialog Box Library</a>
+      <a href="">Graphics Device Interface</a>
+      <a href="">Macros (pseudo functions)</a>
+      <a href="">Mail API</a>
+      <a href="">Microsoft Image API</a>
+      <a href="">Network Service API</a>
+      <a href="">Ole API</a>
+      <a href="">User interface API</a>
+      <a href="">Windows Shell API</a>
+      <a href="">Windows Sockets V2 lib</a></aside>
+
+<main>
+
+<!-- <section id="core" class="d-x d-id"> -->
+
+<!-- </section> -->
+
+
+
+</main>
+
+<!-- <footer>
+</footer> -->
