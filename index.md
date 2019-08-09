@@ -1,8 +1,5 @@
 ---
 layout: default
 ---
-![alt text](favicon.ico "Logo Title Text 1")
-====================
-
-[logo]: favicon.ico "Visual xHarbour Reference"
+![alt text](favicon.ico "Visual [x]Harbour Reference") Visual [x]Harbour Reference
 ====================
