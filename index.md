@@ -20,8 +20,8 @@ layout: default
 * Windows Sockets V2 lib  
 
 <SECTION ID="class_ref">
-**Class reference**
 </SECTION>
+**Class reference**
 Here class reference will start.
 
 <SECTION ID="function_ref">
