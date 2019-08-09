@@ -19,25 +19,34 @@ layout: default
 * Windows Shell API  
 * Windows Sockets V2 lib  
 
+
 <SECTION ID="class_ref">
 </SECTION>
 **Class reference**
+
 Here class reference will start.
 
+
 <SECTION ID="function_ref">
-**Function reference**
 </SECTION>
+**Function reference**
+
 Here function reference will start.
 
+
 <SECTION ID="advanced_service_api">
-**Advanced Service API**
 </SECTION>
+**Advanced Service API**
+
 Here advanced service API will start.
 
+
 <SECTION ID="base_service_kernel_api">
-**Base Service (Kernel) API**
 </SECTION>
+**Base Service (Kernel) API**
+
 Here Base Service (Kernel) API will start.
+
 
 
 
