@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-![alt text]Visual [x]Harbour Reference
+Visual [x]Harbour Reference
 ====================
 Visual [x]Harbour is an easy to use **Rapid Application Development** (RAD) tool for **Windows**.  The power of VXH lies in its **simplicity**. But don't be fooled, underneath this simplicity you'll find the powerful xHarbour engine going at it at full throttle providing you with the speed and accuracy you need for your applications.
 
