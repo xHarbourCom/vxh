@@ -3,6 +3,12 @@ layout: default
 ---
 ![alt text](favicon.ico "Visual [x]Harbour Reference") Visual [x]Harbour Reference
 ====================
+Visual [x]Harbour is an easy to use **Rapid Application Development** (RAD) tool for **Windows**.  The power of VXH lies in its **simplicity**. But don't be fooled, underneath this simplicity you'll find the powerful xHarbour engine going at it at full throttle providing you with the speed and accuracy you need for your applications.
+
+Creating a GUI has never been easier and faster. VXH offers a complete set of objects which enables the developer to create any GUI in a matter of seconds. The VXH ToolBox offers any possible control which can be easily dragged and dropped on the forms. Creating new forms, interaction between forms, MDI forms, pop-up windows, splash screens, ... It's all right there, just one click away.
+
+VXH also supports the use of COM objects which, for example, lets you create your own video player. You can imagine that the possibilities are almost unlimited. Data management has never been easier with VXH's Data Components. Just link your database file to VXH's DataTable and add it to a DataGrid. Your data flows right out of the database file in to the grid.
+
 * [Class reference](#class_ref "class reference")  
 * [Function reference](#function_ref "function reference")  
 * [Advanced Service API](#advanced_service_api "Advanced Service API")  
