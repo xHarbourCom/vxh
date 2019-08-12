@@ -185,7 +185,7 @@ The Application's Company, CopyRight, Description and Version properties are hol
 The Application's "Set" property group offers the possibility of configurating interactively most properties, which are set via the "SET ..." commands, or the Set\(...\) function, when developing procedural \[x\]Harbour code build with xBuilder.  
 The Application's object reference is available from inside all Form objects \- as the value of the Application property of the current Form object.  
 
-###Info
+### Info
 * **Category**: VXH Class
 * **LIB**: vxh.lib
 
