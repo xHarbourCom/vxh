@@ -4,9 +4,9 @@ layout: default
 Class Reference
 ====================
 
-### ActiveX
+## ActiveX
 
-**Properties**
+### Properties
 * BackColor
 * Constants
 * Cursor
@@ -16,7 +16,7 @@ Class Reference
 * oTypeLib
 * ToolTip
 
-**Methods**
+### Methods
 * AxGet()
 * AxSet()
 * Configure()
@@ -30,211 +30,211 @@ Class Reference
 * ShowPropertiesDialog()
 * Translate
 
-**Info**
+### Info
 * **Category** : vxh class
 * **LIB** : vxh.lib
 
 
 
-### AdsDataTable
+## AdsDataTable
 
-### AdsServer 
+## AdsServer 
 
-### Advantage
+## Advantage
 
-### Anchor
+## Anchor
 
-### Animation
+## Animation
 
-### Application
+## Application
 
-### BackgroundImage
+## BackgroundImage
 
-### Band
+## Band
 
-### Button
+## Button
 
-### CheckBox
+## CheckBox
 
-### CMenuItem
+## CMenuItem
 
-### ColorDialog
+## ColorDialog
 
-### ColorPicker
+## ColorPicker
 
-### ComboBox
+## ComboBox
 
-### ComboBoxEx
+## ComboBoxEx
 
-### ContextMenu
+## ContextMenu
 
-### CoolBar
+## CoolBar
 
-### CoolBarBand
+## CoolBarBand
 
-### CoolMenu
+## CoolMenu
 
-### CoolMenuItem
+## CoolMenuItem
 
-### CursorComboBox
+## CursorComboBox
 
-### Data
+## Data
 
-### DataConnector
+## DataConnector
 
-### DataGrid
+## DataGrid
 
-### DataSource
+## DataSource
 
-### DataTable
+## DataTable
 
-### DateTimePicker
+## DateTimePicker
 
-### Dock
+## Dock
 
-### Drawing
+## Drawing
 
-### DriveComboBox
+## DriveComboBox
 
-### EditBox
+## EditBox
 
-### Expando
+## Expando
 
-### ExploreBar
+## ExploreBar
 
-### Fields
+## Fields
 
-### FolderBrowseDialog
+## FolderBrowseDialog
 
-### FolderTree
+## FolderTree
 
-### FontComboBox
+## FontComboBox
 
-### Form
+## Form
 
-### FreeImage
+## FreeImage
 
-### FtpClient
+## FtpClient
 
-### GridColumn
+## GridColumn
 
-### GroupBox
+## GroupBox
 
-### HeaderItem
+## HeaderItem
 
-### HeaderStrip
+## HeaderStrip
 
-### ImageList
+## ImageList
 
-### IniFile
+## IniFile
 
-### Label
+## Label
 
-### LinkLabel
+## LinkLabel
 
-### ListBox
+## ListBox
 
-### ListView
+## ListView
 
-### ListViewColumn
+## ListViewColumn
 
-### ListViewGroup
+## ListViewGroup
 
-### MaskEdit
+## MaskEdit
 
-### MdiClient
+## MdiClient
 
-### MemData
+## MemData
 
-### MemoryTable
+## MemoryTable
 
-### MenuStrip
+## MenuStrip
 
-### MenuStripItem
+## MenuStripItem
 
-### MessageWait
+## MessageWait
 
-### MonthCalendar
+## MonthCalendar
 
-### NotifyIcon
+## NotifyIcon
 
-### OpenFileDialog
+## OpenFileDialog
 
-### OptionBarButton
+## OptionBarButton
 
-### OptionBar
+## OptionBar
 
-### PageScroller
+## PageScroller
 
-### Panel
+## Panel
 
-### PictureBox
+## PictureBox
 
-### ProgressBar
+## ProgressBar
 
-### Project
+## Project
 
-### RadioButton
+## RadioButton
 
-### RichTextBox
+## RichTextBox
 
-### SaveFileDialog
+## SaveFileDialog
 
-### SerialPort
+## SerialPort
 
-### Service
+## Service
 
-### ShortCutKey
+## ShortCutKey
 
-### Splitter
+## Splitter
 
-### SqlConnector
+## SqlConnector
 
-### StatusBar
+## StatusBar
 
-### StatusBarPanel
+## StatusBarPanel
 
-### System
+## System
 
-### TabCloseButton
+## TabCloseButton
 
-### TabControl
+## TabControl
 
-### TabPage
+## TabPage
 
-### TabPinButton
+## TabPinButton
 
-### TabStrip
+## TabStrip
 
-### Timer
+## Timer
 
-### ToolBar
+## ToolBar
 
-### ToolButton
+## ToolButton
 
-### ToolStrip
+## ToolStrip
 
-### ToolStripButton
+## ToolStripButton
 
-### ToolStripComboBox
+## ToolStripComboBox
 
-### ToolStripContainer
+## ToolStripContainer
 
-### ToolStripLabel
+## ToolStripLabel
 
-### ToolTip
+## ToolTip
 
-### TreeListView
+## TreeListView
 
-### TreeView
+## TreeView
 
-### TreeViewItem
+## TreeViewItem
 
-### WebBrowser
+## WebBrowser
 
-### WinPrint
+## WinPrint
 
-### WinSock
+## WinSock
 
-### Zip
+## Zip
 
