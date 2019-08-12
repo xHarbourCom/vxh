@@ -160,6 +160,36 @@ The AVI clip can be placed near the executable, or it can be added to the execut
 ## Application
 The Application class is an abstraction of a VXH software module as a collection of Form. In the VXH IDE in the Object Manager's "Object View" tab the Application node is listed as the root of the Form objects.
 
+### Properties
+* IniFile
+* Instance
+* MainForm
+* Name
+* OsVersion
+* Params
+* Path
+* Resources
+* Running
+* Version
+
+### Methods
+* DoEvents()
+* Exit()
+* RestorePrevInstance()
+* SaveResource()
+* Yield()
+
+### Description
+See also Project, IniFile and Form. The first form in the Object View is always the Main Form - which is acting at run-time as a gateway between the local OS and our software.  
+The Application's Company, CopyRight, Description and Version properties are holding strings, which are build in the output file, and can be consulted by right-clicking the file and then choosing "Properties".  
+The Application's "Set" property group offers the possibility of configurating interactively most properties, which are set via the "SET ..." commands, or the Set\(...\) function, when developing procedural \[x\]Harbour code build with xBuilder.  
+The Application's object reference is available from inside all Form objects \- as the value of the Application property of the current Form object.  
+
+###Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
 <SECTION ID="backgroundimage">
 </SECTION>
 ## BackgroundImage
