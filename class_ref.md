@@ -40,6 +40,7 @@ Class Reference
 <SECTION ID="adsdatatable">
 </SECTION>
 ## AdsDataTable
+The AdsDataTable component inherits the DataTable component, being customized to use one of the Advantage RDD-s.
 
 ### Properties
 * EnumTableType
@@ -107,9 +108,12 @@ Most properties and methods of the DataTable can be used in conjunction with Ads
 * **Category**: vxh class
 * **LIB**: vxh.lib
 
+
 <SECTION ID="anchor">
 </SECTION>
 ## Anchor
+Setting this object property - present in controls - does take sense when having a form with thick frame, and willing to manage the distance between the Form's frame and some of its child controls
+
 ### Properties
 * Bottom
 * Center
@@ -122,9 +126,12 @@ Most properties and methods of the DataTable can be used in conjunction with Ads
 ### Info
 * **Category**: vxh class
 
+
 <SECTION ID="animation">
 </SECTION>
 ## Animation
+VXH's Animation control implements the standard Windows Animation control - a child window displaying a video clip in AVI format \(a series of bitmap frames\).
+
 ### Properties
 * AutoPlay
 * BackColor
@@ -146,6 +153,7 @@ Most properties and methods of the DataTable can be used in conjunction with Ads
 The animation control's most frequent use is to indicate system activity background process is in progress.  
 Limitations for the AVI clip format: It should not contain sound \(according to earlier Microsoft specifications\), it should be uncompressed or compressed using "run-length" encoding \(BI_RLE8\).  
 The AVI clip can be placed near the executable, or it can be added to the executable as resource \(in the VXH IDE's Project menu choose "Resource Manager", and use the name displayed in the "Name" column as its resource name\).  
+
 
 <SECTION ID="application">
 </SECTION>
