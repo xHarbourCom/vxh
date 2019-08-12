@@ -31,8 +31,8 @@ Class Reference
 * Translate
 
 **Info**
-* ### Category### : vxh class
-* ### LIB### : vxh.lib
+* **Category** : vxh class
+* **LIB** : vxh.lib
 
 
 
