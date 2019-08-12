@@ -4,7 +4,39 @@ layout: default
 Class Reference
 ====================
 
-**ActiveX**
+###ActiveX
+
+**Properties** 
+* BackColor
+* Constants
+* Cursor
+* Font
+* ForeColor
+* hEventHandler
+* oTypeLib
+* ToolTip
+
+**Methods**
+
+* AxGet()
+* AxSet()
+* Configure()
+* Create()
+* Init()
+* IsRegistered()
+* LinkEvents()
+* OnDestroy()
+* OnGetDlgCode()
+* SetStyle()
+* ShowPropertiesDialog()
+* Translate
+
+**Info**
+
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
 
 **AdsDataTable**
 
