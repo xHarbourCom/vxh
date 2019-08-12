@@ -40,7 +40,7 @@ Class Reference
 <SECTION ID="adsdatatable">
 </SECTION>
 ## AdsDataTable
-The AdsDataTable component inherits the DataTable component, being customized to use one of the Advantage RDD-s.
+The AdsDataTable component inherits the DataTable component, being customized to use one of the Advantage RDD\-s.
 
 ### Properties
 * EnumTableType
@@ -158,8 +158,26 @@ The AVI clip can be placed near the executable, or it can be added to the execut
 <SECTION ID="application">
 </SECTION>
 ## Application
+The Application class is an abstraction of a VXH software module as a collection of Form. In the VXH IDE in the Object Manager's "Object View" tab the Application node is listed as the root of the Form objects.
 
+<SECTION ID="backgroundimage">
+</SECTION>
 ## BackgroundImage
+As object property of containers like forms of TabPages it offers the possibility of displaying an image in the client area of the container object.
+
+### Properties
+* Alignment
+* ImageName
+* KeepAspectRatio
+* Margins
+* Opacity
+
+### Methods
+
+### Info
+* **Category**: vxh class
+
+
 
 ## Band
 
