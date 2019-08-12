@@ -232,9 +232,47 @@ When using directly the "Delete" button of the VXH\-IDE \(or the keyboard\) for 
 
 ### Info
 * **Category**: vxh class
- 
 
+<SECTION ID="button">
+</SECTION>
 ## Button
+The Button controls \- also referred as "command buttons" or "push buttons" are the most widely used objects in visual programming, even if their presence on a Form is not evident.
+
+### Properties
+* Alignment
+* BackColor
+* Border
+* Text
+* DefaultButton
+* ForeColor
+* Group
+* ImageAlign
+* ImageIndex
+* ImageList
+* MenuArrow
+* MultiLine
+* OwnerDraw
+* ShortCutKey
+* TabOrder
+* TabStop
+* Visible
+
+### Methods
+* Click()
+* IsPushed()
+* Push()
+* Release()
+
+
+### Description
+The Button controls \- also referred as "command buttons" are the most widely used object in visual programming, even if their presence on a Form is not evident, being masked by custom images \(referred as owner drawn controls\).  
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
 
 ## CheckBox
 
