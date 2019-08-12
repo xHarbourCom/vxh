@@ -4,6 +4,8 @@ layout: default
 Class Reference
 ====================
 
+<SECTION ID="activex">
+</SECTION>
 ## ActiveX
 
 ### Properties
@@ -77,9 +79,30 @@ Most properties and methods of the DataTable can be used in conjunction with Ads
 * **Category**: vxh class
 * **LIB**: vxh.lib
 
-## AdsServer 
+## AdsServer
+### Properties
+* EnumFileType
+* EnumType
+* hConnection
+
+### Methods
+* Create()
+* Init()
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
 
 ## Advantage
+### Properties
+* xDriver
+
+### Methods
+
+### Info
+* **See also**: [ActiveX](#activex "ActiveX")
+* **Category**: vxh class
+* **LIB**: vxh.lib
 
 ## Anchor
 
