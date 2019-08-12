@@ -24,8 +24,3 @@ VXH also supports the use of COM objects which, for example, lets you create you
 * [User interface API](https://xharbourcom.github.io/vxh-docs/ui_api "User Interface API")  
 * [Windows Shell API](https://xharbourcom.github.io/vxh-docs/shell_api "Windows Shell API")  
 * [Windows Sockets V2 lib](https://xharbourcom.github.io/vxh-docs/soc_v2_lib "Windows Sockets V2")  
-
-
-
-
-
