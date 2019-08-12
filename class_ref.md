@@ -186,7 +186,7 @@ The Application's "Set" property group offers the possibility of configurating i
 The Application's object reference is available from inside all Form objects \- as the value of the Application property of the current Form object.  
 
 ### Info
-* **Category**: VXH Class
+* **Category**: vxh class
 * **LIB**: vxh.lib
 
 
@@ -208,8 +208,31 @@ As object property of containers like forms of TabPages it offers the possibilit
 * **Category**: vxh class
 
 
-
+<SECTION ID="band">
+</SECTION>
 ## Band
+The Band control is always created as a child control of a CoolBar, and consequently it's deleted, when its parent is deleted \(See also the CoolBar control\).
+
+### properties
+* BandChild
+* Break
+* Chevron
+* FixedSize
+* Grippers
+* MinHeight
+* MinWidth
+* Width
+
+### Methods
+
+### Description
+A Band control can hold a control by setting its BandChild property accordingly. A Band control typically holds a CoolBar or ToolBar control, and when its Grippers property is set to "true", its postion over the menu system can be adjusted visually.  
+The right way to delete a Band control: Slect it, right-click on it, and choose the "Remove Band" menu option.  
+When using directly the "Delete" button of the VXH\-IDE \(or the keyboard\) for deleting a Band, the control set as BandChild control is also deleted from the current From \- this is a documented Windows limitation.  
+
+### Info
+* **Category**: vxh class
+ 
 
 ## Button
 
