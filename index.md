@@ -9,7 +9,7 @@ Creating a GUI has never been easier and faster. VXH offers a complete set of ob
 
 VXH also supports the use of COM objects which, for example, lets you create your own video player. You can imagine that the possibilities are almost unlimited. Data management has never been easier with VXH's Data Components. Just link your database file to VXH's DataTable and add it to a DataGrid. Your data flows right out of the database file in to the grid.
 
-* [Class reference](#class_ref "class reference")  
+* [Class reference](class_ref.md "class reference")  
 * [Function reference](#function_ref "function reference")  
 * [Advanced Service API](#advanced_service_api "Advanced Service API")  
 * [Base Service (Kernel) API](#base_service_kernel_api "Base Service (Kernel) API")  
@@ -27,11 +27,11 @@ VXH also supports the use of COM objects which, for example, lets you create you
 
 
 
-<SECTION ID="class_ref">
+<!-- <SECTION ID="class_ref">
 </SECTION>
 **Class reference**
 
-Here class reference will start.
+Here class reference will start. -->
 
 
 
