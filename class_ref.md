@@ -4,7 +4,7 @@ layout: default
 Class Reference
 ====================
 
-###ActiveX
+### ActiveX
 
 **Properties** 
 * BackColor
