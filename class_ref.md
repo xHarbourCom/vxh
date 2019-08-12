@@ -282,7 +282,7 @@ The CheckBox controls are widely used for setting and getting boolean data, in g
 * AutoSize
 * BackColor
 * Border
-* Caption
+* Text
 * CheckStyle
 * ForeColor
 * Group
@@ -303,8 +303,37 @@ The CheckBox controls are widely used for setting and getting boolean data, in g
 * **LIB**: vxh.lib
 
 
-
+<SECTION ID="cmenuitem">
+</SECTION>
 ## CMenuItem
+The CoolMenuItem always appears as a child control of a CoolMenu, or ContextMenu. Its role is to act as a menu item, offering a selectable option for the user \(see also enabled property\).
+
+### Properties
+* Text
+* Enabled
+* Font
+* ForeColor
+* RadioCheck
+* Separator
+* ShortCutKey
+* ShortCutText
+* Theming
+
+### Methods
+* Check()
+* IsChecked()
+* SetText()
+* Uncheck()
+
+### Description
+We have two different categories of menu items: placed directly on a CoolMenu, respectively included in sublists.
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
 
 ## ColorDialog
 
