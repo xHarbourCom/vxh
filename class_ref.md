@@ -38,6 +38,45 @@ Class Reference
 
 ## AdsDataTable
 
+### Properties
+* EnumTableType
+* ServerType
+* Driver
+
+### Methods
+* AdsSetServerType()
+* Append()
+* Blob2File()
+* BlobGet()
+* BlobImport()
+* Create()
+* CreateFTSOrder()
+* CreateOrder()
+* CreateTable()
+* DecryptTable()
+* DeleteOrder()
+* EnableEncryption()
+* EncryptTable()
+* FieldPut()
+* File2Blob()
+* GetLockOwner()
+* IsTableEncrypted()
+* MemoExt()
+* NewInstance()
+* RecLock()
+* Save()
+* SetAOF()
+* SetData()
+* SetIndexDirection()
+* Unlock()
+
+### Description
+Most properties and methods of the DataTable can be used in conjunction with AdsDataTable.
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
 ## AdsServer 
 
 ## Advantage
