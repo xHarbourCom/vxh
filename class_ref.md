@@ -37,7 +37,8 @@ Class Reference
 * **LIB** : vxh.lib
 
 
-
+<SECTION ID="adsdatatable">
+</SECTION>
 ## AdsDataTable
 
 ### Properties
@@ -79,6 +80,8 @@ Most properties and methods of the DataTable can be used in conjunction with Ads
 * **Category**: vxh class
 * **LIB**: vxh.lib
 
+<SECTION ID="adsserver">
+</SECTION>
 ## AdsServer
 ### Properties
 * EnumFileType
@@ -104,6 +107,8 @@ Most properties and methods of the DataTable can be used in conjunction with Ads
 * **Category**: vxh class
 * **LIB**: vxh.lib
 
+<SECTION ID="anchor">
+</SECTION>
 ## Anchor
 ### Properties
 * Bottom
@@ -117,9 +122,33 @@ Most properties and methods of the DataTable can be used in conjunction with Ads
 ### Info
 * **Category**: vxh class
 
-
+<SECTION ID="animation">
+</SECTION>
 ## Animation
+### Properties
+* AutoPlay
+* BackColor
+* Centered
+* FromFrame
+* ImageName
+* Repeat
+* ToFrame
+* Transparent
+* Visible
 
+### Methods
+* Close()
+* Open()
+* Play()
+* Stop()
+
+### Description
+The animation control's most frequent use is to indicate system activity background process is in progress.  
+Limitations for the AVI clip format: It should not contain sound \(according to earlier Microsoft specifications\), it should be uncompressed or compressed using "run-length" encoding \(BI_RLE8\).  
+The AVI clip can be placed near the executable, or it can be added to the executable as resource \(in the VXH IDE's Project menu choose "Resource Manager", and use the name displayed in the "Name" column as its resource name\).  
+
+<SECTION ID="application">
+</SECTION>
 ## Application
 
 ## BackgroundImage
