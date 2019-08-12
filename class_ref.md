@@ -105,6 +105,18 @@ Most properties and methods of the DataTable can be used in conjunction with Ads
 * **LIB**: vxh.lib
 
 ## Anchor
+### Properties
+* Bottom
+* Center
+* Left
+* Right
+* Top
+
+### Methods
+
+### Info
+* **Category**: vxh class
+
 
 ## Animation
 
