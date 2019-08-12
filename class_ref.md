@@ -273,8 +273,36 @@ The Button controls \- also referred as "command buttons" are the most widely us
 
 
 
-
+<SECTION ID="checkbox">
+</SECTION>
 ## CheckBox
+The CheckBox controls are widely used for setting and getting boolean data, in generl answers to yes-no questions, when the answer to the question presumably won't get more diversified in time.  
+
+### Properties
+* AutoSize
+* BackColor
+* Border
+* Caption
+* CheckStyle
+* ForeColor
+* Group
+* RightButton
+* State
+* Visible
+* WrapText
+
+### Methods
+* Check()
+* Checked()
+* Interdeterminate()
+* SetState()
+* UnCheck()
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
 
 ## CMenuItem
 
