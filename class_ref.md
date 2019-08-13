@@ -150,9 +150,9 @@ VXH's Animation control implements the standard Windows Animation control - a ch
 * Stop()
 
 ### Description
-The animation control's most frequent use is to indicate system activity background process is in progress.  
-Limitations for the AVI clip format: It should not contain sound \(according to earlier Microsoft specifications\), it should be uncompressed or compressed using "run-length" encoding \(BI_RLE8\).  
-The AVI clip can be placed near the executable, or it can be added to the executable as resource \(in the VXH IDE's Project menu choose "Resource Manager", and use the name displayed in the "Name" column as its resource name\).  
+The animation control's most frequent use is to indicate system activity background process is in progress.<br>
+Limitations for the AVI clip format: It should not contain sound \(according to earlier Microsoft specifications\), it should be uncompressed or compressed using "run-length" encoding \(BI_RLE8\).<br>
+The AVI clip can be placed near the executable, or it can be added to the executable as resource \(in the VXH IDE's Project menu choose "Resource Manager", and use the name displayed in the "Name" column as its resource name\).<br>
 
 
 <SECTION ID="application">
@@ -180,10 +180,10 @@ The Application class is an abstraction of a VXH software module as a collection
 * Yield()
 
 ### Description
-See also Project, IniFile and Form. The first form in the Object View is always the Main Form - which is acting at run-time as a gateway between the local OS and our software.  
-The Application's Company, CopyRight, Description and Version properties are holding strings, which are build in the output file, and can be consulted by right-clicking the file and then choosing "Properties".  
-The Application's "Set" property group offers the possibility of configurating interactively most properties, which are set via the "SET ..." commands, or the Set\(...\) function, when developing procedural \[x\]Harbour code build with xBuilder.  
-The Application's object reference is available from inside all Form objects \- as the value of the Application property of the current Form object.  
+See also Project, IniFile and Form. The first form in the Object View is always the Main Form - which is acting at run-time as a gateway between the local OS and our software.<br>
+The Application's Company, CopyRight, Description and Version properties are holding strings, which are build in the output file, and can be consulted by right-clicking the file and then choosing "Properties".<br>
+The Application's "Set" property group offers the possibility of configurating interactively most properties, which are set via the "SET ..." commands, or the Set\(...\) function, when developing procedural \[x\]Harbour code build with xBuilder.<br>
+The Application's object reference is available from inside all Form objects \- as the value of the Application property of the current Form object.<br>
 
 ### Info
 * **Category**: vxh class
@@ -226,9 +226,9 @@ The Band control is always created as a child control of a CoolBar, and conseque
 ### Methods
 
 ### Description
-A Band control can hold a control by setting its BandChild property accordingly. A Band control typically holds a CoolBar or ToolBar control, and when its Grippers property is set to "true", its postion over the menu system can be adjusted visually.  
-The right way to delete a Band control: Slect it, right-click on it, and choose the "Remove Band" menu option.  
-When using directly the "Delete" button of the VXH\-IDE \(or the keyboard\) for deleting a Band, the control set as BandChild control is also deleted from the current From \- this is a documented Windows limitation.  
+A Band control can hold a control by setting its BandChild property accordingly. A Band control typically holds a CoolBar or ToolBar control, and when its Grippers property is set to "true", its postion over the menu system can be adjusted visually.<br>
+The right way to delete a Band control: Slect it, right-click on it, and choose the "Remove Band" menu option.<br>
+When using directly the "Delete" button of the VXH\-IDE \(or the keyboard\) for deleting a Band, the control set as BandChild control is also deleted from the current From \- this is a documented Windows limitation.<br>
 
 ### Info
 * **Category**: vxh class
@@ -265,7 +265,7 @@ The Button controls \- also referred as "command buttons" or "push buttons" are 
 
 
 ### Description
-The Button controls \- also referred as "command buttons" are the most widely used object in visual programming, even if their presence on a Form is not evident, being masked by custom images \(referred as owner drawn controls\).  
+The Button controls \- also referred as "command buttons" are the most widely used object in visual programming, even if their presence on a Form is not evident, being masked by custom images \(referred as owner drawn controls\).<br>
 
 ### Info
 * **Category**: vxh class
@@ -276,7 +276,7 @@ The Button controls \- also referred as "command buttons" are the most widely us
 <SECTION ID="checkbox">
 </SECTION>
 ## CheckBox
-The CheckBox controls are widely used for setting and getting boolean data, in generl answers to yes-no questions, when the answer to the question presumably won't get more diversified in time.  
+The CheckBox controls are widely used for setting and getting boolean data, in generl answers to yes-no questions, when the answer to the question presumably won't get more diversified in time.<br>
 
 ### Properties
 * AutoSize
@@ -386,6 +386,8 @@ The ColorPicker inherits the ComboBox control, and it's dedicated to offer the u
 
 <SECTION ID="combobox">
 </SECTION>
+<SECTION ID="combobox">
+</SECTION>
 ## ComboBox
 The ComboBox control is a combination of an EditBox \(also referred as current selection\), a ListBox \(also referred as dropdown list\) and an arrow image.
 
@@ -439,7 +441,30 @@ When a list item is selected (\set as current selection\), its text content is d
 * **LIB**: vxh.lib
 
 
+<SECTION ID="comboboxex">
+</SECTION>
 ## ComboBoxEx
+The ComboBoxEx control inherits the ComboBox control, and additionally it can have an ImageList, which serves for decorating the items in the drop-down list. For more methods see [ComboBox](#combobox "ComboBox") control.
+
+### Properties
+* AutoEditHorScroll
+* DropDownStyle
+* Enabled
+* Font
+* Height
+* ImageList
+* NotIntegralHeight
+* Visible
+* Width
+
+### Method
+* AddItem()
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
 
 ## ContextMenu
 
