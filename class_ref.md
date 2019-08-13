@@ -466,13 +466,92 @@ The ComboBoxEx control inherits the ComboBox control, and additionally it can ha
 
 
 
+<SECTION ID="contextmenu">
+</SECTION>
 ## ContextMenu
+ContextMenu components are widely used in Windows applications. In the VXH IDE they can be created visually by dropping from the ToolBox on the current Form, and then clicking the appropiate.
 
+### Properties
+* ImageList
+
+### Methods
+
+### Description
+"\[Add New Item\]" positions for configuring the new object.<br>
+In VXH the ContextMenu objects \(displayed on the current Form's Component Bar\) are collections of CoolMenuItem objects \(or menu items\), which can be organized in lists on multiple levels.<br>
+We can add new menu items to a ContextMenu as needed \- just select the ContextMenu in the VXH IDE, and click on the appropiate "\[Add New Item\]" positons.<br>
+The ContextMenus created in the application's Man Form are available in all the other Forms of the application.<br>
+Each control having the ContextMenu property can be set with one of the ContextMenu objects offered by the VXH IDE.
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="coolbar">
+</SECTION>
 ## CoolBar
+The CoolBar control implements the Wndows Rebar control. It can include one or more Band controls, acting as a container control for feature\-rich, advanced menu systems. A From schould not have more than a CoolBar.
 
+### Properties
+* Vertical
+
+### Methods
+
+### Description
+When dropping a CoolBar on the current Form, it includes a single Band control \(click on it to refresh the Object Manager\). For adding a new Band: select the CoolBar, right-click on it, and choose the "Add CoolBar Band" menu option.<br>
+Each Band control can hold a control \(typically a MenuBar or a ToolBar\) \- its BandChild property will be set accordingly. The Band's MinHeight property should be adjusted to vover at least the BandChild control's height.<br>
+The right way to delete a CoolBar control is to remove the Band controls one by one: select a Band control, right-click on it, and choose the "Reove Band" menu option.<br>
+When using directly the "Delete" button of the VXH IDE \(or the keyboard\) for deleting a Band or the entire ToolBar, all the controls set as BandChild controls are also deleted from the current Form \- this is a documented Windows limitation.
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+<SECTION ID="coolbarband">
+</SECTION>
 ## CoolBarBand
 
+### Properties
+
+### Methods
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+<SECTION ID="coolmenu">
+</SECTION>
 ## CoolMenu
+The CoolMenu is a container control holding CoolMenuItem controls \- visually represented by horizontal bar with simple menu items. Both the bar and the menu items can be transparent \- in VXH this is the default CoolMenu setup.
+
+### Properties
+* Enabled
+* Flat
+* HorzPadding
+* ImageList
+* Transparent
+* Visible
+
+### Methods
+
+### Description
+When the CoolMenu control is a good choice when we need a classic, simple, horizontal menu bar. The CoolMenu can be used in combination with a CoolBar control, by setting it as BandChild to a Band of the CoolBar.<br>
+We can add new CoolMenuItems directly onto a CoolMenu bar in this way: select the CoolMenu control, increase its width until an "\[Add New Item\]" label is appearing over the bar, and now click on the label. The other menu items are organized in sublists.<br>
+In order to add a new menu item into a sublist: highlight a CoolMenuItem over the bar, click on it to display further "\[Add New Item\]" labels, and now click where inserting a new CoolMenuItem is appropiate.
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
+
 
 ## CoolMenuItem
 
