@@ -703,11 +703,123 @@ A DataSource can be associated to other controls, like ListView.<br>
 * **LIB**: vxh.lib
 
 
-
-
+<SECTION ID="datatable">
+</SECTION>
 ## DataTable
+The DataTable component represents an abstract two-dimension array of data, which is physically stored in a permanent file.
 
+### Properties
+* Alias
+* Area
+* aScatter
+* AutoOpen
+* CodePage
+* Driver
+* Fields
+* FileName
+* IsOpen
+* Path
+* ReadOnly
+* ReIndex
+* Shared
+* SqlConnector
+* Structure
+
+### Methods
+* Append()
+* Bof()
+* Close()
+* Commit()
+* CreateIndex()
+* CreateOrder()
+* DbEval()
+* Delete()
+* Eof()
+* FileLock()
+* Found()
+* Gather()
+* GoBottom()
+* GoTo()
+* GoTop()
+* IndexOrd()
+* KillScope()
+* Open()
+* OrdDescend()
+* OrdKey()
+* OrdKeyCount()
+* OrdKeyGoTo()
+* OrdKeyNo()
+* OrdKeyRelPos()
+* OrdKeyVal()
+* OrdName()
+* OrdSetFocus()
+* Recall()
+* RecCount()
+* RecLock()
+* RecNo()
+* Scatter()
+* Seek()
+* Select()
+* SelectArea()
+* SetBottomScope()
+* SetDriver()
+* SetFileName()
+* SetFilter()
+* SetIndex()
+* SetOrder()
+* SetRelation()
+* SetTopScope()
+* Skip()
+* Struct()
+* UnLock()
+* UnLockAll()
+* Used()
+* Zap()
+
+### Description
+In VXH a DataTable can refer data stored in free tables or a managed tables, using one of the RDD-s offered by the xHarbour language \- see the Driver and Fields properties.<br>
+In most cases the DataTable is used in association with a DataGrid control, being set as the DataSource \(property\) of the DataGrid.<br>
+When a DataTable is using SQLRDD, firstly a corresponding SqlConnector component needs to be set up in the VXH IDE, in order to assure a connection to the database engine, which is managing the table.<br>
+While the DataTable is opened \(crated and not closed\), it always has a current row, pointed by the record pointer, and optionally an active index order as well.<br>
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="datetimepicker">
+</SECTION>
 ## DateTimePicker
+The DateTimePicker control consists of an EditBox and alternatively a dropdown calender or an UpDown object.
+
+### Properties
+* Border
+* CustomFormat
+* Date
+* Enabled
+* Font
+* Format
+* Parse
+* Time
+* UpDown
+* Visible
+
+### Methods
+
+### Description
+The DateTimePicker is suitable for displaying and collecting calender date or time values, when a Form contains numerous controls.<br>
+Clicking on the arrow symbol opens the dropdown calender, and then choosing a date, or clicking outside the calender will close it.<br>
+The highligted numeric data in the EditBox can be incremented or decremented by clicking the corresponding arrow on the updown object.<br>
+The control's behaviour depends on the value set for the Format property. The default date format depends on the local system setup \- see the "Regional and Language Options" on the Windows Control Panel.
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
 
 ## Dock
 
