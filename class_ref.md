@@ -1365,19 +1365,160 @@ As a rule of thumb: a Form should not contain more than 6-7 groups \(tabs, menus
 
 
 
-
-
-
-
+<SECTION ID="headeritem">
+</SECTION>
 ## HeaderItem
+A HeaderItem is always created as a child control of a HeaderStrip.<br>
 
+### Properties
+* Alignment
+* Caption
+* ImageIndex
+* Position
+* Width
+
+### Methods
+* GetRect()
+* GetRectangle()
+
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="headerstrip">
+</SECTION>
 ## HeaderStrip
+The HeaderStrip is a container control, which is holding HeaderItem controls.
 
+### Properties
+* Border
+* Enabled
+* Font
+* Height
+* ImageList
+* ImageMargin
+* Visible
+
+### Methods
+* DeleteItem()
+* GetItemRect()
+* InsertItem()
+* SetArrow()
+* SetItemCaption()
+* SetItemWidth()
+
+### Description
+The HeaderStrip is a solution for advanced level applications, offering the user the possibility to handle a set adherent windows, behaving likewise the columns of a table.<br>
+The HeaderItem controls can be decorated with images from the HeaderStrip's ImageList, respectively an arrow can be set for one of them at a time - see the SetArrow method.<br>
+We can add new HeaderItem controls onto a HeaderStrip in this way: select the HeaderStrip control, right-click on it, and now click on "Add New HeaderItem".<br>
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="imagelist">
+</SECTION>
 ## ImageList
+The ImageList class is designed to hold a collection of images with similar technical parameters, and serving for decorating a number of controls placed over a common container control, or advanced controls including CoolMenu.
 
+### Properties
+* Count
+* Handle
+* IconHeight
+* IconWidth
+* Images
+* MaskColor
+* Palette
+
+### Methods
+* GetImage()
+* RemoveAll()
+* SaveImage()
+
+### Description
+The images held by an ImageList are identified by their positions in the list. VXH's image Manager dialogue is a visual tool for creating and maintaining our ImageList components - it can be opened by clicking on "Collection" at the Images property.<br>
+Container objects like [Forms](#form "Form"), [Panels](#panel "Panel") and [GroupBoxes](#groupbox "GroupBox") have their own ImageList properties, which can be set for decorating controls held by them. [CoolMenus](#coolmenu "CoolMenu"), [ToolBars](#toolbar "ToolBar"), [ListViews](#listview "ListView") etc., can also be decorated with images from ImageLists.<br>
+In VXH each Form can include one of more ImageList components. They are listed over the Componet Bar (at the bottom of the Design Area) and selectable by clicking on them - inorder to be set up in Object Manager.<br>
+The desired image postion inside an ImageList can be set by using the ImageIndex property of a control. In VXH the ImageIndex is one-based, and when set to 0, it indicatetes that the object has no image set for decoration.
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+<SECTION ID="inifile">
+</SECTION>
 ## IniFile
+The IniFile class supports creating, consulting and updating INI files. Each Application object in the VXH IDE has an implicit IniFile object \- the object reference being held by the Application's IniFile property.<br>
 
+### Properties
+* Name
+
+### Methods
+* DelEntry()
+* DelSection()
+* Flush()
+* GetEntries()
+* GetSections()
+* Read()
+* Write()
+
+### Description
+The Application's IniFile object refers a file with predefined name: the path and name are the same as the string values of the Application object's Path and Name properties, respectively the extension is "ini".<br>
+When we need to work with other INI file\(s\) then the implicit one, we can instantiate explicitly an IniFile object by invoking **IniFile(cFile)** \- where cFile is the fully qualified file name of the desired INI file.<br>
+The file referred by the IniFile object \(instantiated implicitly or explicitly\) is created only when our code does at least an IniFile method call meant to update the file. When the INI file is updated, its new content is flushed on the hard disk.<br>
+An explicitly instatiated IniFile object \- for example MyObj - will be marked for deletion \(garbage collection\) by the following command:<br>
+```
+MyObj := NIL
+```
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="fields">
+</SECTION>
 ## Label
+Label controls support displaying informative inscriptions \- mostly sttic text strings \- without input focus.<br>
+
+### Properties
+* Alignment
+* AutoSize
+* BackColor
+* BackColor
+* Border
+* Caption
+* CenterText
+* Enabled
+* Font
+* ForeColor
+* NoPrefix
+* RightAlign
+* Simple
+* Sunken
+* TabStop
+* VertCenter
+* Visible
+* WrapText
+
+### Methods
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
 
 ## LinkLabel
 
