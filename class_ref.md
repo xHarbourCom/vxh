@@ -964,10 +964,10 @@ Each Expando is a container control \- its pane can hold other various stand con
 
 
 
-<SECTION ID="explorebar">
+<SECTION ID="explorerbar">
 </SECTION>
-## ExploreBar
-The ExploreBar control can hold zero or more Expando controls, which can be expanded and collapsed indivitually. Each Expando can hold various simple controls.<br>
+## ExplorerBar
+The ExplorerBar control can hold zero or more Expando controls, which can be expanded and collapsed indivitually. Each Expando can hold various simple controls.<br>
 
 ### Properties
 * Border
