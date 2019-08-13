@@ -550,20 +550,160 @@ In order to add a new menu item into a sublist: highlight a CoolMenuItem over th
 
 
 
-
-
-
+<SECTION ID="coolmenu">
+</SECTION>
 ## CoolMenuItem
+The CoolMenuItem always appears as a child control of a CoolMenu, or ContextMenu. Its role is to act as menu item, offering a selectable option for the user \(see also the Enabled property\).
 
+### Properties
+* Text
+* Enabled
+* Font
+* ForeColor
+* ImageIndex
+* RadioCheck
+* Separator
+* ShortCutKey
+* ShortCutText
+* Theming
+
+### Methods
+
+### Description
+The CoolMenuItem always appears as a child control of a CoolMenu, or ContextMenu. Its role is to act as menu item, offering a selectable option for the user \(see also the Enabled property\).<br>
+We have two different categories of menu items: placed directly on a CoolMenu, respectively includes in bublists.
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="cursorcombobox">
+</SECTION>
 ## CursorComboBox
 
+### Properties
+### Methods
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="data">
+</SECTION>
 ## Data
 
+### Properties
+### Methods
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+<SECTION ID="dataconnector">
+</SECTION>
 ## DataConnector
 
-## DataGrid
+### Properties
+### Methods
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
 
+
+
+<SECTION ID="datagrid">
+</SECTION>
+## DataGrid
+The DataGrid is the most complex control of VXH, serving as a user interface for data organized in a two\-dimensional array\- associated to the DataGrid as DataSource object property.
+
+### Properties
+* AllowDragRecords
+* AnchorColumn
+* aSelected
+* AutoHorzScroll
+* AutoVertScroll
+* BackColor
+* Border
+* Text
+* ColCount
+* ColPos
+* Columns
+* ConvertOem
+* DataSource
+* Enabled
+* ExtVertScrollBar
+* Font
+* ForeColor
+* FreezeColumn
+* FullRowSelect
+* GridColor
+* HeaderHeight
+* HighLightTextColor
+* HigtLightCapton
+* ImageList
+* ImageHeight
+* MenuArrow
+* Multiple Selection
+* RowPos
+* ShadowRow
+* ShowGrid
+* ShowSelection
+* ShowSelectionBorder
+* Striping
+* Visible
+
+### Method
+* ArrowLeft()
+* ArrowRight()
+* AutoAddColumns()
+* DeleteColumn()
+* Edit()
+* GetItemRect()
+* Refresh()
+* RestoreLayout()
+* Update()
+* UpdateRow()
+
+### Description
+The DataGrid control consists of a rectangular panel, which can hold collection of GridColumn objects, an optional horizontal band for column headers, and an optional small title bar.<br>
+The DataGrid is comparable with a set of images arranged in lines \(data rows\) and columns, each image displaying a cell with textual data content and optionally a decoration from the ImageList set for the DataGrid.<br>
+The DataSource set for the DataGrid does always have a currently selected row \(pointed by the record pointer\) which might be positioned inside or outside the row set currently displayed by the DataGrid.<br>
+The user can select a particular cell by clicking on it and // or using the scrollbars, the arrow and page movement keys, in this case the cell becomes the currently selected cell, and its row the currently selected row.<br>
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="datasource">
+</SECTION>
 ## DataSource
+As object property of DataGrid controls, the DataSource reprents as abstract two-dimensional array, holding data, which is being displayed by the associated DataGrid in sequential chunks.
+
+### Properties
+* Fields
+
+### Methods
+
+### Description
+The DataGrid can be considered an array of small images, which are not aware of their data contents \- the data content can be get or set via the Fields object property of the DataSource.<br>
+In VXH we can use as DataSource for DataGrid \(or orther control\) one of the following objects: MemoryTable, DataTable, MemoryDataTable.<br>
+The DataSource object during its lifetime always has a "current row" or "current record" \- corresponding to the currently selected row it the DataGrid sourced by the DataSource.<br>
+The DataSource object during its lifetime always has a "current row" or "current record" \- corresponding to the currently selected row in the DataGrid sourced by the DataSource.<br>
+A DataSource can be associated to other controls, like ListView.<br>
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
 
 ## DataTable
 
