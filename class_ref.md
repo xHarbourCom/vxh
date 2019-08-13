@@ -987,13 +987,120 @@ Add a new [Expando](#expando "Expando") to an ExplorerBar, right-click on it, an
 
 
 
+<SECTION ID="fields">
+</SECTION>
 ## Fields
+The Fields object property represents an abstract cell of a DataSource. Fields provides methods for reading and writing values in the abstract two-dimensional table represented by the [DataSource](#datasource "DataSource").<br>
 
+### Properties
+* Parent
+
+### Methods
+* FieldGet()
+* FieldName()
+* FieldPut()
+* FieldType()
+* Put()
+
+### Description
+The Parent property of the Fields object contains the object reference of the [DataSource](#datasource "DataSource").<br>
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="folderbrowsedialog">
+</SECTION>
 ## FolderBrowseDialog
+FolderBrowserDialog is a common control, it implements the standard Windows Browse For Folder Dialog Box. The dialog can be used for selecting a single folder \- also referred as directory or file path.<br>
 
+### Properties
+* Description
+* RootFolder
+* SelectedPath
+* ShowNewFolderButton
+
+### Methods
+
+### Description
+FolderBrowseDialog is opened by invoking its Show method, and the program execution continues with the next instruction, after the user has completed the folder selection, or has cancelled the dialog.<br>
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="folderlist">
+</SECTION>
+## FolderList
+The FolderList control inherists the [ListView](#listview "ListView") control, being dedicated to offer for user the possibility of selecting a file from a folder \- see the Folder and SysFolder properties.<br>
+
+### Methods
+
+### Description
+The FolderList control's properties in most cases are working like the [ListView](#listview "ListView") control's properties - here are going to be described the properties specific to the FolderList control.<br>
+*The following properties should not be altered: OwnerData, DataSource, ImageList, ImageListSmall*.
+
+
+
+<SECTION ID="foldertree">
+</SECTION>
 ## FolderTree
+The FolderTree class inherits the [TreeView](#treeview "TreeView") class, and it's dedicated to display a tree of folders, offering for the user the possibility of selectting a folder \- an absolute file path.<br>
 
+### Properties
+* Folder
+* SysFolder
+
+### Methods
+* GetPath()
+
+### Description
+Most properties and methods of the [TreeView](#treeview "TreeView") are available for the FolderTree \- here are going to be listed the differences.<br>
+The Folder and SysFolder properties support the control's initialization, respectively the GetPath method retrieves the user selection.<br>
+The ImageList property does not need and should not be set.<br>
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="fontcombobox">
+</SECTION>
 ## FontComboBox
+As object property \- present in containers and controls \- it defines the style of the text displayed in the object.<br>
+
+
+### Properties
+* Bold
+* Escapement
+* FaceName
+* FileName
+* Italic
+* Orientation
+* PointSize
+* StrikeOut
+* UnderLine
+* Width
+
+### Methods
+When the specified font is not present on the local machine, the OS loads another font with appropiate features, or the system's default font.<br>
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
+
+
+
+
 
 ## Form
 
