@@ -336,10 +336,55 @@ We have two different categories of menu items: placed directly on a CoolMenu, r
 
 
 ## ColorDialog
+ColorDialog is a common control, it implements the standard Windows Color Dialog, designed for interactive color selection.
+
+### Properties
+* Color
+* FullOpen
+* PreventFullOpen
+* ShowHelp
+
+### Methods
+* Show()
+
+### Description
+The dialog window has a mandatory zone, which includes a set of basic colors and buttons, and an optional zone, which includes the custom color selection - see the FullOpen and PreventFullopen properties.<br>
+The ColorDialog is displayed by Using its Show method, and its Color property contains the color value selected by the user.
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
 
 ## ColorPicker
+The ColorPicker inherits the ComboBox control, and it's dedicated to offer the user the possibility of selecting a color from its drop-down list.
+
+*** Properties
+* AddEditHorzScroll
+* Border
+* DropDownStyle
+* Enabled
+* Font
+* Height
+* HorzScroll
+* ItemHeight
+* LowerCase
+* NoIntegralHeight
+* SlelectionHeight
+* UpperCase
+* Width
+
+*** Methods
+
+*** Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
 
 ## ComboBox
+
+
 
 ## ComboBoxEx
 
