@@ -1254,12 +1254,120 @@ The FreeImage control is based on xHarbour's implementation of the FreeImage lib
 
 
 
-
+<SECTION ID="ftpclient">
+</SECTION>
 ## FtpClient
+The FtpClient component offers a set of methods for handling event-driven communication through the Internet, using the FTP or HTTP protocol. VXH's FtpClient class is implemented by using WinApi\(WinInet\) functions.
 
+### Properties
+* hFtp
+* hHandle
+* OpenType
+* Operation
+* Passive
+* Password
+* Port
+* Server
+* UserName
+
+### Methods
+* Connect()
+* CreateDirectory()
+* DeleteFile()
+* Disconnect()
+* GetCurrentDirectory()
+* GetDirectory()
+* GetFile()
+* GetLastResponseInfo()
+* PutFile()
+* RemoveDirectory()
+* RenameFile()
+* SetCurrentDirectory()
+
+### Description
+Due to WinInet limitations, applications using the FtpClient component should not be set up as services, and a FtpClient component should be placed as much as possible in a module built as .EXE file, not as .DLL file.
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="gridcolumn">
+</SECTION>
 ## GridColumn
+A GridColumn is always created as a child object of a DataGrid control \- as a member of the column collection of the DataGrid - its event handlers being fired by its parent.
 
+### Properties
+* Alignment
+* AllowDrag
+* AllowSize
+* AutoEdit
+* BackColor
+* ButtonMenu
+* ButtonText
+* Caption
+* ContextMenu
+* Data
+* ForeColor
+* HeaderBackColor
+* HeaderFont
+* HeaderForeColor
+* HeaderImageIndex
+* HeaderMenu
+* ImageAlignment
+* ImageIndex
+* Locked
+* Picture
+* Representation
+* SelOnlyRep
+* SortArrow
+* Width
+
+### Methods
+* GetEditValue()
+* Refresh()
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="groupbox">
+</SECTION>
 ## GroupBox
+When having numerous controls over a Form, they need to be grouped. The GroupBox is a container control designed to hold a number of controls, placed over its surface surrounded by a thin contour line.<br>
+
+### Products
+* BackColor
+* Border
+* Caption
+* Enabled
+* Font
+* ForeColor
+* ImageList
+* VertScrollPos
+* Visible
+
+### Methods
+
+### Description
+Both GroupBox and [Panel](#panel "Panel") controls make easier the maintenance of the visual design of Forms with complex contents. These container controls can be moved around their parent Forms like building blocks.<br>
+Despite of Panels supporting physical modularization, the GroupBox control, with its driversified styling options, is thought for data grouping on logical level \(data organized around topics, which are familiar for the users\).<br>
+As a rule of thumb: a Form should not contain more than 6-7 groups \(tabs, menus etc\), and a group should not include more than 6-7 editable and / or selectable items - otherwise the Form gets overwhelming for the user.<br>
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
+
+
+
 
 ## HeaderItem
 
