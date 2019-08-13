@@ -1096,15 +1096,164 @@ When the specified font is not present on the local machine, the OS loads anothe
 
 
 
-
-
-
-
-
-
+<SECTION ID="form">
+</SECTION>
 ## Form
+The Forms are the fundamental building blocks of Windows GUI applications. All VXH applications must have a Main Form \- visible or not \- and optionally other Forms.
 
+### Properties
+* AcceptFiles
+* ActiveForm
+* AlwaysOnTop
+* AnimationStyle
+* Application
+* BackColor
+* BitMapMask
+* BitMapMaskColor
+* Caption
+* CaptionBar
+* Center
+* Children
+* ChildrenEdge
+* ClipChildren
+* ClipSiblings
+* ContextMenu
+* ControlParent
+* DisableParent
+* DlgModalFrame
+* Enabled
+* ForeColor
+* FrameStyle
+* GnerateMember
+* HasFocus
+* Height
+* HorzScroll
+* HorzScrollPos
+* HorzScrollSize
+* hWnd
+* Icon
+* Id
+* ImageList
+* IParam
+* IsContainer
+* Left
+* MaxHeight
+* MaximizeBox
+* MaxWidth
+* MdiChild
+* MdiContainer
+* MinHeight
+* MinHeight
+* MinimizeBox
+* MinWidth
+* Modal
+* Msg
+* Name
+* NoActivate
+* Opacity
+* OriginalRect
+* Params
+* Property
+* Resizable
+* ShowInTaskBar
+* ShowMode
+* StaticEdge
+* SysMenu
+* System
+* Theming
+* ThickFrame
+* ToolWindow
+* Top
+* UserVariables
+* VertScroll
+* VertScrollPos
+* VertScrollSize
+* VertScrollTopMargin
+* Width
+* wParam
+
+### Methods
+* BringWindowToTop()
+* CenterWindow()
+* ClientToScreen()
+* Close()
+* GetRect()
+* GetStyle()
+* HasProperty()
+* Hide()
+* InvalidateRect()
+* IsWindow()
+* Maximize()
+* MessageBox()
+* Minimize()
+* MoveWindow()
+* Refresh()
+* Restore()
+* RestoreLayout()
+* SaveLayout()
+* ScreenToClient()
+* SetActiveWindow()
+* SetActiveWindow()
+* SetExStyle()
+* SetFocus()
+* SetParent()
+* SetStyle()
+* SetWindowPos()
+* Show()
+* UpdateWindowPos()
+* Show()
+* UpdateWindow()
+* ValidateRect()
+
+### Description
+The Main Form is acting like a gateway between the application and the OS.<br>
+In VXH the Main Form is always the first Form added to a new project, and its object reference **::Application:MainForm** is available all methods and event handlers inside the project.<br>
+VXH can generate SDI or MDI applications. In case of VXH projects implementing the MDI design pattern, the Main Form's MdiContainer property needs to be set to "true", in order to generate the MDICLIENT window \(see also MdiClient Object\).
+The properties set for a VXH Form in the Object Manager are shaping the concrete MFC window class, which is going to be instatiated at runtime.<br>
+When having a complex Form with numerous controls, the Panel and GroupBox controls can act as building blocks inside the Form.<br>
+The ImageList components are functional building blocks, as they support decorating almost all controls.<br>
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="fields">
+</SECTION>
 ## FreeImage
+The FreeImage control has many common features with PictureBox control, being meant to complement each other.<br>
+
+### Properties
+* Alignment
+* BackColor
+* Caption
+* Enabled
+* Font
+* HorzScroll
+* ImageList
+* KeepAspectRatio
+* Margins
+* Opacity
+* SmallCaption
+* VertScroll
+
+### Methods
+* LoadFromString()
+* LoadResource()
+* Refresh()
+
+### Description
+The FreeImage control is based on xHarbour's implementation of the FreeImage library; it can handle numerous image formats, and it's suitable in cases when one need to display images stored in formats, which cannot be handled by the PictureBox control.
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
 
 ## FtpClient
 
