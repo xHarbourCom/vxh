@@ -33,7 +33,7 @@ Class Reference
 * Translate
 
 ### Info
-* **Category** : vxh class
+* **Category** : VXH Class
 * **LIB** : vxh.lib
 
 
@@ -78,7 +78,7 @@ The AdsDataTable component inherits the DataTable component, being customized to
 Most properties and methods of the DataTable can be used in conjunction with AdsDataTable.
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 <SECTION ID="adsserver">
@@ -94,7 +94,7 @@ Most properties and methods of the DataTable can be used in conjunction with Ads
 * Init()
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 ## Advantage
@@ -105,7 +105,7 @@ Most properties and methods of the DataTable can be used in conjunction with Ads
 
 ### Info
 * **See also**: [ActiveX](#activex "ActiveX")
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -124,7 +124,7 @@ Setting this object property - present in controls - does take sense when having
 ### Methods
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 
 
 <SECTION ID="animation">
@@ -186,7 +186,7 @@ The Application's "Set" property group offers the possibility of configurating i
 The Application's object reference is available from inside all Form objects \- as the value of the Application property of the current Form object.<br>
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -205,7 +205,7 @@ As object property of containers like forms of TabPages it offers the possibilit
 ### Methods
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 
 
 <SECTION ID="band">
@@ -231,7 +231,7 @@ The right way to delete a Band control: Slect it, right-click on it, and choose 
 When using directly the "Delete" button of the VXH\-IDE \(or the keyboard\) for deleting a Band, the control set as BandChild control is also deleted from the current From \- this is a documented Windows limitation.<br>
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 
 <SECTION ID="button">
 </SECTION>
@@ -268,7 +268,7 @@ The Button controls \- also referred as "command buttons" or "push buttons" are 
 The Button controls \- also referred as "command buttons" are the most widely used object in visual programming, even if their presence on a Form is not evident, being masked by custom images \(referred as owner drawn controls\).<br>
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -299,7 +299,7 @@ The CheckBox controls are widely used for setting and getting boolean data, in g
 * UnCheck()
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -329,7 +329,7 @@ The CoolMenuItem always appears as a child control of a CoolMenu, or ContextMenu
 We have two different categories of menu items: placed directly on a CoolMenu, respectively included in sublists.
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -353,7 +353,7 @@ The dialog window has a mandatory zone, which includes a set of basic colors and
 The ColorDialog is displayed by Using its Show method, and its Color property contains the color value selected by the user.
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -380,7 +380,7 @@ The ColorPicker inherits the ComboBox control, and it's dedicated to offer the u
 ### Methods
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -437,7 +437,7 @@ The control's DropDownStyle property value defines its behaviour. When this is s
 When a list item is selected (\set as current selection\), its text content is displayed in the edit box, and the list box is scrolled accordingly.
 
 ### Info
-* **category**: vxh class
+* **category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -461,7 +461,7 @@ The ComboBoxEx control inherits the ComboBox control, and additionally it can ha
 * AddItem()
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -484,7 +484,7 @@ The ContextMenus created in the application's Man Form are available in all the 
 Each control having the ContextMenu property can be set with one of the ContextMenu objects offered by the VXH IDE.
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -507,7 +507,7 @@ The right way to delete a CoolBar control is to remove the Band controls one by 
 When using directly the "Delete" button of the VXH IDE \(or the keyboard\) for deleting a Band or the entire ToolBar, all the controls set as BandChild controls are also deleted from the current Form \- this is a documented Windows limitation.
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -520,7 +520,7 @@ When using directly the "Delete" button of the VXH IDE \(or the keyboard\) for d
 ### Methods
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -545,7 +545,7 @@ We can add new CoolMenuItems directly onto a CoolMenu bar in this way: select th
 In order to add a new menu item into a sublist: highlight a CoolMenuItem over the bar, click on it to display further "\[Add New Item\]" labels, and now click where inserting a new CoolMenuItem is appropiate.
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -574,7 +574,7 @@ The CoolMenuItem always appears as a child control of a CoolMenu, or ContextMenu
 We have two different categories of menu items: placed directly on a CoolMenu, respectively includes in bublists.
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -588,7 +588,7 @@ We have two different categories of menu items: placed directly on a CoolMenu, r
 ### Properties
 ### Methods
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -600,7 +600,7 @@ We have two different categories of menu items: placed directly on a CoolMenu, r
 ### Properties
 ### Methods
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -611,7 +611,7 @@ We have two different categories of menu items: placed directly on a CoolMenu, r
 ### Properties
 ### Methods
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -676,7 +676,7 @@ The DataSource set for the DataGrid does always have a currently selected row \(
 The user can select a particular cell by clicking on it and // or using the scrollbars, the arrow and page movement keys, in this case the cell becomes the currently selected cell, and its row the currently selected row.<br>
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -699,7 +699,7 @@ The DataSource object during its lifetime always has a "current row" or "current
 A DataSource can be associated to other controls, like ListView.<br>
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -783,7 +783,7 @@ When a DataTable is using SQLRDD, firstly a corresponding SqlConnector component
 While the DataTable is opened \(crated and not closed\), it always has a current row, pointed by the record pointer, and optionally an active index order as well.<br>
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -815,7 +815,7 @@ The highligted numeric data in the EditBox can be incremented or decremented by 
 The control's behaviour depends on the value set for the Format property. The default date format depends on the local system setup \- see the "Regional and Language Options" on the Windows Control Panel.
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -839,7 +839,7 @@ Setting this object property - present in controls - does take sense when having
 "Docing" our controls does keep them positioned near the frames of the parent Form and // or other sibling controls chosen as reference.
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -902,7 +902,7 @@ The DriveComboBox inherits the ComboBox control, being dedicated to list the dis
 ### Methods
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -930,7 +930,7 @@ It can be used as single line text box or multi line edit box.
 ### Methods
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -958,7 +958,7 @@ The header band has a caption text, and a mandatory button symbol on its right s
 Each Expando is a container control \- its pane can hold other various stand controls like Labels, Buttons, EditBoxes.<br>
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -982,7 +982,7 @@ Add a new [Expando](#expando "Expando") to an ExplorerBar, right-click on it, an
 
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -1006,7 +1006,7 @@ The Fields object property represents an abstract cell of a DataSource. Fields p
 The Parent property of the Fields object contains the object reference of the [DataSource](#datasource "DataSource").<br>
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -1028,7 +1028,7 @@ FolderBrowserDialog is a common control, it implements the standard Windows Brow
 FolderBrowseDialog is opened by invoking its Show method, and the program execution continues with the next instruction, after the user has completed the folder selection, or has cancelled the dialog.<br>
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -1064,7 +1064,7 @@ The Folder and SysFolder properties support the control's initialization, respec
 The ImageList property does not need and should not be set.<br>
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -1091,7 +1091,7 @@ As object property \- present in containers and controls \- it defines the style
 When the specified font is not present on the local machine, the OS loads another font with appropiate features, or the system's default font.<br>
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -1214,7 +1214,7 @@ When having a complex Form with numerous controls, the Panel and GroupBox contro
 The ImageList components are functional building blocks, as they support decorating almost all controls.<br>
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -1248,7 +1248,7 @@ The FreeImage control has many common features with PictureBox control, being me
 The FreeImage control is based on xHarbour's implementation of the FreeImage library; it can handle numerous image formats, and it's suitable in cases when one need to display images stored in formats, which cannot be handled by the PictureBox control.
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -1288,7 +1288,7 @@ The FtpClient component offers a set of methods for handling event-driven commun
 Due to WinInet limitations, applications using the FtpClient component should not be set up as services, and a FtpClient component should be placed as much as possible in a module built as .EXE file, not as .DLL file.
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -1329,7 +1329,7 @@ A GridColumn is always created as a child object of a DataGrid control \- as a m
 * Refresh()
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -1359,7 +1359,7 @@ Despite of Panels supporting physical modularization, the GroupBox control, with
 As a rule of thumb: a Form should not contain more than 6-7 groups \(tabs, menus etc\), and a group should not include more than 6-7 editable and / or selectable items - otherwise the Form gets overwhelming for the user.<br>
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -1383,7 +1383,7 @@ A HeaderItem is always created as a child control of a HeaderStrip.<br>
 
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -1416,7 +1416,7 @@ The HeaderItem controls can be decorated with images from the HeaderStrip's Imag
 We can add new HeaderItem controls onto a HeaderStrip in this way: select the HeaderStrip control, right-click on it, and now click on "Add New HeaderItem".<br>
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -1448,7 +1448,7 @@ In VXH each Form can include one of more ImageList components. They are listed o
 The desired image postion inside an ImageList can be set by using the ImageIndex property of a control. In VXH the ImageIndex is one-based, and when set to 0, it indicatetes that the object has no image set for decoration.
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -1479,13 +1479,13 @@ MyObj := NIL
 ```
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
 
 
-<SECTION ID="fields">
+<SECTION ID="label">
 </SECTION>
 ## Label
 Label controls support displaying informative inscriptions \- mostly sttic text strings \- without input focus.<br>
@@ -1513,14 +1513,52 @@ Label controls support displaying informative inscriptions \- mostly sttic text 
 ### Methods
 
 ### Info
-* **Category**: vxh class
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="linklabel">
+</SECTION>
+## LinkLabel
+A LinkLabel control consists of a mandatory text area and an optional image. It supports displaying text strings, formatted and behaving as web links, and optionally visiting web sites.<br>
+
+### Properties
+* ActiveLinkColor
+* Alignment
+* AutoSize
+* BackColor
+* Border
+* Caption
+* Enabled
+* FocusRect
+* Font
+* ImageIndex
+* LinkColor
+* LinkVisited
+* SelBackColor
+* Url
+* Visible
+* VisitedColor
+
+### Methods
+
+### Description
+The programmer is free to associate LinkLabel controls with various tasks or processes \- specific to the application's business logic. For example, when the user is clicking on a LinkLabel, a document can be opened, or a program can be started etc. Following codes will open the URL:
+```
+METHOD LinkLabel1_OnClick( Sender ) CLASS Form
+   ShellExecute( ::hWnd, 'open', Sender:Url, , , SW_SHOW )
+RETURN Self
+```
+
+### Info
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
 
 
 
-## LinkLabel
 
 ## ListBox
 
