@@ -1546,7 +1546,7 @@ A LinkLabel control consists of a mandatory text area and an optional image. It 
 ### Description
 The programmer is free to associate LinkLabel controls with various tasks or processes \- specific to the application's business logic. For example, when the user is clicking on a LinkLabel, a document can be opened, or a program can be started etc. Following codes will open the URL:
 ```
-METHOD LinkLabel1_OnClick( Sender ) CLASS Form
+METHOD LinkLabel1_OnClick( Sender ) CLASS Form1
    ShellExecute( ::hWnd, 'open', Sender:Url, , , SW_SHOW )
 RETURN Self
 ```
