@@ -334,7 +334,8 @@ We have two different categories of menu items: placed directly on a CoolMenu, r
 
 
 
-
+<SECTION ID="colordialog">
+</SECTION>
 ## ColorDialog
 ColorDialog is a common control, it implements the standard Windows Color Dialog, designed for interactive color selection.
 
@@ -356,10 +357,12 @@ The ColorDialog is displayed by Using its Show method, and its Color property co
 * **LIB**: vxh.lib
 
 
+<SECTION ID="colorpicker">
+</SECTION>
 ## ColorPicker
 The ColorPicker inherits the ComboBox control, and it's dedicated to offer the user the possibility of selecting a color from its drop-down list.
 
-*** Properties
+### Properties
 * AddEditHorzScroll
 * Border
 * DropDownStyle
@@ -374,16 +377,66 @@ The ColorPicker inherits the ComboBox control, and it's dedicated to offer the u
 * UpperCase
 * Width
 
-*** Methods
+### Methods
 
-*** Info
+### Info
 * **Category**: vxh class
 * **LIB**: vxh.lib
 
 
-
+<SECTION ID="combobox">
+</SECTION>
 ## ComboBox
+The ComboBox control is a combination of an EditBox \(also referred as current selection\), a ListBox \(also referred as dropdown list\) and an arrow image.
 
+### Properties
+* AutoEditHorzScroll
+* Border
+* DisableNoScroll
+* DropDwonStyle
+* Font
+* HasStrings
+* Height
+* HorzScroll
+* ItemHeight
+* OemConvert
+* OwnerDrawFixed
+* OwnerDrawVariable
+* SlectionHeight
+* Sort
+* UpperCase
+* VertScroll
+* Visible
+* Width
+
+### Methods
+* AddItem()
+* AddString()
+* DeleteString()
+* FindString()
+* FindStringExact()
+* GetCount()
+* GetCureSel()
+* GetDroppedState()
+* GetLocale()
+* GetString()
+* HideDropDown()
+* InsertString()
+* ResetContent()
+* SelectString()
+* SetCureSel()
+* SetLocale()
+* ShowDropDown()
+
+### Description
+When the user clicks on the arrow image, the dropdown list is displayed.<br>
+The control manages a list of text strings \(also referred as items\), shown in the ListBox. The ListBox might have a unique selected item. The EditBox does display the corrently selected list item \- if any. The EditBox may or may not accept user input.<br>
+The control's DropDownStyle property value defines its behaviour. When this is set to "DropDownList" \(by default\), the EditBox does not accept user input. When DropDownStyle is set to "Simple", the ListBox is always visible.<br>
+When a list item is selected (\set as current selection\), its text content is displayed in the edit box, and the list box is scrolled accordingly.
+
+### Info
+* **category**: vxh class
+* **LIB**: vxh.lib
 
 
 ## ComboBoxEx
