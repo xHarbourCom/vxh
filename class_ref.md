@@ -836,7 +836,7 @@ Setting this object property - present in controls - does take sense when having
 ### Methods
 
 ### Description
-"Docting" our controls does keep them positioned near the frames of the parent Form and // or other sibling controls chosen as reference.
+"Docing" our controls does keep them positioned near the frames of the parent Form and // or other sibling controls chosen as reference.
 
 ### Info
 * **Category**: vxh class
@@ -881,16 +881,111 @@ A general presentation of Windows GDI is available [here](https://docs.microsoft
 
 
 
-
-
-
+<SECTION ID="drawing">
+</SECTION>
 ## DriveComboBox
+The DriveComboBox inherits the ComboBox control, being dedicated to list the disk drives currently available on the local system, offering for the user the possibility of selecting from the drop-down list.
 
+### Properties
+* AutoEditHorzScroll
+* Border
+* DropDownStyle
+* Enabled
+* Font
+* LowerCase
+* OnCBNSelEndOk
+* SelectionHeight
+* UpperCase
+* Visible
+* Width
+
+### Methods
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="editbox">
+</SECTION>
 ## EditBox
+It can be used as single line text box or multi line edit box.
 
+
+### Syntax
+```
+::EditBox1:Text := <cText>
+```
+
+### Properties
+* CueBanner
+* EnterNext
+* FullSelectOnClick
+* MenuArrow
+* Password
+* Text
+
+### Methods
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="expando">
+</SECTION>
 ## Expando
+The Expando is always created as a child dontrol of an ExplorerBar. The Expando consists of a header band and a pane.<br>
 
+### Properties
+* Enabled
+* Expanded
+* Fond
+* Height
+* ImageIndex
+* ImageList
+* Special
+* Text
+
+### Methods
+
+### Description
+The header band has a caption text, and a mandatory button symbol on its right side \(a double arrow for toggling between the control's expanded and collapsed state\), and optionally it can have and image on its left side.<br>
+Each Expando is a container control \- its pane can hold other various stand controls like Labels, Buttons, EditBoxes.<br>
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="explorebar">
+</SECTION>
 ## ExploreBar
+The ExploreBar control can hold zero or more Expando controls, which can be expanded and collapsed indivitually. Each Expando can hold various simple controls.<br>
+
+### Properties
+* Border
+* Enabled
+* ImageList
+* Visible
+
+### Methods
+
+### Description 
+Add a new [Expando](#expando "Expando") to an ExplorerBar, right-click on it, and choose "Add Expando".<br>
+
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
 
 ## Fields
 
