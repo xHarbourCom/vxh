@@ -821,9 +821,68 @@ The control's behaviour depends on the value set for the Format property. The de
 
 
 
+<SECTION ID="dock">
+</SECTION>
 ## Dock
+Setting this object property - present in controls - does take sense when having a Form with tich frame and // or splitter(s)
 
+### Properties
+* Bottom
+* Left
+* Margins
+* Right
+* Top
+
+### Methods
+
+### Description
+"Docting" our controls does keep them positioned near the frames of the parent Form and // or other sibling controls chosen as reference.
+
+### Info
+* **Category**: vxh class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="drawing">
+</SECTION>
 ## Drawing
+A Drawing is always created as a child of a Form  or a Form, being an abstraction of the visual interface of its parent object.
+
+### Properties
+* hDC
+* Parent
+
+### Methods
+* GetDeviceCaps()
+* DrawText()
+* EnumFonts()
+* ExtTextOut()
+* FillRect()
+* GetPixel()
+* GetTextExtentPoint32()
+* GetTextMetrics()
+* PolyLine()
+* Rectangle()
+* SetBkModel()
+* SetPixel()
+* SetTextColor()
+
+### Description
+The Drawing's device context \(see hDC property\) is serving as support for the painting operations.<br>
+Each form or control has a Drawing property, holding the object reference of its Drawing object, respectively each Drawing object has a Parent property, holding the object reference of its parent object.<br>
+The Drawing's method calls related to painting operations should be placed inside the OnPaint method of its parent object \(form or control\) \- for example SetTextColor, SetBkColor, DrawText, PolyLine.<br>
+Method calls like SetPixel, Rectangle, GetDeviceCaps, EnumFonts will work as extected when being done inside methods as well.<br>
+A general presentation of Windows GDI is available [here](https://docs.microsoft.com/en-in/windows/win32/gdi/windows-gdi).
+
+
+
+
+
+
+
 
 ## DriveComboBox
 
