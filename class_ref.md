@@ -1110,7 +1110,7 @@ The Forms are the fundamental building blocks of Windows GUI applications. All V
 * BackColor
 * BitMapMask
 * BitMapMaskColor
-* Caption
+* Text
 * CaptionBar
 * Center
 * Children
@@ -1228,7 +1228,7 @@ The FreeImage control has many common features with PictureBox control, being me
 ### Properties
 * Alignment
 * BackColor
-* Caption
+* Text
 * Enabled
 * Font
 * HorzScroll
@@ -1306,7 +1306,7 @@ A GridColumn is always created as a child object of a DataGrid control \- as a m
 * BackColor
 * ButtonMenu
 * ButtonText
-* Caption
+* Text
 * ContextMenu
 * Data
 * ForeColor
@@ -1343,7 +1343,7 @@ When having numerous controls over a Form, they need to be grouped. The GroupBox
 ### Products
 * BackColor
 * Border
-* Caption
+* Text
 * Enabled
 * Font
 * ForeColor
@@ -1372,7 +1372,7 @@ A HeaderItem is always created as a child control of a HeaderStrip.<br>
 
 ### Properties
 * Alignment
-* Caption
+* Text
 * ImageIndex
 * Position
 * Width
@@ -1496,7 +1496,7 @@ Label controls support displaying informative inscriptions \- mostly sttic text 
 * BackColor
 * BackColor
 * Border
-* Caption
+* Text
 * CenterText
 * Enabled
 * Font
@@ -1529,7 +1529,7 @@ A LinkLabel control consists of a mandatory text area and an optional image. It 
 * AutoSize
 * BackColor
 * Border
-* Caption
+* Text
 * Enabled
 * FocusRect
 * Font
@@ -1557,10 +1557,63 @@ RETURN Self
 
 
 
-
-
-
+<SECTION ID="listbox">
+</SECTION>
 ## ListBox
+The ListBox control is designed to display a list of items, from which the user can choose one or more items. In most cases the list items are text strings. The control consists of a mandatory list area and an optional caption bar.
+
+### Properties
+* BackColor
+* Border
+* Text
+* DisableNoScroll
+* Enabled
+* ExtendedSel
+* Font
+* ForeColor
+* HasStrings
+* HighLightCaption
+* HorzScroll
+* IntegralHeight
+* MultiColumn
+* NoRedraw
+* Notify
+* OwnerDraw
+* SmallCaption
+* Sort
+* UseTabStops
+* VertScroll
+* Visible
+* WantKeyboardInput
+
+### Methods
+* AddString()
+* DeleteString()
+* FindString()
+* GetCount()
+* GetCurSel()
+* GetLocale()
+* GetString()
+* GetTextLen()
+* GetTopIndex()
+* InsertString()
+* SelectString()
+* SetColumnWidth()
+* SetCurSel()
+* SetLocale()
+* SetTopIndex()
+
+### Description
+The ListBox control can be of single selection or of multiple selection - see the ExtendedSel property for setting this feature.<br>
+The list items can be organized and displayed in a single column, or in multiple columns - see the MultiColumn property for setting this feature.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
 
 ## ListView
 
