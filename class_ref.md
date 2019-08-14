@@ -2310,23 +2310,239 @@ Most [EditBox](#editbox "EditBox") methods can be used in conjunction with RichT
 
 
 
+<SECTION ID="savefiledialog">
+</SECTION>
 ## SaveFileDialog
+SaveFileDialog is a common control, it implements the standard Windows Save Dialog Box. The dialog can be used for selecting a single file name.
 
+### Properties
+* AddExtension
+* CheckPathExists
+* CreatePrompt
+* DefaultExt
+* DeferenceLinks
+* FileName
+* Filter
+* FilterIndex
+* InitialDirectory
+* ShowHelp
+* ShowPlacesBar
+* Title
+
+### Methods
+* Show()
+
+### Description
+SaveFileDialog is opened by invoking its Show method, and the program execution continues with the next instruction, after the user has closed or cancelled the dialog.<br>
+Technically the [OpenFileDialog](#openfiledialog "SaveFileDialog") and the SaveFileDialog use the same memory structure for storing their internal data, and their behaviour shows many common features.
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="serialport">
+</SECTION>
 ## SerialPort
+The SerialPort component offers a set of methods for handling event driven communication with a device connected to a serial port. VXH's SerialPort class is implemented by using WinApi functions.
 
+### Properties
+* BaudRate
+* Cts
+* DataBits
+* Dsr
+* DtrEnabled
+* Handle
+* HandShake
+* IsOpen
+* Parity
+* PortName
+* ReadBufferSize
+* ReadTimeOut
+* Ring
+* Rlsd
+* RtsEnabled
+* StopBits
+
+### Methods
+* Clear()
+* Close()
+* CountIn()
+* CountOut()
+* Escape()
+* Listen()
+* Open()
+
+### Description
+The serial port is identified by the PortName property.<br>
+When a communication port is opened, it's associated with a receive buffer and a transmit buffer. The Read\(\) method can get the incoming data bytes from the receive buffer, respectively the Write\(\) method can send data via the transmit buffer.<br>
+The incoming communication is tracked by Listen\(\) method calls, respectively the custom code placed in the OnDataReceived\(\) event handler.<br>
+Use the Close\(\) method to terminate in good conditions the usage of the communication port.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="service">
+</SECTION>
 ## Service
 
+### Properties
+
+### Methods
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="shortcutkey">
+</SECTION>
 ## ShortCutKey
+ShortCutKey As object property it serves for defining keyboard key combinations acting as shortcuts. It's used by controls like [Button](#button "Button"), [CoolMenuItem](#coolmenuitem "CoolMenuItem"), [ToolStripButton](#toolstripbutton "ToolStripButton") and [MenuStripItem](#menustripbutton "MenuStripButton").<br>
 
+### Properties
+* Alt
+* Ctrl
+* Key
+* Shift
+
+### Methods
+
+### Description
+The shortcuts of a given Windows application do work when the application has input focus, or one of its [Forms](#form "Form") has been activated.
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="splitter">
+</SECTION>
 ## Splitter
+A Splitter control always appears as a child control of a [Panel](#panel "Panel"), [TreeView](#treeview "TreeView"), [PictureBox](#picturebox "PictureBox") or other control. The Splitters support the interactive redimensioning of their parent controls at run-time - by dragging the parent's
 
+### Properties
+* Position
+* ShowDragging
+
+### Methods
+
+### Description
+A control can hold four splitters: one over each of its margins. For adding a Splitter: select the control, drag a Splitter from the ToolBox over the control's desired margin, and drop it when a flashing red bar is displayed over that margin.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="sqlconnector">
+</SECTION>
 ## SqlConnector
+The SqlConnector component is designed to ensure the connection needed by a sql engine \(server\) to manage a [DataTable](#datatable "DataTable") component - see also the SqlConnection property of the DataTable.
 
+### Properties
+* AutoConnect
+* Connected
+* ConnectionID
+* ConnectionString
+* Server
+* Sql
+
+### Methods
+* Connect()
+* DisConnect()
+
+### Description
+VXH's SqlConnector class is implemented by using SQLRDD functions, and its main role is automating the connecting and disconnecting operations between a [DataTable](#datatable "DataTable") and a sql engine, when these operations are necessary due to the program context.<br>
+Using VXH's DataTable component in combination with the SqlConnector component makes possible to access data managed by a sql engine in pure visual manner.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="statusbar">
+</SECTION>
 ## StatusBar
+The StatusBar serves informative purposes on [Form](#form "Form") level, and is always displayed on the bottom margin of its parent Form. Only one StatusBar control can be added to a Form.
 
+### Properties
+* Font
+* ImageIndex
+* ImageList
+* Text
+* Visible
+
+### Methods
+
+### Description
+A StatusBar control can have its own caption text and image decoration, or alternatively it can hold [StatusBarPanel](#statusbarpanel "StatusBarPanel") controls, when more different informations need to be displayed dynamically at run-time.<br>
+Add a new StatusBarPanel to a StatusBar in this way: select the StatusBar, right-click on it, and choose "Add Panel".<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="statusbarpanel">
+</SECTION>
 ## StatusBarPanel
+A StatusBarPanel control is always created as a child control of a [StatusBar](#statusbar "StatusBar"), and it serves informative purposes.
 
+### Properties
+* ImageIndex
+* Text
+* Width
+
+### Methods
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="system">
+</SECTION>
 ## System
+The System object is holding in its properties useful informations related to the local computer system, and it's available as a property in each [Form](#form "Form").
+
+### Properties
+* Color
+* Folders
+* LocalTime
+* OsVersion
+* Time
+
+### Methods
+* GetPathFromFolder()
+
+### Description
+All the hash tables available as properties of the System object are set to use case-insensitive key search.
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
 
 ## TabCloseButton
 
