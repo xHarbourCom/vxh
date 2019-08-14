@@ -1737,17 +1737,188 @@ The user input is limited as number of characters to the length of the mask ( se
 * **LIB**: vxh.lib
 
 
+
+<SECTION ID="mdiclient">
+</SECTION>
 ## MdiClient
+MDIClient is an object property listed in application Main Forms with MDIContainer property set to "true". Visually it represents the rectangular surface serving as a container for the Forms set up with MDIChild property turned "true".
 
-## MemData
 
+### Properties
+* AlignBottom
+* AlignLeft
+* AlignRight
+* AlignTop
+* BackColor
+* ClientEdge
+* WindowsMenu
+
+### Methods
+
+
+### Description
+When designing a MDI application, first time the Main Form's MDIContainer property needs to be set to "true", and after selecting a different Form, the Main Form should be selected again.<br>
+In this way the UI of the Main Form is refreshed in the Object Manager, respectively the MDIClient property becomes visible and ready to support the MDI design, even if the application originally has been started and developed as a SDI application.<br>
+By default the MDIClient does visually cover the entire client area of the Main Form. In order to bound the MDIClient, by objects like [CoolMenu](#coolmenu "CoolMenu") present on the application's Main Form, the AlignLeft, AlignTop etc. properties should be set accordingly.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="memorydatatable">
+</SECTION>
+## MemoryDataTable
+The MemoryDataTable component is very similar to the DataTable component, the main difference being that it's holding temporary data, which is stored in the local computer's memory.<br>
+
+### Properties
+* Structure
+
+### Methods
+
+### Description
+The MemoryDataTable class inherits the DataTable class, consequently the properties, methods and event handlers listed for the DataTable can be used in similar manner.<br>
+MemoryDataTable is suitable for working with volatile data - the indexes created for the table being also stored in the local computer's memory.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+<SECTION ID="memorytable">
+</SECTION>
 ## MemoryTable
+The MemoryTable component is an abstract two-dimensional array ( see Table property ), designed to serve as a DataSource ( see DataSource object property ) for a DataGrid or other control.<br>
 
+### Properties
+* Alias
+* Fields
+* IsOpen
+* Structure
+* Table
+
+### Methods
+* Append()
+* Bof()
+* Delete()
+* Eof()
+* FieldPos()
+* GoBottom()
+* GoTo()
+* GoTop()
+* Insert()
+* RecLock()
+* RecNo()
+* Skip()
+* UnLock()
+* Zap()
+
+### Description
+While a MemoryTable's Structure property is an empty array, the component is only initialized, but not created, and its IsOpen property returns boolean .F. Recommended data types for being used as column types are "C", "N", "D", "L".<br>
+During the MemoryTable's lifetime it always has a "record pointer" \(or current row, or current record\), the concrete numeric value being returned by calling the RecNo\(\) method.<br>
+While a MemoryTable is sourcing a control, whenever its record pointer or data content are altered, the sourced control's visual interface needs to be updated by program code.<br>
+In the VXH IDE's Object Manager use the "Edit Structure" dialog for defining the Table structure, respectively the "DataSource Editor" for initializing the table content interactively \(the table's reference is the Table property's value\).<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="menustrip">
+</SECTION>
 ## MenuStrip
+The MenuStrip control is always created as a child control of a ToolStripContainer, and it's designed to serve as a module of a menu system.<br>
 
+### Properties
+* Enabled
+* Font
+* ImageList
+* Row
+* Showgrip
+* Theming
+
+### Methods
+
+### Description
+A MenuStrip can hold a set of objects, instances of the following classes: [MenuStripItem](#menustripitem "MenuStripItem"), [ToolStripLabel](#toolstriplabel, "ToolStripLabel"), [ToolStripComboBox](#toolstripcombobox "ToolStripComboBox").<br>
+Adding a new object to a MenuStrip can be done in this way: select the MenuStrip, right\-click on it, and now choose the appropiate option.<br>
+Each [MenuStripItem](#menustripitem "MenuStripItem") over a MenuStrip can own a submenu, extendable in this way: click on the desired MenuStripItem over the MenuStrip, and now click on the appropiate "Add New Item" label.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="menustripitem">
+</SECTION>
 ## MenuStripItem
+A MenuStripItem is always created as a child control of a MenuStrip, respectively an item in a submenu of a MenuStripItem or a ToolStripButton.<br>
 
+### Properties
+* BeginGroup
+* Checked
+* Enabled
+* Font
+* ImageAlign
+* ImageIndex
+* ImageList
+* ShortCutKey
+* ShortCutText
+* Text
+
+### Methods
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="messagewait">
+</SECTION>
 ## MessageWait
+Shows message box with different options.<br>
+
+### Syntax
+```
+oWait := MessageWait():New( [<cText>], [<cTitle>], [<lProgress>], [<cCancel>], [<lMarquee>], [<hParent>], [<nMaxRange>] )
+```
+
+### Arguments
+```
+<cText> is the text to be displayed in the message box. It is optional.
+<cTitle> is the title of the message box window. It is optional.
+<lProgress> is used to show progress bar or not. It is optional. Default value .F.. Progress bar will be shown, if Marquee isn't .T.
+<cCancel> is the text to be displayed for cancel button. It is optional. Cancel button won't be displayed if it is not given.
+<lMarque> is used to show the marque or not. It is optional.
+<hParent> is used for parent window handle. It is optional.
+<nMaxRange> is used for maximum range of the progress bar. It is optional.
+```
+
+### Properties
+
+### Methods
+* AdjustSize()
+* AutoClose()
+* IsWindow()
+* Marquee()
+* Position()
+* SetPosition()
+* SetText()
+* Text()
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
 
 ## MonthCalendar
 
