@@ -1920,15 +1920,167 @@ oWait := MessageWait():New( [<cText>], [<cTitle>], [<lProgress>], [<cCancel>], [
 
 
 
+
+<SECTION ID="monthcalender">
+</SECTION>
 ## MonthCalendar
+The MonthCalendar control is a feature-rich user interface for displaying and collecting calendar dates. The control consists of a calendar sheet placed over a Panel with optional small caption bar.<br>
 
+### Properties
+* BackColor
+* Border
+* Date
+* Daystate
+* Enabled
+* Font
+* ForeColor
+* HighLightCaption
+* Multiselect
+* NoToday
+* NoTodayCircle
+* SmallCaption
+* Text
+* Theming
+* TilteForeColor
+* TitleBackColor
+* Today
+* TrailingTextColor
+* Visible
+* WeekNumbers
+
+### Methods
+
+### Description
+The date formatting rules and language respect the local system settings for the current user. By default the control's Theming property is set to "true", thus the calendar sheet's Font and color settings will respect the current system settings.<br>
+The control can hold a "today" value in the Today property, and a "currently selected day" in the Date property, indicating the latest user selection.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="notifyicon">
+</SECTION>
 ## NotifyIcon
+The NotifyIcon component is managing an icon in the local system tray, in order to signal the current status and important events related to its parent Form and owner Application.<br>
 
+### Properties
+* BalloonTipIcon
+* BalloonTipTitle
+* ContextMenu
+* Icon
+* Text
+* Visible
+
+### Methods
+
+### Description
+The NotifyIcon component can display an icon in a tray \(hiding, showing, changing the icon is possible\); it shows a balloon whenever the icon is set as visible, respectively it shows a tip text, when the mouse is hovering over the icon.<br>
+In a given moment of time the NotifyIcon's owner Application, more precisely the main window can be visible or not. A ContextMenu can be associated to the NotifyIcon to serve as alternative user interface for the owner Application.<br>
+In order to set one or more of these properties: **BalloonTipIcon, BalloonTipText, BalloonTipTitle** \- first set the Visible property to boolean .F., then do the desired updates, and finally set the Visible property to boolean .T.
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="openfiledialog">
+</SECTION>
 ## OpenFileDialog
+OpenFileDialog is a common control, it implements the standard Windows Open Dialog Box. The dialog can be used for selecting one or more files \- see the MultiSelect property.<br>
 
+### Properties
+* AddExtension
+* CheckFileExists
+* CheckPathExists
+* DefaultExt
+* DeferenceLinks
+* FileName
+* Filter
+* FilterIndex
+* InitialDirectory
+* MultiSelect
+* ReadOnlyChecked
+* RestoreDirectory
+* ShowHelp
+* ShowPlacesBar
+* ShowReadOnly
+* Title
+
+### Methods
+* Show()
+
+### Description
+OpenFileDialog is opened by invoking its Show method, and the program execution continues with the next instruction, after the user has completed the file selection, or has cancelled the dialog.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="optionbarbutton">
+</SECTION>
 ## OptionBarButton
+The OptionBarButton is always created as a child control of an [OptionBar](#optionbar "OptionBar").
 
+Properties
+* Enabled
+* ImageIndex
+* Message
+* ToolTip
+* Text
+* Visible
+
+### Methods
+
+### Info
+* ***Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="optionbarbutton">
+</SECTION>
 ## OptionBar
+The Optionbar control behaves like a vertical ToolBar, with all its child controls \- the [OptionBarButtons](#optionbarbutton "OptionBarButton") \- belonigng to a single group. OptionBar is a suitable choice, when a very simple, classic menu system is needed.<br>
+
+### Properties
+* BackColor
+* Border
+* CheckGroup
+* Enabled
+* Font
+* HighLightCaption
+* HotImageList
+* ImageList
+* List
+* SmallCaption
+* Text
+* Theming
+* Visible
+
+### Methods
+
+### Description
+Add new [OptionBarButtons](#optionbarbutton "OptionBarButton") to the OptionBar in this way: select the Optionbar, right-click on it, and choose "Add Button".
+
+### Info
+* ***Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
 
 ## PageScroller
 
