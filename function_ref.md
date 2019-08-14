@@ -145,7 +145,7 @@ Please check [here](https://devzone.advantagedatabase.com/dz/webhelp/Advantage11
 
 ### Syntax
 ```
-FTSValidatePhrase( <cSearch>, <aFldList> )
+AdsNull2Blank( <lAnyRDD> )
 ```
 
 
