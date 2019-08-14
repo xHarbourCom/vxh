@@ -1615,13 +1615,127 @@ The list items can be organized and displayed in a single column, or in multiple
 
 
 
+<SECTION ID="listview">
+</SECTION>
 ## ListView
+ListView implements the standard Windows ListView control, designed to display the items of a list in various formats ( see ViewStyle ). The control includes a rectangular panel for list items, an optional small title bar, and scroll bars as needed.
 
+### Properties
+* AlignLeft
+* AlignTop
+* BackColor
+* Border
+* DataSource
+* Enabled
+* FlatScrollBar
+* Font
+* ForeColor
+* FullRowSelect
+* GridLines
+* HighLightCaption
+* ImageList
+* ImageListSmall
+* NoColumnHeader
+* NoLabelWrap
+* NoScroll
+* NoSortHeader
+* OwnerData
+* Text
+* ViewStyle
+* Visible
+
+### Methods
+* AddColumn()
+* DeleteColumn()
+* EnsureVisible()
+* FindItem()
+* GetCurPos()
+* GetHotItem()
+* Refresh()
+* ResetContent()
+* SetCureSel()
+* SetDataSource()
+* SetItemText()
+* SetLVExStyle()
+
+### Description
+The ListView can manage directly the list items \- in this case its OwnerData property should be set to "false" ( by default ) and its DataSource property should not be set \(NIL by default\). This setup is suitable for small lists - up to dozens of items.<br>
+The ListView can act act as a virtual control when being set up with a DataSource \(MemoryTable, DataTable etc.\) \- in this case the OwnerData property should be set to "true".<br>
+In case of a virtual ListView the data holden by the list items can be updated by using methods proper to the DataSource object, and then the ListView's Refresh method should be called to sync the user interface with the new data content.<br>
+Each list item has a label ( column 0 in "report" view ), an optional ImageIndex \(see ImageList and SmallImageList\), and optionally one or more subitems \(column 1, 2 etc. in "report" view).<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="listviewcolumn">
+</SECTION>
 ## ListViewColumn
 
+### Properties
+### Methods
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="listviewgroup">
+</SECTION>
 ## ListViewGroup
 
+### Properties
+### Methods
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="maskedit">
+</SECTION>
 ## MaskEdit
+The MaskEdit control is designed to receive formatted user input like numbers, date, or a text string respecting a custom picture mask. The control consists of a mandatory text area, an optional image and an optional arrow symbol.
+
+
+### Properties
+* Alignment
+* BackColor
+* Border
+* Caption
+* Case
+* Enabled
+* Font
+* ForeColor
+* FullSelectOnClick
+* ImageIndex
+* Layout
+* NoHideSel
+* OemConvert
+* Password
+* Picture
+* SelBackColor
+* SelForeColor
+* Visible
+
+### Methods
+
+### Description
+In case of MaskEdit the EnterNext property is enforced to "true" \- when the user presses keyboard key "Enter", the input focus leaves the control. Consequently MaskEdit is not suitable for storing multiple text paragraphs.<br>
+The user input is limited as number of characters to the length of the mask ( set by the Picture property ), respectively the length of the string used to initialize the Caption property ( the smaller one is used as upper limit ).<br>
+
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
 
 ## MdiClient
 
