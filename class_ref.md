@@ -2544,45 +2544,793 @@ All the hash tables available as properties of the System object are set to use 
 
 
 
+<SECTION ID="tabclosebutton">
+</SECTION>
 ## TabCloseButton
 
+### Properties
+
+### Methods
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="tabcontrol">
+</SECTION>
 ## TabControl
+VXH's TabControl implements the standard Windows Tab Control. It's designed to manage a set of [TabPage](#tabpage "TabPage") objects, by showing and hiding them in a manner, that only one of the TabPages is visible at a time.<br>
 
+### Properties
+* BackColor
+* Border
+* Enabled
+* FixedWidth
+* Flat
+* FocusNever
+* Font
+* ImageList
+* MultiLine
+* ShowTabs
+* TabPosition
+* Visible
+
+### Methods
+* DeleteTab()
+* GetCurFocus()
+* GetCurSel()
+* GetItemCount()
+* GetItemRect()
+* GetItemText()
+* GetRowCount()
+* GetTabPosByName()
+* Refresh()
+* SetCurFocus()
+* SetCurSel()
+* SetItem()
+* SetMinTabWidth()
+
+### Description
+The TabControl consists of a tab panel, zero or more adjacent Tab objects displayed over a tab band, and an up-down control \(shown when all Tab objects cannot be displayed at once\). Each Tab object is created in association with a [TabPage](#tabpage "TabPage") object.<br>
+The tab band can be of a single line, or of multiple lines, displayed over one of the tab panel's margins \- see the MultiLine and the TabPosition properties.<br>
+New Tab objects can be added to a TabControl in this way: select the control \(click on the band - near the existing Tab objects, or click on the TabControl in the Object Manager\), right-click on it, and now choose "Add TabPage".<br>
+An individual Tab object cannot be disabled, however the corresponding TabPage can be disabled \- this is a documented limitation of the standard Windows Tab Control. Deleting a Tab object is possible by deleting its associated TabPage.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="tabpage">
+</SECTION>
 ## TabPage
+A TabPage object always appears in association with a Tab object of a [TabControl](#tabcontrol "TabControl") or a [TabStrip](#tabstrip "TabStrip").<br>
 
+### Properties
+* BackColor
+* BottomMargin
+* Enabled
+* ForeColor
+* HorzScroll
+* ImageIndex
+* ImageList
+* LeftMargin
+* Position
+* RightMargin
+* Text
+* Theming
+* TopMargin
+* VertScroll
+
+### Methods
+* Delete()
+* Select()
+
+### Description
+Each Tab object is created in association with a TabPage object, and by deleting the TabPage object, its corresponding Tab object will be deleted too.<br>
+When the current selection has changed, the TabPage corresponding to the previously selected Tab object is hidden, and the TabPage corresponding to the currently selected Tab object is shown.<br>
+Each TabPage can be set with left, top, right and / or bottom margins, relative to the [TabControl](#tabcontrol "TabControl") or a [TabStrip](#tabstrip "TabStrip"). The background color of a TabPage is not applied for its margins.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+
+
+<SECTION ID="tabpinbutton">
+</SECTION>
 ## TabPinButton
 
+### Properties
+
+### Methods
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="tabstrip">
+</SECTION>
 ## TabStrip
+VXH's TabStrip implements the standard Windows Tab Control. The main difference between VXH's [TabControl](#tabcontrol "TabControl") and TabStrip is that the TabStrip control's styling is targeted to modern user interfaces - see the ColorScheme property.
 
+### Properties
+* BackColor
+* ColorInactiveHeader
+* ColorScheme
+* Enabled
+* FixedWidth
+* Font
+* ImageList
+* MultiLine
+* ShowTabs
+* TabPosition
+* Visible
+
+### Methods
+
+### Description
+The [TabControl](#tabcontrol "TabControl") and the TabStrip controls are very similar \- see the TabControl's general presentation for the control's structure, respectively adding, deleting or disabling Tab objects.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="timer">
+</SECTION>
 ## Timer
+Implements a timer which raises an event at pre-defined intervals.<br>
 
+###Properties
+* AutoRun
+* Delay
+* IRunning
+
+### Methods
+* SetDelay()
+* Start()
+* Stop()
+
+### Description
+The timer object is used when a procedure needs to be executed at a user\-defined interval. The timer will keep running until it is stopped by the user.<br>
+It is possible to start the timer by default \(without user interaction\) using the AutoRun property. Main properties are Delay and AutoRun. Frequently used methods in this class are: Start() and Stop() and OnTimeOut().<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="toolbar">
+</SECTION>
 ## ToolBar
+The ToolBar is a container control holding [ToolButton](#toolbutton "ToolButton") controls \- its visual interface is usually a horizontal bar with buttons. Both the bar and the buttons can be transparent - in VXH this is the default ToolBar setup.<br>
 
+### Properties
+* BackColor
+* BitMapHeight
+* BitMapWidth
+* Border
+* DrawArrows
+* Enabled
+* Flat
+* Font
+* ForeColor
+* HideClippedButtons
+* HorzPadding
+* HotImageList
+* ImageList
+* List
+* MixedButtons
+* Transparent
+* VertPadding
+* Visible
+
+### Methods
+
+### Description
+When the ToolBar's Theming property and the Flat property are set to "false", the [ToolButton](#toolbutton "ToolButton") control has classic styling.<br>
+Each ToolButton can have a sublist - an associated [ContextMenu](#contextmenu "ContextMenu"). The ToolBar's DrawArrows property in combination with the ToolButton's DropDown and WholeDropDown properties defines the visual interface for accessing the sublists.<br>
+Using a ToolBar control is a good choice when we need a modern, feature-rich menu bar. The ToolBar can be used in combination with a [CoolBar](#coolbar "CoolBar") control, by setting it as BandChild to a Band of the CoolBar.<br>
+We can add new ToolButtons onto the ToolBar in this way: select the control, right-click on it, and click the "Add Button" menu option. For sublists see the ToolButton control's ContextMenu property.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="toolbutton">
+</SECTION>
 ## ToolButton
+The ToolButton always appears as a child control of a [ToolBar](#toolbar "ToolBar"). Its role is to offer a selectable option for the user \(see also the Enabled property\).<br>
 
+### Properties
+* AutoSize
+* BtnCheck
+* Check
+* CheckGroup
+* ContextMenu
+* DropDown
+* Enabled
+* ImageIndex
+* Message
+* Separator
+* ShowText
+* Text
+* Theming
+* ToolTip
+* Visible
+* WholeDropDown
+* Width
+* Wrap
+
+### Methods
+
+### Description
+The control consists of a caption text, an optional image, and an optional dropdown arrow.<br>
+A ToolButton can have an associated sublist. The sublist can be chosen by setting the control's ContextMenu property, respectively one of the DropDown or WholeDropDown properties.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="toolstrip">
+</SECTION>
 ## ToolStrip
+The ToolStrip control can be used as a stand-alone control, or as a child control of a [ToolStripContainer](#toolstripcontainer "ToolStipContainer"), being designed for serving as a menu system, respectively a module of a menu system.<br>
 
+### Properties
+* Enabled
+* Font
+* Height
+* ImageList
+* ImagePadding
+* Row
+* ShowChevron
+* ShowGrip
+* Theming
+
+### Methods
+
+### Description
+A ToolStrip can hold a set of objects, instances of the following classes: [ToolStripButton](#toolstripbutton "ToolStripButton"), [ToolStripLabel](#toolstriplabel "ToolStripLabel"), [ToolStripComboBox](#toolstripcombobox "ToolStripComboBox"). Each ToolStripButton over a ToolStrip can own a submenu.<br>
+Adding a new object to a ToolStrip can be done in this way: select the ToolStrip, right-click on it, and now choose the appropiate option.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="toolstripbutton">
+</SECTION>
 ## ToolStripButton
+The ToolStripButton is always created as a child control of a [ToolStrip](#toolstip "ToolStrip"), and it can serve as a [command button](#button "Button") and//or it can own a submenu.<br>
 
+### Properties
+BeginGroup
+* Checked
+* DropDown
+* Enabled
+* Font
+* ImageAlign
+* ImageIndex
+* ImageList
+* Role
+* ShortCutKey
+* Text
+
+### Methods
+* AfterCloseMenu()
+* BeforeOpenMenu()
+* Click()
+
+### Description
+In order to create a submenu for a ToolStripButton, first set its DropDown property to "Partial" or "Full", then click on it in VXH's design area, and click the appropiate "Add New Item" label.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="toolstripcombobox">
+</SECTION>
 ## ToolStripComboBox
+The ToolStripComboBox is always created as a child control of a [ToolStrip](#toolstrip "ToolStrip") or a [MenuStrip](#menustrip "MenuStrip"), and it behaves like a [ComboBox](#combobox "ComboBox") \- it inherits most properties and methods of the ComboBox control.<br>
 
+###Properties
+* AutoEditHorzScroll
+* BeginGroup
+* DropDownStyle
+* Enabled
+* Font
+* LowerCase
+* NoIntegralHeight
+* OemConvert
+* SelectionHeight
+* Sort
+* UpperCase
+* Width
+
+### Methods
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="toolstripcontainer">
+</SECTION>
 ## ToolStripContainer
+The ToolStripContainer is a container control designed for holding [ToolStrip](#toolstrip "ToolStrip") and // or [MenuStrip](#menustrip "MenuStrip") child controls organized in rows, as modules of a feature-rich, modern menu system.<br>
 
+### Properties
+* Enabled
+* Font
+* Position
+* Theming
+
+### Methods
+
+### Description
+The [ToolStrips](#toolstrip "ToolStrip") and [MenuStrips](#menustrip "MenuStrip") hold by the ToolStripContainer can have grips, and the user can move the ToolStrips around their parent - horizontally, or even vertically, into a different row.<br>
+A ToolStripContainer should not be associated with a [CoolBar](#coolbar "CoolBar"). The CoolBar offers a different solution for creating a menu system, when used in combination with [CoolMenu](#coolmenu "CoolMenu") and // or [ToolBar](#toolbar "ToolBar") controls.<br>
+By default the ToolStripContainer is created with a ToolStrip. Add a new ToolStrip or MenuStrip in this way: select the ToolStripContainer, right-click on it, and now choose the appropiate option, and then set the Row property of the new child control.<br>
+Deleting a ToolStrip or MenuStrip is done as in case of other controls: select the control, and then press keyboard key "Del", or click on the corresponding tool button in the VXH IDE.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="toolstriplabel">
+</SECTION>
 ## ToolStripLabel
+The ToolStripLabel is always created as a child control of a [ToolStrip](#toolstrip "ToolStrip") or [MenuStrip](#menustrip "MenuStrip"), and it serves informative and // or decorative purposes /- for example as a caption text for a [ToolStripComboBox](#toolstripcombobox "ToolStripComboBox").<br>
 
+### Properties
+* Enabled
+* Font
+* ImageAlign
+* ImageIndex
+* Text
+
+### Methods
+
+### Description
+The ToolStripLabel and the [ToolstripButton](#toolstripbutton "ToolStripButton") have similar user interfaces.
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="tooltip">
+</SECTION>
 ## ToolTip
+As object property - present in controls \- it shows brief context\-sensitive messages, when the user is hovering with the mouse cursor over the object.<br>
 
+### Properties
+* Balloon
+* CenterTip
+* CloseButton
+* CloseOnClick
+* Icon
+* Text
+* Title
+* Track
+* Transparent
+
+### Methods
+
+### Description
+The messages are visible for few seconds, the duration being dependent on the local mouse double-click speed setting.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="treelistview">
+</SECTION>
 ## TreeListView
 
+### Properties
+
+### Methods
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="treeview">
+</SECTION>
 ## TreeView
+The TreeView control represents the user interface for an abstract tree structure \(a hierarchy\) \- it's displaying and managing a collection of [TreeViewItem](#treeviewitem "TreeViewItem") objects as nodes.<br>
 
+### Properties
+* BackColor
+* Border
+* CheckBoxes
+* ClickedItem
+* Enabled
+* Font
+* ForeColor
+* FullRowSelect
+* HasButtons
+* HasLines
+* HighLightCaption
+* ImageList
+* Items
+* Level
+* LinesAtRoot
+* NoHScroll
+* NoToolTips
+* PreviousItem
+* SelectedItem
+* ShowSelAlways
+* SingleExpand
+* SmallCaption
+* Text
+* TrackSelect
+* Visible
+
+### Methods
+* AddItem()
+* EditLabel()
+* EnsureVisible()
+* Expand()
+* ExpandAll()
+* GetChild()
+* GetCount()
+* GetFirstVisibleItem()
+* GetItem()
+* GetNextItem()
+* GetRoot()
+* GetSelText()
+* GetVisibleCount()
+* ResetCount()
+* SelectItem()
+* SetImageList()
+* SetIndent()
+* SetItemHeight()
+* SetTextColor()
+* Toggle()
+
+### Description
+VXH's TreeView control implements the standard Windows TreeView control.<br>
+The TreeView control consists of a rectangular panel holding zero or more [TreeViewItem](#treeviewitem "TreeViewItem") objects, an optional small title bar, and scroll bars as needed.<br>
+Each TreeViewItem has a label \(text caption\), an optional image from the TreeView's [ImageList](#imagelist "ImageList"), and a list of zero or more child items \- see the Items property. The items, which have child items, can have buttons \- see the HasButtons property.<br>
+TreeViewItems having child items can be expanded or collapsed by double-clicking on them, or clicking on their buttons \(if present\).<br>
+The user selections can be tracked by consulting the following properties: SelectedItem, ClickedItem, PreviousItem.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="treeviewitem">
+</SECTION>
 ## TreeViewItem
+A TreeViewItem is always created as a child object of a [TreeView](#treeview "TreeView") control, representing a node ( or item ) of the abstract tree structure holden by the TreeView.<br>
 
+### Properties
+* Expanded
+* hItem
+* ImageIndex
+* Items
+* Level
+* Parent
+* Text
+
+### Methods
+* AddItem()
+* Delete()
+* EditLabel()
+* EnsureVisible()
+* Expand()
+* ExpandAll()
+* GetChild()
+* GetItemRect()
+* GetNextItem()
+* Select()
+* SetItemState()
+* SetItemText()
+* SortChildren()
+* Toggle()
+
+### Description
+A TreeViewItem consists of a label, an optional image decoration belonging to the [ImageList](#imagelist "ImageList") set for the parent [TreeView](#treeview "TreeView"), and a list with zero or more child items \(see the Items property\).<br>
+A TreeViewItem can be described by a set of state attributes: currently selected or not \(see Select method\); expanded or collapsed, when it has at least a child item \(see Expand and Toggle methods\).<br>
+A TreeViewItem can be made visible in the parent TreeView's panel by using the EnsureVisible method.<br>
+AddItem, Delete, SetItemText, SortChildren are the most frequently used methods for managing TreeViewItem objects.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="webbrowser">
+</SECTION>
 ## WebBrowser
+VXH's WebBrowser control implements Microsoft's WebBrowser control, using the Shell.Explorer class via the ActiveX technology.<br>
 
+### Properties
+* Border
+* Enabled
+* ProgID
+* Url
+* Visible
+
+### Methods
+
+### Description
+The WebBrowser control is essentially a client module, which is sending requests to a web server, manages the events produced during navigation and the server's responses, respectively renders the documents received from the server.<br>
+In the Object Manager, when possible, the event handlers in the DWebBrowserEvents2 group should be used, because the corresponding interface is newer.<br>
+[Here](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752043(v=vs.85)) is a detailed description of the original class.
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="winprint">
+</SECTION>
 ## WinPrint
+WinPrint class makes printing easy and it can also generate EMF files for Preview with PrintPreview.exe<br>
 
+### Syntax
+```
+oPrn := WinPrint():New( [<lPreview>] )
+```
+
+### Arguments
+```
+<lPreview> is .T. for Preview and .F. for printing. It's optional. Default value is .F.
+```
+
+### Properties
+* cFormType
+* cHexShadowColor
+* cPrinter
+* lAskProperties
+* lBestQuality
+* lDuplex
+* lGrayScale
+* lLandscape
+* lLatePrn
+* lPreview
+* nBottomMargin
+* nCharHeight
+* nCopies
+* nLeftMargin
+* nPage
+* nPageHeight
+* nPageWidth
+* nRightMargin
+* nTopMargin
+* oPrinter
+
+### Methods
+* Box()
+* Close()
+* Create()
+* GetJustifiedString()
+* GetPageHeight()
+* GetPageWidth()
+* GetTextArray()
+* GetTextHeightMM()
+* GetTextWidthMM()
+* Image()
+* Line()
+* mm2ActX()
+* mm2ActY()
+* mm2X()
+* mm2Y()
+* PageBreak()
+* Preview()
+* Say()
+* SetFont()
+* SetFontArray()
+* SetPenWidth()
+* Shadow()
+* x2mm()
+* Y2mm()
+
+### Description
+WinPrint class makes printing easier. It uses xHarbour Win32Prn() class with added more functionalities. It can also create EMF files for Preview with PrintPreview.exe.<br>
+
+### Example
+```
+// Following function will test WinPrint class
+
+FUNCTION WinPrintTest(lPreview)
+
+   LOCAL oPrn,nLineWidth,cText,cPath
+
+   DEFAULT lPreview TO .T.
+   
+   oPrn:=WinPrint():New(lPreview)  
+
+   IF oPrn=NIL
+      MsgAlert("Can't create WinPrint object")
+      RETURN NIL
+   ENDIF
+   
+   WITH OBJECT oPrn
+      :nTopMargin:=10
+      :nLeftMargin:=10
+      :nRightMargin:=10
+      :nBottomMargin:=10
+
+      :cPrinter:=GetDefaultPrinter()
+      :cFormType:="9" // A4 page
+
+      IF !:Create()
+         MsgAlert("Can't create "+:cPrinter+" object")
+         RETURN NIL
+      ENDIF
+
+   ENDIF
+
+   nLineWidth:=oPrn:nPageWidth-oPrn:nLeftMargin-oPrn:nRightMargin
+  
+   oPrn:SetPenWidth(0.1)
+   
+   oPrn:SetFont("Times New Roman",10,.F.,.F.,.F.,.F.,0)
+   
+   cText:="Hello world with WinPrn class for VXH!"   
+   oPrn:Say(oPrn:nLeftMargin,20,cText,1,nLineWidth,oPrn:GetTextHeightMM(cText,nLineWidth))
+   cText:="This is page 1 test."   
+   oPrn:Say(oPrn:nLeftMargin,120,cText,1,nLineWidth,oPrn:GetTextHeightMM(cText,nLineWidth))   
+   oPrn:PageBreak()
+
+   cText:="Page 2"   
+   oPrn:Say(oPrn:nLeftMargin,20,cText,1,nLineWidth,oPrn:GetTextHeightMM(cText,nLineWidth))
+   oPrn:PageBreak()
+
+   cText:="Page 3"   
+   oPrn:Say(oPrn:nLeftMargin,20,cText,1,nLineWidth,oPrn:GetTextHeightMM(cText,nLineWidth))
+   //oPrn:PageBreak()
+
+   IF lPreview
+      oPrn:Preview(Self)
+   ENDIF
+   
+   oPrn:Close()
+   
+RETURN NIL
+```
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="winsock">
+</SECTION>
 ## WinSock
+The WinSock class is VXH's Windows Sockets implementation, based on xHarbour's Inet* functions, providing the means for receiving or transmitting data from socket to socket \- designed to support event-driven programming style.<br>
 
+### Properties
+* Handle
+* LocalPort
+* Protocol
+* RecData
+* RemoteHandle
+* RemoteIP
+* RemotePort
+* Status
+
+### Methods
+* Close()
+* Connect()
+* Listen()
+* Send()
+
+### Description
+When a WinSock object is being created, a raw socket is created and associated with the object \(also referred as local socket\), and the Connect method establishes the communication with a remote socket.<br>
+A WinSock object in a VXH application can act as a client or as a server; the timeout intrevals are defaulting to 250 milliseconds.<br>
+When the connection is no more needed, it should be closed by a Close method call.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="zip">
+</SECTION>
 ## Zip
+The ZIP class has the common zip functionalities with ease.<br>
+
+### Syntax
+```
+Zip:New( <cFile> )
+```
+### Arguments
+```
+<cFile> Zip file name to be created. If <cFile> already exits, it will be deleted and a new file with the same name will be created.
+```
+
+### Properties
+* aExclude
+* bProgress
+* CompressLevel
+* Error
+* File
+* FullPath
+* Password
+
+# Methods
+* AddFile()
+* Close()
+
+### Description
+The Zip class creates a zip file, adds files to it along with common Zip functionalities.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
 
