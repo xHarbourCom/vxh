@@ -13,9 +13,7 @@ The AdjustTokenPrivileges function enables or disables privileges in the specifi
 ### Info
 * **Category**: adv api
 * **DLL**: Advapi32.dll
-* **MSDN link**: https://msdn.microsoft.com/en-us/library/windows/desktop/aa375202(v=vs.85).aspx
-
-
+* **MSDN link**: [here](https://docs.microsoft.com/en-in/windows/win32/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges)
 
 ## CloseServiceHandle
 
