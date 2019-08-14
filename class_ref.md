@@ -2042,7 +2042,7 @@ Properties
 ### Methods
 
 ### Info
-* ***Category**: VXH Class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
@@ -2074,27 +2074,241 @@ The Optionbar control behaves like a vertical ToolBar, with all its child contro
 Add new [OptionBarButtons](#optionbarbutton "OptionBarButton") to the OptionBar in this way: select the Optionbar, right-click on it, and choose "Add Button".
 
 ### Info
-* ***Category**: VXH Class
+* **Category**: VXH Class
 * **LIB**: vxh.lib
 
 
 
 
 
-
+<SECTION ID="pagescroller">
+</SECTION>
 ## PageScroller
 
+### Properties
+### Methods
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="panel">
+</SECTION>
 ## Panel
+The Panel control consists of a rectangular surface and a small caption bar over its top margin. By default the control's margins are not visible at run-time, and the presence of the small caption bar is optional.<br>
 
+### Properties
+* BackColor
+* Enabled
+* Font
+* HorzScroll
+* ImageList
+* SmallCaption
+* Text
+* Theming
+* VertScroll
+* VertScrollPos
+
+### Methods
+
+### Description
+The Panel is a container control, designed to act as a building block inside the [Form](#form "Form"), by holding a number of other controls. It supports the physical modularization of the Form's content; it makes easier the maintenance of a Form with numerous contrrols.
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="picturebox">
+</SECTION>
 ## PictureBox
+The PictureBox control consists of a rectangular surface with an optional image, and an optional caption bar over its top border.<br>
 
+### Properties
+* Alignment
+* BackColor
+* BlackAndWhite
+* Enabled
+* Font
+* HorzScroll
+* ImageList
+* ImageName
+* InvertedColors
+* KeepAspectRatio
+* Opacity
+* PictureHeight
+* PictureWidth
+* SmallCaption
+* Stretch
+* Text
+* TransparencyByPixel
+* Transparent
+* VertScroll
+* VertScrollPos
+* Visible
+
+### Methods
+* Update()
+
+### Description
+The PictureBox controls are widely used for displaying image data, and decorative purposes as well. VXH's PictureBox implementation supports transparency, alpha channel \(see the Opacity property\), image redimensioning and many other features.<br>
+VXH's PictureBox is a container control, it can hold a number of other controls, just like a [Panel](#panel "Panel") or a [GroupBox](#groupbox "GroupBox").<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="printdialog">
+</SECTION>
+## PrintDialog
+
+### Properties
+
+### Methods
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+<SECTION ID="progressbar">
+</SECTION>
 ## ProgressBar
+The ProgressBar control is used in conjuction with lenghty processes - it can be configured as a horizontal or vertical bar.<br>
 
+### Properties
+* BackColor
+* Border
+* ForeColor
+* Height
+* MaxRange
+* MinRange
+* Position
+* Smooth
+* StatusPanelMargin
+* Step
+* Theming
+* Vertical
+* Visible
+* Width
+
+### Methods
+* DeltaPos()
+* StepIt()
+
+### Description
+The MinRange and MaxRange properties indicate the minimum and maximum values \(an interval\) specific to the process, which is going to be tracked by the ProgressBar. The Position property represents the current value displayed by the control.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+
+<SECTION ID="project">
+</SECTION>
 ## Project
+The Project class is an abstraction of the main organizational unit of software managed by the VXH IDE. See also the [Application](#application "Application") class.
 
+### Properties
+* Binary
+* CleanBuild
+* CompilerFlags
+* Definitions
+* Name
+* Parameters
+* Path
+* TargetName
+* TargetType
+
+### Methods
+
+### Description
+When opening a VXH project, a Project object is created in the IDE, which can be accessed by clicking on the root node of the Object View in the Object Manager, and then clicking on the "Properties" tab.<br>
+When a new project is created in the VXH IDE, a corresponding Project object is created as well. In the Object View we can always consult the object tree of the Project, which consists of an [Application](#application "Application") object as root node of one or more [Form](#form "Form") objects.<br>
+A VXH project might include external references to LIB files, OBJ files, other resources added by using the IDE's "File" menu and "Add to project" submenu.<br>
+These external files can be consulted in the Object Manager's "File View" tab \- they are used in the linking phase, when the currently loaded project is built.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="radiobutton">
+</SECTION>
 ## RadioButton
+The RadioButton controls are designed to be used in groups \- a group representing a question, and each RadioButton in the group indicating a possible answer. The user can choose only a single RadioButton from a group.<br>
 
+### Properties
+* BackColor
+* Border
+* Enabled
+* Font
+* ForeColor
+* Group
+* InitialState
+* OwnerDraw
+* Text
+* Visible
+
+### Methods
+* GetState()
+* SetState()
+
+### Description
+When RadioButton controls are added to a [Form](#form "Form"), and none of them is set with its Group property to "true", then all of them are supposed to belong to the same group.<br>
+When setting up a RadioButton group in the VXH IDE or by program code, only one of the group members should be set with its InitialState property to "Checked", otherwise at run-time the Form will behave erroneously.<br>
+As a rule of thumb: when a question addressed to the user could have more than 5\-8 alternative answers \(in time most things get more and more diversified\), then using a [ComboBox](#combobox "ComboBox") instead of a RadioButton group might be of better help.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
+
+
+<SECTION ID="richtextbox">
+</SECTION>
 ## RichTextBox
+RichTextBox inherits [EditBox](#editbox "EditBox") and it supports displaying formatted text \- for example text snippets copied and pasted into the control. RichEditBox also supports text editing.
+
+### Properties
+* Alignment
+* Border
+* Enabled
+* EnterNext
+* Font
+* FullSelectOnClick
+* HorzScroll
+* NoHideSel
+* ReadOnly
+* Text
+* VertScroll
+* Visible
+
+### Methods
+
+### Description
+The text content without character formatting can be extracted from the control by using its Text property.<br>
+The control is created with MultiLine and WantReturn properties enforced to "true", and its ClientEdge property is enforced to "false".<br>
+Most [EditBox](#editbox "EditBox") methods can be used in conjunction with RichTextBox.<br>
+
+### Info
+* **Category**: VXH Class
+* **LIB**: vxh.lib
+
+
 
 ## SaveFileDialog
 
