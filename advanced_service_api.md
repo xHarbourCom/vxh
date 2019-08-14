@@ -4,44 +4,55 @@ layout: default
 Advanced Service API
 ====================
 
-**AdjustTokenPrivileges**
 
-**CloseServiceHandle**
+<SECTION ID="adjusttokenprivileges">
+</SECTION>
+## AdjustTokenPrivileges
+The AdjustTokenPrivileges function enables or disables privileges in the specified access token. Enabling or disabling privileges in an access token requires TOKEN_ADJUST_PRIVILEGES access.
 
-**CreateService**
+### Info
+* **Category**: adv api
+* **DLL**: Advapi32.dll
+* **MSDN link**: https://msdn.microsoft.com/en-us/library/windows/desktop/aa375202(v=vs.85).aspx
 
-**DeleteService**
 
-**GetUserName**
 
-**InitiateSystemShutdown**
+## CloseServiceHandle
 
-**LookUpPrivilegeValue**
+## CreateService
 
-**OpenProcessToken**
+## DeleteService
 
-**OpenSCManager**
+## GetUserName
 
-**OpenService**
+## InitiateSystemShutdown
 
-**RegCloseKey**
+## LookUpPrivilegeValue
 
-**RegCreateKeyEx**
+## OpenProcessToken
 
-**RegDeleteKey**
+## OpenSCManager
 
-**RegDeleteValue**
+## OpenService
 
-**RegEnumKey**
+## RegCloseKey
 
-**RegEnumKeyEx**
+## RegCreateKeyEx
 
-**RegEnumValue**
+## RegDeleteKey
 
-**RegisterServiceCtrlHandler**
+## RegDeleteValue
 
-**RegOpenKeyEx**
+## RegEnumKey
 
-**RegQuery/ValueEx**
+## RegEnumKeyEx
 
-**SetServiceStatus**
+## RegEnumValue
+
+## RegisterServiceCtrlHandler
+
+## RegOpenKeyEx
+
+## RegQuery/ValueEx
+
+## SetServiceStatus
