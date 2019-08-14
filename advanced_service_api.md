@@ -13,7 +13,7 @@ The AdjustTokenPrivileges function enables or disables privileges in the specifi
 ### Info
 * **Category**: adv api
 * **DLL**: Advapi32.dll
-* **MSDN link**: [here](https://docs.microsoft.com/en-in/windows/win32/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges)
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges" target="_blank">here</a>
 
 
 
@@ -26,8 +26,7 @@ Closes a handle to a service control manager or service object.<br>
 ### Info
 * **Category**: adv api
 * **DLL**: Advapi32.dll
-
-MSDN link: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winsvc/nf-winsvc-closeservicehandle" target="_blank">here</a>
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winsvc/nf-winsvc-closeservicehandle" target="_blank">here</a>
 
 
 ## CreateService
