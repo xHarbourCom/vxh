@@ -4,6 +4,9 @@ layout: default
 Function Reference
 ====================
 
+
+---
+
 <SECTION ID="adsconnect101">
 </SECTION>
 ## AdsConnect101()
@@ -13,6 +16,8 @@ Please check  <a href="https://devzone.advantagedatabase.com/dz/webhelp/Advantag
 
 
 
+---
+
 <SECTION ID="adsddcreate101">
 </SECTION>
 ## AdsDDCreate101()
@@ -21,6 +26,7 @@ Creates a data dictionary using a connection string.<br>
 Please check  <a href="https://devzone.advantagedatabase.com/dz/webhelp/Advantage11/index.html?ace_adsddcreate101.htm" target="_blank">here</a> for more details.<br>
 
 
+---
 
 <SECTION ID="adsdddeleteindex">
 </SECTION>
@@ -30,24 +36,28 @@ Delete an index order associated with a table in the data dictionary.<br>
 Please check  <a href="https://devzone.advantagedatabase.com/dz/webhelp/Advantage11/index.html?ace_adsdddeleteindex.htm" target="_blank">here</a> for more details.<br>
 
 
+---
 
 <SECTION ID="adsddexecutesqldirect">
 </SECTION>
 ## AdsDDexecuteSQLDirect()
 
 
+---
 
 <SECTION ID="adsddfindobject">
 </SECTION>
 ## AdsDDFindObject()
 
 
+---
 
 <SECTION ID="adsddfirstobject">
 </SECTION>
 ## AdsDDFirstObject()
 
 
+---
 
 <SECTION ID="adsddfreetable">
 </SECTION>
@@ -58,6 +68,7 @@ Please check  <a href="https://devzone.advantagedatabase.com/dz/webhelp/Advantag
 
 
 
+---
 
 <SECTION ID="adsddgetdatabaseproperty">
 </SECTION>
@@ -67,6 +78,7 @@ Retrieves one database property from the data dictionary into the supplied buffe
 Please check  <a href="https://devzone.advantagedatabase.com/dz/webhelp/Advantage11/index.html?ace_adsddgetdatabaseproperty.htm" target="_blank">here</a> for more details.
 
 
+---
 
 <SECTION ID="adsddgetindexfileproperty">
 </SECTION>
@@ -77,6 +89,7 @@ Please check  <a href="https://devzone.advantagedatabase.com/dz/webhelp/Advantag
 
 
 
+---
 
 <SECTION ID="adsddgetindexproperty">
 </SECTION>
@@ -88,6 +101,7 @@ Please check  <a href="https://devzone.advantagedatabase.com/dz/webhelp/Advantag
 
 
 
+---
 
 <SECTION ID="adsddgrantpermission">
 </SECTION>
@@ -98,6 +112,7 @@ Please check  <a href="https://devzone.advantagedatabase.com/dz/webhelp/Advantag
 
 
 
+---
 
 <SECTION ID="adsddremoveindexfile">
 </SECTION>
@@ -108,6 +123,7 @@ Please check  <a href="https://devzone.advantagedatabase.com/dz/webhelp/Advantag
 
 
 
+---
 
 <SECTION ID="adsddrevokepermission">
 </SECTION>
@@ -118,6 +134,7 @@ Please check  <a href="https://devzone.advantagedatabase.com/dz/webhelp/Advantag
 
 
 
+---
 
 <SECTION ID="adsddsetdatabaseproperty">
 </SECTION>
@@ -128,6 +145,7 @@ Please check  <a href="https://devzone.advantagedatabase.com/dz/webhelp/Advantag
 
 
 
+---
 
 <SECTION ID="adsddsettableproperty">
 </SECTION>
@@ -138,6 +156,7 @@ Please check  <a href="https://devzone.advantagedatabase.com/dz/webhelp/Advantag
 
 
 
+---
 
 <SECTION ID="adsnull2blank">
 </SECTION>
@@ -149,6 +168,8 @@ AdsNull2Blank( <lAnyRDD> )
 ```
 
 
+---
+
 <SECTION ID="ftsvalidatephrase">
 </SECTION>
 ## FTSValidatePhrase()
@@ -159,6 +180,7 @@ FTSValidatePhrase( <cSearch>, <aFldList> )
 ```
 
 
+---
 
 <SECTION ID="getregole">
 </SECTION>
@@ -168,6 +190,10 @@ FTSValidatePhrase( <cSearch>, <aFldList> )
 ```
 GetRegOle() --> aOle
 ```
+
+
+
+---
 
 <SECTION ID="getregolebmp">
 </SECTION>
@@ -183,6 +209,7 @@ GetRegOleBmp ( <cID> ) --> hBmp
 <cID>
 ```
 
+---
 
 <SECTION ID="getshortpathname">
 </SECTION>
@@ -192,6 +219,8 @@ Retrieves the short path form of the specified path.
 Please check  <a href="https://docs.microsoft.com/en-in/windows/win32/api/fileapi/nf-fileapi-getshortpathnamew" target="_blank">here</a> for more details.
 
 
+
+---
 
 <SECTION ID="iscomobject">
 </SECTION>
@@ -208,6 +237,7 @@ IsComObject( < cProgId > ) --> Logical
 ```
 
 
+---
 
 <SECTION ID="isdotnet">
 </SECTION>
@@ -228,6 +258,7 @@ Defaults is ""
 ```
 
 
+---
 
 <SECTION ID="registerdotnetcomponent">
 </SECTION>
@@ -247,8 +278,11 @@ RegisterDotNetComponent( <cDotNetDLL> , <cProgId> , <cError> )  --> Logical
 <cError>
 ```
 
+---
 
 <SECTION ID="setsystemcursor">
 </SECTION>
 ## SetSystemCursor()
 From MSDN: "Enables an application to customize the system cursors. It replaces the contents of the system cursor specified by the id parameter with the contents of the cursor specified by the hcur parameter and then destroys hcur."
+
+---
