@@ -4,6 +4,7 @@ layout: default
 Advanced Service API
 ====================
 
+---
 
 <SECTION ID="adjusttokenprivileges">
 </SECTION>
@@ -17,6 +18,7 @@ The AdjustTokenPrivileges function enables or disables privileges in the specifi
 
 
 
+---
 
 <SECTION ID="closeservicehandle">
 </SECTION>
@@ -29,40 +31,89 @@ Closes a handle to a service control manager or service object.<br>
 * **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winsvc/nf-winsvc-closeservicehandle" target="_blank">here</a>
 
 
+---
+
+<SECTION ID="createservice">
+</SECTION>
 ## CreateService
+Creates a service object and adds it to the specified service control manager database.
+
+### Info
+* **Categor**y: adv api
+* **DLL**: Advapi32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winsvc/nf-winsvc-createservicea" target="_blank">here</a>
+
+
+---
 
 ## DeleteService
 
+---
+
 ## GetUserName
+
+---
 
 ## InitiateSystemShutdown
 
+---
+
 ## LookUpPrivilegeValue
+
+---
 
 ## OpenProcessToken
 
+---
+
 ## OpenSCManager
+
+---
 
 ## OpenService
 
+---
+
 ## RegCloseKey
+
+---
 
 ## RegCreateKeyEx
 
+---
+
 ## RegDeleteKey
+
+---
 
 ## RegDeleteValue
 
+---
+
 ## RegEnumKey
+
+---
 
 ## RegEnumKeyEx
 
+---
+
 ## RegEnumValue
+
+---
 
 ## RegisterServiceCtrlHandler
 
+---
+
 ## RegOpenKeyEx
+
+---
 
 ## RegQuery/ValueEx
 
+---
+
 ## SetServiceStatus
+
+---
