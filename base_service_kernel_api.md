@@ -4,132 +4,395 @@ layout: default
 Base Service (Kernel) API
 ====================
 
-**Beep**
+---
 
-**BeginDeferWindowPos**
+<SECTION ID="beep">
+</SECTION>
+## Beep
 
-**CloseHandle**
+---
 
-**CopyFile**
+<SECTION ID="begindeferwindowpos">
+</SECTION>
+## BeginDeferWindowPos
 
-**CopyFileEx**
+---
 
-**CreateEvent**
+<SECTION ID="closehandle">
+</SECTION>
+## CloseHandle
 
-**CreateFile**
+---
 
-**CreateMutex**
+<SECTION ID="copyfile">
+</SECTION>
+## CopyFile
 
-**EndUpdateResource**
+---
 
-**EnumResourceTypes**
+<SECTION ID="copyfileex">
+</SECTION>
+## CopyFileEx
 
-**FindFirstFile**
+---
 
-**FindResource**
+<SECTION ID="createevent">
+</SECTION>
+## CreateEvent
 
-**FindResourceEx**
+---
 
-**FormatMessage**
+<SECTION ID="createfile">
+</SECTION>
+## CreateFile
 
-**FreeLibrary**
+---
 
-**GetCommState**
+<SECTION ID="createmutex">
+</SECTION>
+## CreateMutex
 
-**GetComputername**
+---
 
-**GetCurrentProcess**
+<SECTION ID="endupdateresource">
+</SECTION>
+## EndUpdateResource
 
-**GetCurrentThreadId**
+---
 
-**GetLastError**
+<SECTION ID="enumresourcetypes">
+</SECTION>
+## EnumResourceTypes
 
-**GetLocalTime**
+---
 
-**GetLogicalDriveStrings**
+<SECTION ID="findfirstfile">
+</SECTION>
+## FindFirstFile
 
-**GetModuleFilename**
+---
 
-**GetModuleHandle**
+<SECTION ID="findresource">
+</SECTION>
+## FindResource
 
-**GetPrivateProfileSection**
+---
 
-**GetPrivateProvileString**
+<SECTION ID="findresourceex">
+</SECTION>
+## FindResourceEx
 
-**GetProfileInt**
+---
 
-**GetProfileString**
+<SECTION ID="formatmessage">
+</SECTION>
+## FormatMessage
 
-**GetShortPathName**
+---
 
-**GetSystemDirectory**
+<SECTION ID="freelibrary">
+</SECTION>
+## FreeLibrary
 
-**GetSystemDirectory**
+---
 
-**GetSystemTime**
+<SECTION ID="getcommstate">
+</SECTION>
+## GetCommState
 
-**GetTempFilename**
+---
 
-**GetTempPath**
+<SECTION ID="getcomputername">
+</SECTION>
+## GetComputername
 
-**GetTickCount**
+---
 
-**GetVersionEx**
+<SECTION ID="getcurrentprocess">
+</SECTION>
+## GetCurrentProcess
 
-**GetWindowsDirectory**
+---
 
-**GlobalFree**
+<SECTION ID="getcurrentthreadid">
+</SECTION>
+## GetCurrentThreadId
 
-**GlobalLock**
+---
 
-**GlobalMemoryStatus**
+<SECTION ID="getlasterror">
+</SECTION>
+## GetLastError
 
-**GlobalUnlock**
+---
 
-**LoadLibraryA**
+<SECTION ID="getlocaltime">
+</SECTION>
+## GetLocalTime
 
-**LoadLibraryEx**
+---
 
-**LoadResource**
+<SECTION ID="getlogicaldrivestrings">
+</SECTION>
+## GetLogicalDriveStrings
 
-**MoveFile**
+---
 
-**OpenFile**
+<SECTION ID="getmodulefilename">
+</SECTION>
+## GetModuleFilename
 
-**OutputDebugString**
+---
 
-**PurgeComm**
+<SECTION ID="getmodulehandle">
+</SECTION>
+## GetModuleHandle
 
-**ReleaseMutex**
+---
 
-**RemoveDirectory**
+<SECTION ID="getprivateprofilesection">
+</SECTION>
+## GetPrivateProfileSection
 
-**SetCommState**
+---
 
-**SetCommTimeouts**
+<SECTION ID="getprivateprovilestring">
+</SECTION>
+## GetPrivateProvileString
 
-**SetEnvironmentVariable**
+---
 
-**SetEvent**
+<SECTION ID="getprofileint">
+</SECTION>
+## GetProfileInt
 
-**SetSystemTime**
+---
 
-**SizeofResource**
+<SECTION ID="getprofilestring">
+</SECTION>
+## GetProfileString
 
-**Sleep**
+---
 
-**TranmitCommChar**
+<SECTION ID="getshortpathname">
+</SECTION>
+## GetShortPathName
 
-**UpdateResource**
+---
 
-**WaitCommEvent**
+<SECTION ID="getsystemdirectory">
+</SECTION>
+## GetSystemDirectory
 
-**WaitForSingleObject**
+---
 
-**WinExec**
+<SECTION ID="getsystemdirectory">
+</SECTION>
+## GetSystemDirectory
 
-**WritePrivateProfileSection**
+---
 
-**WritePrivateProfileString**
+<SECTION ID="getsystemtime">
+</SECTION>
+## GetSystemTime
 
-**WriteProfileString**
+---
+
+<SECTION ID="gettempfilename">
+</SECTION>
+## GetTempFilename
+
+---
+
+<SECTION ID="gettemppath">
+</SECTION>
+## GetTempPath
+
+---
+
+<SECTION ID="gettickcount">
+</SECTION>
+## GetTickCount
+
+---
+
+<SECTION ID="getversionex">
+</SECTION>
+## GetVersionEx
+
+---
+
+<SECTION ID="getwindowsdirectory">
+</SECTION>
+## GetWindowsDirectory
+
+---
+
+<SECTION ID="globalfree">
+</SECTION>
+## GlobalFree
+
+---
+
+<SECTION ID="globallock">
+</SECTION>
+## GlobalLock
+
+---
+
+<SECTION ID="globalmemorystatus">
+</SECTION>
+## GlobalMemoryStatus
+
+---
+
+<SECTION ID="globalunlock">
+</SECTION>
+## GlobalUnlock
+
+---
+
+<SECTION ID="loadlibrarya">
+</SECTION>
+## LoadLibraryA
+
+---
+
+<SECTION ID="loadlibraryex">
+</SECTION>
+## LoadLibraryEx
+
+---
+
+<SECTION ID="loadresource">
+</SECTION>
+## LoadResource
+
+---
+
+<SECTION ID="movefile">
+</SECTION>
+## MoveFile
+
+---
+
+<SECTION ID="openfile">
+</SECTION>
+## OpenFile
+
+---
+
+<SECTION ID="outputdebugstring">
+</SECTION>
+## OutputDebugString
+
+---
+
+<SECTION ID="purgecomm">
+</SECTION>
+## PurgeComm
+
+---
+
+<SECTION ID="releasemutex">
+</SECTION>
+## ReleaseMutex
+
+---
+
+<SECTION ID="removedirectory">
+</SECTION>
+## RemoveDirectory
+
+---
+
+<SECTION ID="setcommstate">
+</SECTION>
+## SetCommState
+
+---
+
+<SECTION ID="setcommtimeouts">
+</SECTION>
+## SetCommTimeouts
+
+---
+
+<SECTION ID="setenvironmentvariable">
+</SECTION>
+## SetEnvironmentVariable
+
+---
+
+<SECTION ID="setevent">
+</SECTION>
+## SetEvent
+
+---
+
+<SECTION ID="setsystemtime">
+</SECTION>
+## SetSystemTime
+
+---
+
+<SECTION ID="sizeofresource">
+</SECTION>
+## SizeofResource
+
+---
+
+<SECTION ID="sleep">
+</SECTION>
+## Sleep
+
+---
+
+<SECTION ID="tranmitcommchar">
+</SECTION>
+## TranmitCommChar
+
+---
+
+<SECTION ID="updateresource">
+</SECTION>
+## UpdateResource
+
+---
+
+<SECTION ID="waitcommevent">
+</SECTION>
+## WaitCommEvent
+
+---
+
+<SECTION ID="waitforsingleobject">
+</SECTION>
+## WaitForSingleObject
+
+---
+
+<SECTION ID="winexec">
+</SECTION>
+## WinExec
+
+---
+
+<SECTION ID="writeprivateprofilesection">
+</SECTION>
+## WritePrivateProfileSection
+
+---
+
+<SECTION ID="writeprivateprofilestring">
+</SECTION>
+## WritePrivateProfileString
+
+---
+
+<SECTION ID="writeprofilestring">
+</SECTION>
+## WriteProfileString
+
+
+---
