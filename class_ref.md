@@ -2801,7 +2801,7 @@ The [TabControl](#tabcontrol "TabControl") and the TabStrip controls are very si
 ## Timer
 Implements a timer which raises an event at pre-defined intervals.<br>
 
-###Properties
+### Properties
 * AutoRun
 * Delay
 * IRunning
