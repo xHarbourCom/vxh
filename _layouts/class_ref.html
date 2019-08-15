@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+
+   {% if site.google_analytics %}
+   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', '{{ site.google_analytics }}');
+   </script>
+   {% endif %}
+   <meta charset="UTF-8">
+
+   {% seo %}
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="theme-color" content="#157878">
+   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+   <style>
+      /* body {
+        font-family: "Lato", sans-serif;
+      } */
+
+      .sidenav {
+         width: 130px;
+         position: fixed;
+         z-index: 1;
+         top: 20px;
+         left: 10px;
+         background: #eee;
+         overflow-x: hidden;
+         padding: 8px 0;
+      }
+
+      .sidenav a {
+         padding: 6px 8px 6px 16px;
+         text-decoration: none;
+         font-size: 25px;
+         color: #2196F3;
+         display: block;
+      }
+
+      .sidenav a:hover {
+         color: #064579;
+      }
+
+      .right_main {
+         margin-left: 140px;
+         /* Same width as the sidebar + left position in px */
+         /* font-size: 28px; */
+         /* Increased text to enable scrolling */
+         padding: 0px 10px;
+      }
+
+      @media screen and (max-height: 450px) {
+         .sidenav {
+            padding-top: 15px;
+         }
+
+         .sidenav a {
+            font-size: 18px;
+         }
+      }
+   </style>
+
+</head>
+
+<body>
+
+   <div class="sidenav">
+      <a href="#activex">ActiveX</a>
+      <a href="#AdsDataTable">AdsDataTable</a>
+      <a href="#AdsServer">AdsServer</a>
+      <a href="#Advantage">Advantage</a>
+      <a href="#Anchor">Anchor</a>
+      <a href="#Animation">Animation</a>
+      <a href="#Application">Application</a>
+      <a href="#BackgroundImage">BackgroundImage</a>
+      <a href="#Band">Band</a>
+      <a href="#Button">Button</a>
+      <a href="#CheckBox">CheckBox</a>
+      <a href="#CMenuItem">CMenuItem</a>
+      <a href="#ColorDialog" ColorDialog></a>
+      <a href="#ColorPicker">ColorPicker</a>
+      <a href="#ComboBox">ComboBox</a>
+      <a href="#ComboBoxEx">ComboBoxEx</a>
+      <a href="#ContextMenu">ContextMenu</a>
+      <a href="#CoolBar">CoolBar</a>
+      <a href="#CoolBarBand">CoolBarBand</a>
+      <a href="#CoolMenu" CoolMenu></a>
+      <a href="#CoolMenuItem">CoolMenuItem</a>
+      <a href="#CursorComboBox">CursorComboBox</a>
+      <a href="#Data">Data</a>
+      <a href="#DataConnector">DataConnector</a>
+      <a href="#DataGrid">DataGrid</a>
+      <a href="#DataSource">DataSource</a>
+      <a href="#DataTable">DataTable</a>
+      <a href="#DateTimePicker">DateTimePicker</a>
+      <a href="#Dock">Dock</a>
+      <a href="#Drawing">Drawing</a>
+      <a href="#DriveComboBox">DriveComboBox</a>
+   </div>
+
+   <div class="right_main">
+
+      <header class="page-header" role="banner">
+         <h1 class="project-name"><img src="favicon.ico" height="42" width="42"
+               hspace=15>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      </header>
+
+      <main id="content" class="main-content" role="main">
+         {{ content }}
+
+      </main>
+
+   </div>
+
+</body>
+
+</html>
