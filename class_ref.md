@@ -4,6 +4,8 @@ layout: default
 Class Reference
 ====================
 
+---
+
 <SECTION ID="activex">
 </SECTION>
 ## ActiveX
@@ -36,6 +38,7 @@ Class Reference
 * **Category** : VXH Class
 * **LIB** : vxh.lib
 
+---
 
 <SECTION ID="adsdatatable">
 </SECTION>
@@ -81,6 +84,9 @@ Most properties and methods of the DataTable can be used in conjunction with Ads
 * **Category**: VXH Class
 * **LIB**: vxh.lib
 
+
+---
+
 <SECTION ID="adsserver">
 </SECTION>
 ## AdsServer
@@ -109,6 +115,9 @@ Most properties and methods of the DataTable can be used in conjunction with Ads
 * **LIB**: vxh.lib
 
 
+---
+
+
 <SECTION ID="anchor">
 </SECTION>
 ## Anchor
@@ -125,6 +134,9 @@ Setting this object property - present in controls - does take sense when having
 
 ### Info
 * **Category**: VXH Class
+
+
+---
 
 
 <SECTION ID="animation">
@@ -154,6 +166,8 @@ The animation control's most frequent use is to indicate system activity backgro
 Limitations for the AVI clip format: It should not contain sound \(according to earlier Microsoft specifications\), it should be uncompressed or compressed using "run-length" encoding \(BI_RLE8\).<br>
 The AVI clip can be placed near the executable, or it can be added to the executable as resource \(in the VXH IDE's Project menu choose "Resource Manager", and use the name displayed in the "Name" column as its resource name\).<br>
 
+
+---
 
 <SECTION ID="application">
 </SECTION>
@@ -190,6 +204,9 @@ The Application's object reference is available from inside all Form objects \- 
 * **LIB**: vxh.lib
 
 
+---
+
+
 <SECTION ID="backgroundimage">
 </SECTION>
 ## BackgroundImage
@@ -206,6 +223,9 @@ As object property of containers like forms of TabPages it offers the possibilit
 
 ### Info
 * **Category**: VXH Class
+
+
+---
 
 
 <SECTION ID="band">
@@ -232,6 +252,9 @@ When using directly the "Delete" button of the VXH\-IDE \(or the keyboard\) for 
 
 ### Info
 * **Category**: VXH Class
+
+
+---
 
 <SECTION ID="button">
 </SECTION>
@@ -272,6 +295,8 @@ The Button controls \- also referred as "command buttons" are the most widely us
 * **LIB**: vxh.lib
 
 
+---
+
 
 <SECTION ID="checkbox">
 </SECTION>
@@ -303,6 +328,8 @@ The CheckBox controls are widely used for setting and getting boolean data, in g
 * **LIB**: vxh.lib
 
 
+---
+
 <SECTION ID="cmenuitem">
 </SECTION>
 ## CMenuItem
@@ -333,6 +360,8 @@ We have two different categories of menu items: placed directly on a CoolMenu, r
 * **LIB**: vxh.lib
 
 
+---
+
 
 <SECTION ID="colordialog">
 </SECTION>
@@ -355,6 +384,9 @@ The ColorDialog is displayed by Using its Show method, and its Color property co
 ### Info
 * **Category**: VXH Class
 * **LIB**: vxh.lib
+
+
+---
 
 
 <SECTION ID="colorpicker">
@@ -384,8 +416,8 @@ The ColorPicker inherits the ComboBox control, and it's dedicated to offer the u
 * **LIB**: vxh.lib
 
 
-<SECTION ID="combobox">
-</SECTION>
+---
+
 <SECTION ID="combobox">
 </SECTION>
 ## ComboBox
@@ -441,6 +473,8 @@ When a list item is selected (\set as current selection\), its text content is d
 * **LIB**: vxh.lib
 
 
+---
+
 <SECTION ID="comboboxex">
 </SECTION>
 ## ComboBoxEx
@@ -465,6 +499,7 @@ The ComboBoxEx control inherits the ComboBox control, and additionally it can ha
 * **LIB**: vxh.lib
 
 
+---
 
 <SECTION ID="contextmenu">
 </SECTION>
@@ -488,7 +523,7 @@ Each control having the ContextMenu property can be set with one of the ContextM
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="coolbar">
 </SECTION>
@@ -511,6 +546,9 @@ When using directly the "Delete" button of the VXH IDE \(or the keyboard\) for d
 * **LIB**: vxh.lib
 
 
+---
+
+
 <SECTION ID="coolbarband">
 </SECTION>
 ## CoolBarBand
@@ -522,6 +560,9 @@ When using directly the "Delete" button of the VXH IDE \(or the keyboard\) for d
 ### Info
 * **Category**: VXH Class
 * **LIB**: vxh.lib
+
+
+---
 
 
 <SECTION ID="coolmenu">
@@ -548,6 +589,9 @@ In order to add a new menu item into a sublist: highlight a CoolMenuItem over th
 * **Category**: VXH Class
 * **LIB**: vxh.lib
 
+
+
+---
 
 
 <SECTION ID="coolmenu">
@@ -578,7 +622,7 @@ We have two different categories of menu items: placed directly on a CoolMenu, r
 * **LIB**: vxh.lib
 
 
-
+---
 
 
 <SECTION ID="cursorcombobox">
@@ -593,6 +637,9 @@ We have two different categories of menu items: placed directly on a CoolMenu, r
 
 
 
+---
+
+
 <SECTION ID="data">
 </SECTION>
 ## Data
@@ -602,6 +649,9 @@ We have two different categories of menu items: placed directly on a CoolMenu, r
 ### Info
 * **Category**: VXH Class
 * **LIB**: vxh.lib
+
+
+---
 
 
 <SECTION ID="dataconnector">
@@ -614,6 +664,8 @@ We have two different categories of menu items: placed directly on a CoolMenu, r
 * **Category**: VXH Class
 * **LIB**: vxh.lib
 
+
+---
 
 
 <SECTION ID="datagrid">
@@ -681,6 +733,9 @@ The user can select a particular cell by clicking on it and // or using the scro
 
 
 
+---
+
+
 <SECTION ID="datasource">
 </SECTION>
 ## DataSource
@@ -701,6 +756,9 @@ A DataSource can be associated to other controls, like ListView.<br>
 ### Info
 * **Category**: VXH Class
 * **LIB**: vxh.lib
+
+
+---
 
 
 <SECTION ID="datatable">
@@ -787,7 +845,7 @@ While the DataTable is opened \(crated and not closed\), it always has a current
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="datetimepicker">
 </SECTION>
@@ -819,7 +877,7 @@ The control's behaviour depends on the value set for the Format property. The de
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="dock">
 </SECTION>
@@ -844,7 +902,7 @@ Setting this object property - present in controls - does take sense when having
 
 
 
-
+---
 
 <SECTION ID="drawing">
 </SECTION>
@@ -879,7 +937,7 @@ A general presentation of Windows GDI is available [here](https://docs.microsoft
 
 
 
-
+---
 
 <SECTION ID="drawing">
 </SECTION>
@@ -906,7 +964,7 @@ The DriveComboBox inherits the ComboBox control, being dedicated to list the dis
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="editbox">
 </SECTION>
@@ -934,7 +992,7 @@ It can be used as single line text box or multi line edit box.
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="expando">
 </SECTION>
@@ -962,7 +1020,7 @@ Each Expando is a container control \- its pane can hold other various stand con
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="explorerbar">
 </SECTION>
@@ -986,6 +1044,7 @@ Add a new [Expando](#expando "Expando") to an ExplorerBar, right-click on it, an
 * **LIB**: vxh.lib
 
 
+---
 
 <SECTION ID="fields">
 </SECTION>
@@ -1010,6 +1069,7 @@ The Parent property of the Fields object contains the object reference of the [D
 * **LIB**: vxh.lib
 
 
+---
 
 <SECTION ID="folderbrowsedialog">
 </SECTION>
@@ -1032,6 +1092,7 @@ FolderBrowseDialog is opened by invoking its Show method, and the program execut
 * **LIB**: vxh.lib
 
 
+---
 
 <SECTION ID="folderlist">
 </SECTION>
@@ -1045,6 +1106,7 @@ The FolderList control's properties in most cases are working like the [ListView
 *The following properties should not be altered: OwnerData, DataSource, ImageList, ImageListSmall*.
 
 
+---
 
 <SECTION ID="foldertree">
 </SECTION>
@@ -1068,6 +1130,8 @@ The ImageList property does not need and should not be set.<br>
 * **LIB**: vxh.lib
 
 
+
+---
 
 <SECTION ID="fontcombobox">
 </SECTION>
@@ -1095,6 +1159,7 @@ When the specified font is not present on the local machine, the OS loads anothe
 * **LIB**: vxh.lib
 
 
+---
 
 <SECTION ID="form">
 </SECTION>
@@ -1219,6 +1284,7 @@ The ImageList components are functional building blocks, as they support decorat
 
 
 
+---
 
 <SECTION ID="fields">
 </SECTION>
@@ -1253,6 +1319,7 @@ The FreeImage control is based on xHarbour's implementation of the FreeImage lib
 
 
 
+---
 
 <SECTION ID="ftpclient">
 </SECTION>
@@ -1292,6 +1359,7 @@ Due to WinInet limitations, applications using the FtpClient component should no
 * **LIB**: vxh.lib
 
 
+---
 
 <SECTION ID="gridcolumn">
 </SECTION>
@@ -1334,6 +1402,7 @@ A GridColumn is always created as a child object of a DataGrid control \- as a m
 
 
 
+---
 
 <SECTION ID="groupbox">
 </SECTION>
@@ -1364,6 +1433,7 @@ As a rule of thumb: a Form should not contain more than 6-7 groups \(tabs, menus
 
 
 
+---
 
 <SECTION ID="headeritem">
 </SECTION>
@@ -1387,6 +1457,8 @@ A HeaderItem is always created as a child control of a HeaderStrip.<br>
 * **LIB**: vxh.lib
 
 
+
+---
 
 <SECTION ID="headerstrip">
 </SECTION>
@@ -1421,6 +1493,7 @@ We can add new HeaderItem controls onto a HeaderStrip in this way: select the He
 
 
 
+---
 
 <SECTION ID="imagelist">
 </SECTION>
@@ -1451,6 +1524,9 @@ The desired image postion inside an ImageList can be set by using the ImageIndex
 * **Category**: VXH Class
 * **LIB**: vxh.lib
 
+
+
+---
 
 <SECTION ID="inifile">
 </SECTION>
@@ -1484,6 +1560,7 @@ MyObj := NIL
 
 
 
+---
 
 <SECTION ID="label">
 </SECTION>
@@ -1517,6 +1594,8 @@ Label controls support displaying informative inscriptions \- mostly sttic text 
 * **LIB**: vxh.lib
 
 
+
+---
 
 <SECTION ID="linklabel">
 </SECTION>
@@ -1556,6 +1635,8 @@ RETURN Self
 * **LIB**: vxh.lib
 
 
+
+---
 
 <SECTION ID="listbox">
 </SECTION>
@@ -1613,7 +1694,7 @@ The list items can be organized and displayed in a single column, or in multiple
 
 
 
-
+---
 
 <SECTION ID="listview">
 </SECTION>
@@ -1670,7 +1751,7 @@ Each list item has a label ( column 0 in "report" view ), an optional ImageIndex
 
 
 
-
+---
 
 <SECTION ID="listviewcolumn">
 </SECTION>
@@ -1685,6 +1766,8 @@ Each list item has a label ( column 0 in "report" view ), an optional ImageIndex
 
 
 
+---
+
 <SECTION ID="listviewgroup">
 </SECTION>
 ## ListViewGroup
@@ -1697,7 +1780,7 @@ Each list item has a label ( column 0 in "report" view ), an optional ImageIndex
 
 
 
-
+---
 
 <SECTION ID="maskedit">
 </SECTION>
@@ -1738,6 +1821,8 @@ The user input is limited as number of characters to the length of the mask ( se
 
 
 
+---
+
 <SECTION ID="mdiclient">
 </SECTION>
 ## MdiClient
@@ -1767,7 +1852,7 @@ By default the MDIClient does visually cover the entire client area of the Main 
 
 
 
-
+---
 
 <SECTION ID="memorydatatable">
 </SECTION>
@@ -1787,6 +1872,9 @@ MemoryDataTable is suitable for working with volatile data - the indexes created
 * **Category**: VXH Class
 * **LIB**: vxh.lib
 
+
+
+---
 
 <SECTION ID="memorytable">
 </SECTION>
@@ -1827,6 +1915,7 @@ In the VXH IDE's Object Manager use the "Edit Structure" dialog for defining the
 * **LIB**: vxh.lib
 
 
+---
 
 <SECTION ID="menustrip">
 </SECTION>
@@ -1853,7 +1942,7 @@ Each [MenuStripItem](#menustripitem "MenuStripItem") over a MenuStrip can own a 
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="menustripitem">
 </SECTION>
@@ -1879,7 +1968,7 @@ A MenuStripItem is always created as a child control of a MenuStrip, respectivel
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="messagewait">
 </SECTION>
@@ -1920,6 +2009,7 @@ oWait := MessageWait():New( [<cText>], [<cTitle>], [<lProgress>], [<cCancel>], [
 
 
 
+---
 
 <SECTION ID="monthcalender">
 </SECTION>
@@ -1960,7 +2050,7 @@ The control can hold a "today" value in the Today property, and a "currently sel
 
 
 
-
+---
 
 <SECTION ID="notifyicon">
 </SECTION>
@@ -1987,7 +2077,7 @@ In order to set one or more of these properties: **BalloonTipIcon, BalloonTipTex
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="openfiledialog">
 </SECTION>
@@ -2024,7 +2114,7 @@ OpenFileDialog is opened by invoking its Show method, and the program execution 
 
 
 
-
+---
 
 <SECTION ID="optionbarbutton">
 </SECTION>
@@ -2046,7 +2136,7 @@ Properties
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="optionbarbutton">
 </SECTION>
@@ -2079,7 +2169,7 @@ Add new [OptionBarButtons](#optionbarbutton "OptionBarButton") to the OptionBar 
 
 
 
-
+---
 
 <SECTION ID="pagescroller">
 </SECTION>
@@ -2094,6 +2184,7 @@ Add new [OptionBarButtons](#optionbarbutton "OptionBarButton") to the OptionBar 
 
 
 
+---
 
 <SECTION ID="panel">
 </SECTION>
@@ -2122,6 +2213,8 @@ The Panel is a container control, designed to act as a building block inside the
 * **LIB**: vxh.lib
 
 
+
+---
 
 <SECTION ID="picturebox">
 </SECTION>
@@ -2164,6 +2257,8 @@ VXH's PictureBox is a container control, it can hold a number of other controls,
 
 
 
+---
+
 <SECTION ID="printdialog">
 </SECTION>
 ## PrintDialog
@@ -2177,6 +2272,7 @@ VXH's PictureBox is a container control, it can hold a number of other controls,
 * **LIB**: vxh.lib
 
 
+---
 
 <SECTION ID="progressbar">
 </SECTION>
@@ -2212,7 +2308,7 @@ The MinRange and MaxRange properties indicate the minimum and maximum values \(a
 
 
 
-
+---
 
 <SECTION ID="project">
 </SECTION>
@@ -2243,7 +2339,7 @@ These external files can be consulted in the Object Manager's "File View" tab \-
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="radiobutton">
 </SECTION>
@@ -2276,7 +2372,7 @@ As a rule of thumb: when a question addressed to the user could have more than 5
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="richtextbox">
 </SECTION>
@@ -2309,6 +2405,7 @@ Most [EditBox](#editbox "EditBox") methods can be used in conjunction with RichT
 * **LIB**: vxh.lib
 
 
+---
 
 <SECTION ID="savefiledialog">
 </SECTION>
@@ -2341,7 +2438,7 @@ Technically the [OpenFileDialog](#openfiledialog "SaveFileDialog") and the SaveF
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="serialport">
 </SECTION>
@@ -2386,6 +2483,7 @@ Use the Close\(\) method to terminate in good conditions the usage of the commun
 * **LIB**: vxh.lib
 
 
+---
 
 <SECTION ID="service">
 </SECTION>
@@ -2401,6 +2499,7 @@ Use the Close\(\) method to terminate in good conditions the usage of the commun
 
 
 
+---
 
 <SECTION ID="shortcutkey">
 </SECTION>
@@ -2423,6 +2522,7 @@ The shortcuts of a given Windows application do work when the application has in
 * **LIB**: vxh.lib
 
 
+---
 
 <SECTION ID="splitter">
 </SECTION>
@@ -2443,6 +2543,7 @@ A control can hold four splitters: one over each of its margins. For adding a Sp
 * **LIB**: vxh.lib
 
 
+---
 
 <SECTION ID="sqlconnector">
 </SECTION>
@@ -2470,7 +2571,7 @@ Using VXH's DataTable component in combination with the SqlConnector component m
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="statusbar">
 </SECTION>
@@ -2496,7 +2597,7 @@ Add a new StatusBarPanel to a StatusBar in this way: select the StatusBar, right
 
 
 
-
+---
 
 <SECTION ID="statusbarpanel">
 </SECTION>
@@ -2516,7 +2617,7 @@ A StatusBarPanel control is always created as a child control of a [StatusBar](#
 
 
 
-
+---
 
 <SECTION ID="system">
 </SECTION>
@@ -2542,7 +2643,7 @@ All the hash tables available as properties of the System object are set to use 
 
 
 
-
+---
 
 <SECTION ID="tabclosebutton">
 </SECTION>
@@ -2558,7 +2659,7 @@ All the hash tables available as properties of the System object are set to use 
 
 
 
-
+---
 
 <SECTION ID="tabcontrol">
 </SECTION>
@@ -2606,7 +2707,7 @@ An individual Tab object cannot be disabled, however the corresponding TabPage c
 
 
 
-
+---
 
 <SECTION ID="tabpage">
 </SECTION>
@@ -2646,7 +2747,7 @@ Each TabPage can be set with left, top, right and / or bottom margins, relative 
 
 
 
-
+---
 
 <SECTION ID="tabpinbutton">
 </SECTION>
@@ -2662,7 +2763,7 @@ Each TabPage can be set with left, top, right and / or bottom margins, relative 
 
 
 
-
+---
 
 <SECTION ID="tabstrip">
 </SECTION>
@@ -2693,7 +2794,7 @@ The [TabControl](#tabcontrol "TabControl") and the TabStrip controls are very si
 
 
 
-
+---
 
 <SECTION ID="timer">
 </SECTION>
@@ -2720,7 +2821,7 @@ It is possible to start the timer by default \(without user interaction\) using 
 
 
 
-
+---
 
 <SECTION ID="toolbar">
 </SECTION>
@@ -2761,7 +2862,7 @@ We can add new ToolButtons onto the ToolBar in this way: select the control, rig
 
 
 
-
+---
 
 <SECTION ID="toolbutton">
 </SECTION>
@@ -2800,7 +2901,7 @@ A ToolButton can have an associated sublist. The sublist can be chosen by settin
 
 
 
-
+---
 
 <SECTION ID="toolstrip">
 </SECTION>
@@ -2830,7 +2931,7 @@ Adding a new object to a ToolStrip can be done in this way: select the ToolStrip
 
 
 
-
+---
 
 <SECTION ID="toolstripbutton">
 </SECTION>
@@ -2864,7 +2965,7 @@ In order to create a submenu for a ToolStripButton, first set its DropDown prope
 
 
 
-
+---
 
 <SECTION ID="toolstripcombobox">
 </SECTION>
@@ -2893,7 +2994,7 @@ The ToolStripComboBox is always created as a child control of a [ToolStrip](#too
 
 
 
-
+---
 
 <SECTION ID="toolstripcontainer">
 </SECTION>
@@ -2920,7 +3021,7 @@ Deleting a ToolStrip or MenuStrip is done as in case of other controls: select t
 
 
 
-
+---
 
 <SECTION ID="toolstriplabel">
 </SECTION>
@@ -2945,7 +3046,7 @@ The ToolStripLabel and the [ToolstripButton](#toolstripbutton "ToolStripButton")
 
 
 
-
+---
 
 <SECTION ID="tooltip">
 </SECTION>
@@ -2974,7 +3075,7 @@ The messages are visible for few seconds, the duration being dependent on the lo
 
 
 
-
+---
 
 <SECTION ID="treelistview">
 </SECTION>
@@ -2990,7 +3091,7 @@ The messages are visible for few seconds, the duration being dependent on the lo
 
 
 
-
+---
 
 <SECTION ID="treeview">
 </SECTION>
@@ -3059,7 +3160,7 @@ The user selections can be tracked by consulting the following properties: Selec
 
 
 
-
+---
 
 <SECTION ID="treeviewitem">
 </SECTION>
@@ -3103,7 +3204,7 @@ AddItem, Delete, SetItemText, SortChildren are the most frequently used methods 
 
 
 
-
+---
 
 <SECTION ID="webbrowser">
 </SECTION>
@@ -3130,7 +3231,7 @@ In the Object Manager, when possible, the event handlers in the DWebBrowserEvent
 
 
 
-
+---
 
 <SECTION ID="winprint">
 </SECTION>
@@ -3265,7 +3366,7 @@ RETURN NIL
 
 
 
-
+---
 
 <SECTION ID="winsock">
 </SECTION>
@@ -3298,7 +3399,7 @@ When the connection is no more needed, it should be closed by a Close method cal
 * **LIB**: vxh.lib
 
 
-
+---
 
 <SECTION ID="zip">
 </SECTION>
@@ -3334,3 +3435,4 @@ The Zip class creates a zip file, adds files to it along with common Zip functio
 * **Category**: VXH Class
 * **LIB**: vxh.lib
 
+---
