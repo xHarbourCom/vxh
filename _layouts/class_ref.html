@@ -74,6 +74,11 @@
 <body>
 
    <div class="sidenav">
+      <header class="page-header" role="banner">
+         <h1 class="project-name"><img src="favicon.ico" height="42" width="42"
+               hspace=15>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      </header>
+
       <a href="#activex">ActiveX</a>
       <a href="#adsdatatable">AdsDataTable</a>
       <a href="#adsserver">AdsServer</a>
@@ -109,10 +114,10 @@
 
    <div class="right_main">
 
-      <header class="page-header" role="banner">
+      <!-- <header class="page-header" role="banner">
          <h1 class="project-name"><img src="favicon.ico" height="42" width="42"
                hspace=15>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      </header>
+      </header> -->
 
       <main id="content" class="main-content" role="main">
          {{ content }}
