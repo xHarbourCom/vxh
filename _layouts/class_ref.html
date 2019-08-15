@@ -30,7 +30,7 @@
          width: 200px;
          position: fixed;
          z-index: 1;
-         /* top: 0; */
+         top: 0;
          left: 0;
          background-color: #eee;
          overflow-x: hidden;
@@ -51,21 +51,11 @@
       }
 
       .right_main {
-
-         height: 100%;
-         position: fixed;
-         z-index: 1;
-         /* top: 0; */
          margin-left: 210px;
-         /* background-color: #eee; */
-         overflow-x: hidden;
-         padding-top: 20px;
-
-         /* margin-left: 210px;*/
          /* Same width as the sidebar + left position in px */
          /* font-size: 28px; */
          /* Increased text to enable scrolling */
-         /* padding: 0px 10px; */
+         padding: 0px 10px;
       }
 
       @media screen and (max-height: 450px) {
@@ -82,11 +72,6 @@
 </head>
 
 <body>
-
-   <header class="page-header" role="banner">
-      <h1 class="project-name"><img src="favicon.ico" height="42" width="42"
-            hspace=15>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-   </header>
 
 
    <div class="sidenav">
@@ -125,10 +110,10 @@
 
    <div class="right_main">
 
-      <!-- <header class="page-header" role="banner">
+      <header class="page-header" role="banner">
          <h1 class="project-name"><img src="favicon.ico" height="42" width="42"
                hspace=15>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      </header> -->
+      </header>
 
       <main id="content" class="main-content" role="main">
          {{ content }}
