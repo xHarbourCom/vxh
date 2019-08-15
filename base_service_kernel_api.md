@@ -9,168 +9,438 @@ Base Service (Kernel) API
 <SECTION ID="beep">
 </SECTION>
 ## Beep
+Generates simple tones on the speaker. The function is synchronous; it performs an alertable wait and does not return control to its caller until the sound finishes.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/utilapiset/nf-utilapiset-beep" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="begindeferwindowpos">
 </SECTION>
 ## BeginDeferWindowPos
+Allocates memory for a multiple-window- position structure and returns the handle to the structure.
+
+### Info
+* **Category**: bsk api
+* **DLL**: User32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winuser/nf-winuser-begindeferwindowpos" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="closehandle">
 </SECTION>
 ## CloseHandle
+Closes an open object handle.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/handleapi/nf-handleapi-closehandle" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="copyfile">
 </SECTION>
 ## CopyFile
+Copies an existing file to a new file.
+
+### Description
+The CopyFileEx function provides two additional capabilities. CopyFileEx can call a specified callback function each time a portion of the copy operation is completed, and CopyFileEx can be canceled during the copy operation.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-copyfile" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="copyfileex">
 </SECTION>
 ## CopyFileEx
+Copies an existing file to a new file, notifying the application of its progress through a callback function.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-copyfileexa" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="createevent">
 </SECTION>
 ## CreateEvent
+Creates or opens a named or unnamed event object.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/synchapi/nf-synchapi-createeventa" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="createfile">
 </SECTION>
 ## CreateFile
+Creates or opens a file or I/O device. The most commonly used I/O devices are as follows: file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe.
+
+### Description
+The function returns a handle that can be used to access the file or device for various types of I/O depending on the file or device and the flags and attributes specified.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/fileapi/nf-fileapi-createfilea" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="createmutex">
 </SECTION>
 ## CreateMutex
+Creates or opens a named or unnamed mutex object.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/synchapi/nf-synchapi-createmutexa" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="endupdateresource">
 </SECTION>
 ## EndUpdateResource
+Commits or discards changes made prior to a call to UpdateResource.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-endupdateresourcea" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="enumresourcetypes">
 </SECTION>
 ## EnumResourceTypes
+Enumerates resource types within a binary module.
+
+### Description
+Starting with Windows Vista, this is typically a language-neutral Portable Executable (LN file), and the enumeration also includes resources from one of the corresponding language-specific resource files (.mui files)—if one exists—that contain localizable language resources. It is also possible to use hModule to specify a .mui file, in which case only that file is searched for resource types.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-enumresourcetypesa" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="findfirstfile">
 </SECTION>
 ## FindFirstFile
+Searches a directory for a file or subdirectory with a name that matches a specific name (or partial name if wildcards are used).
+
+### Description
+To specify additional attributes to use in a search, use the FindFirstFileEx function.<br>
+To perform this operation as a transacted operation, use the FindFirstFileTransacted function.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/fileapi/nf-fileapi-findfirstfilea" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="findresource">
 </SECTION>
 ## FindResource
+Determines the location of a resource with the specified type and name in the specified module. To specify a language, use the FindResourceEx function.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-findresourcea" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="findresourceex">
 </SECTION>
 ## FindResourceEx
+Determines the location of the resource with the specified type, name, and language in the specified module.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-findresourceexa" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="formatmessage">
 </SECTION>
 ## FormatMessage
+Formats a message string. The function requires a message definition as input.
+
+### Description
+The message definition can come from a buffer passed into the function. It can come from a message table resource in an already-loaded module. Or the caller can ask the function to search the system's message table resource(s) for the message definition. The function finds the message definition in a message table resource based on a message identifier and a language identifier. The function copies the formatted message text to an output buffer, processing any embedded insert sequences if requested.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-formatmessage" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="freelibrary">
 </SECTION>
 ## FreeLibrary
+Frees the loaded dynamic-link library (DLL) module and, if necessary, decrements its reference count. When the reference count reaches zero, the module is unloaded from the address space of the calling process and the handle is no longer valid.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/libloaderapi/nf-libloaderapi-freelibrary" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="getcommstate">
 </SECTION>
 ## GetCommState
+Retrieves the current control settings for a specified communications device.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-getcommstate" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="getcomputername">
 </SECTION>
 ## GetComputername
+Retrieves the NetBIOS name of the local computer. This name is established at system startup, when the system reads it from the registry.
+
+### Description
+GetComputerName retrieves only the NetBIOS name of the local computer. To retrieve the DNS host name, DNS domain name, or the fully qualified DNS name, call the GetComputerNameEx function. Additional information is provided by the IADsADSystemInfo interface.<br>
+The behavior of this function can be affected if the local computer is a node in a cluster. For more information, see ResUtilGetEnvironmentWithNetName and UseNetworkName.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-getcomputernamea" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="getcurrentprocess">
 </SECTION>
 ## GetCurrentProcess
+Retrieves a pseudo handle for the current process.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="getcurrentthreadid">
 </SECTION>
 ## GetCurrentThreadId
+Retrieves the thread identifier of the calling thread.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadid" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="getlasterror">
 </SECTION>
 ## GetLastError
+Retrieves the calling thread's last-error code value. The last-error code is maintained on a per-thread basis. Multiple threads do not overwrite each other's last-error code.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="getlocaltime">
 </SECTION>
 ## GetLocalTime
+Retrieves the current local date and time. To retrieve the current date and time in Coordinated Universal Time (UTC) format, use the GetSystemTime function.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/sysinfoapi/nf-sysinfoapi-getlocaltime" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="getlogicaldrivestrings">
 </SECTION>
 ## GetLogicalDriveStrings
+Fills a buffer with strings that specify valid drives in the system.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/fileapi/nf-fileapi-getlogicaldrivestringsw" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="getmodulefilename">
 </SECTION>
 ## GetModuleFilename
+Retrieves the fully-qualified path for the file that contains the specified module.
+
+### Description
+The module must have been loaded by the current process. To locate the file for a module that was loaded by another process, use the GetModuleFileNameEx function.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulefilenamea" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="getmodulehandle">
 </SECTION>
 ## GetModuleHandle
+Retrieves a module handle for the specified module. The module must have been loaded by the calling process. To avoid the race conditions described in the Remarks section, use the GetModuleHandleEx function.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea" target="_blank">here</a>
+
+
+---
+
+<SECTION ID="getprivateprofileint">
+</SECTION>
+## GetPrivateProfileInt
+Retrieves an integer associated with a key in the specified section of an initialization file.
+
+### Description
+Note This function is provided only for compatibility with 16-bit Windows-based applications. Applications should store initialization information in the registry.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-getprivateprofileint" target="_blank">here</a>
+
+
+
 
 ---
 
 <SECTION ID="getprivateprofilesection">
 </SECTION>
 ## GetPrivateProfileSection
+Retrieves all the keys and values for the specified section of an initialization file.
+
+### Description
+Note This function is provided only for compatibility with 16-bit applications written for Windows. Applications should store initialization information in the registry.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-getprivateprofilesection" target="_blank">here</a>
+
+
 
 ---
 
-<SECTION ID="getprivateprovilestring">
+<SECTION ID="getprivateprofilestring">
 </SECTION>
-## GetPrivateProvileString
+## GetPrivateProfileString
+Retrieves a string from the specified section in an initialization file.
+
+### Description
+Note This function is provided only for compatibility with 16-bit Windows-based applications. Applications should store initialization information in the registry.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-getprivateprofilestring" target="_blank">here</a>
+
+
+
 
 ---
 
 <SECTION ID="getprofileint">
 </SECTION>
 ## GetProfileInt
+Retrieves an integer from a key in the specified section of the Win.ini file.
+
+### Description
+Note This function is provided only for compatibility with 16-bit Windows-based applications. Applications should store initialization information in the registry.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-getprofileinta" target="_blank">here</a>
+
+
+
 
 ---
 
 <SECTION ID="getprofilestring">
 </SECTION>
 ## GetProfileString
+Retrieves the string associated with a key in the specified section of the Win.ini file.
+
+### Description
+Note This function is provided only for compatibility with 16-bit Windows-based applications, therefore this function should not be called from server code. Applications should store initialization information in the registry.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-getprofilestringa" target="_blank">here</a>
+
+
 
 ---
 
