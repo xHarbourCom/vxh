@@ -3,6 +3,7 @@ layout: default
 ---
 Visual [x]Harbour Reference
 ====================
+
 Visual [x]Harbour is an easy to use **Rapid Application Development** (RAD) tool for **Windows**.  The power of VXH lies in its **simplicity**. But don't be fooled, underneath this simplicity you'll find the powerful xHarbour engine going at it at full throttle providing you with the speed and accuracy you need for your applications.
 
 Creating a GUI has never been easier and faster. VXH offers a complete set of objects which enables the developer to create any GUI in a matter of seconds. The VXH ToolBox offers any possible control which can be easily dragged and dropped on the forms. Creating new forms, interaction between forms, MDI forms, pop-up windows, splash screens, ... It's all right there, just one click away.

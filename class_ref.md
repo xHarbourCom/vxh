@@ -43,7 +43,6 @@ title: Class Reference
       <a href="#folderbrowsedialog">FolderBrowseDialog</a>
 </div>
 
-
 <div class="right_main">
 
 <div markdown="1">

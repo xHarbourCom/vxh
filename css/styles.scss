@@ -1161,7 +1161,7 @@ pre, code {
   width: 200;
   position: fixed;
   z-index: 1;
-  top: 100;
+  top: ($header-border + $header-height + 1px);
   left: 0;
   background-color: #eee;
   overflow-x: hidden;
