@@ -50,7 +50,7 @@ $color-donate-reverse: #fff;
 $color-donate-normal: $fork-color;
 
 $header-border: 0;  /* 3px */
-$header-height: 119px;
+$header-height: 100px;
 $content-width: 738px;
 $content-fill: 700px;
 
@@ -1158,11 +1158,10 @@ pre, code {
 .sidenav {
 
   height: 100%;
-  width: 20%;
+  width: 200;
   position: fixed;
   z-index: 1;
-  top: auto;
-  top: 0;
+  top: $header-height;
   left: 0;
   background-color: #eee;
   overflow-x: hidden;
@@ -1184,8 +1183,7 @@ pre, code {
 
 
 .right_main {
-  margin-left: 21%;
-  // margin-left: 210px;
+  margin-left: 210px;
   /* Same width as the sidebar + left position in px */
   /* font-size: 28px; */
   /* Increased text to enable scrolling */
