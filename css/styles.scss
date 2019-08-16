@@ -67,13 +67,21 @@ $content-fill: 700px;
 
 
 
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
 .header {
   padding: 10px 16px;
-  background-color: $color-bk-head-def;
-  background-image: radial-gradient(ellipse farthest-side at left bottom, $color-menu-bk 0%, lighten($color-base1, 20%) 40%, $color-base1 115%);
-  height: 100px;  
-  // background: #555;
-  // color: #f1f1f1;
+  background: #555;
+  color: #f1f1f1;
 }
 
 .content {
