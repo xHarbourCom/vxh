@@ -8,7 +8,9 @@
 
     function setclassheight() {
       var myobject = document.getElementsByClassName("sidenav");
-      // myobject.namedItem("height") = myobject.namedItem("height") - 120;
+      myobject.array.forEach(element => {
+        element.setAttribute("height", window.innerHeight - 120);
+      });
     }
     
 
