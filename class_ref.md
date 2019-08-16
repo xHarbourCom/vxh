@@ -3,8 +3,6 @@ layout: default
 title: Class Reference
 ---
 
-<div markdown="1" class="components">
-
 
 <aside>
 
@@ -52,6 +50,7 @@ title: Class Reference
 
 <main>
 
+<div markdown="1">
 Class Reference
 =================
 
@@ -3487,5 +3486,6 @@ The Zip class creates a zip file, adds files to it along with common Zip functio
 * **LIB**: vxh.lib
 
 ---
-</main>
 </div>
+
+</main>
