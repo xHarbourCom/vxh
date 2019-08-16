@@ -4,7 +4,7 @@ title: Class Reference
 ---
 
 
-<div class="sidenav">
+<div class="aside">
       <a href="#activex">ActiveX</a>
       <a href="#adsdatatable">AdsDataTable</a>
       <a href="#adsserver">AdsServer</a>
@@ -44,7 +44,7 @@ title: Class Reference
 </div>
 
 
-<div class="right_main">
+<div class="main">
 
 <div markdown="1">
 Class Reference
