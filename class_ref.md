@@ -44,7 +44,7 @@ title: Class Reference
 </div>
 
 
-<div class="main">
+<div class="right_main">
 
 <div markdown="1">
 Class Reference
