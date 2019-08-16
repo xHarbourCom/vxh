@@ -44,7 +44,7 @@ title: Class Reference
 </div>
 
 
-<main>
+<div class="right_main">
 
 <div markdown="1">
 Class Reference
@@ -3484,4 +3484,4 @@ The Zip class creates a zip file, adds files to it along with common Zip functio
 ---
 </div>
 
-</main>
+</div>
