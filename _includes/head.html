@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<meta charset="utf-8">
-<meta name="referrer" content="no-referrer">
-<meta name="viewport" content="initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>{% if page.title %}Visual [x]Harbour · {{ page.title }}{% else %}Visual [x]Harbour{% endif %}</title>
 
-<title>{% if page.title %}Visual [x]Harbour · {{ page.title }}{% else %}Visual [x]Harbour{% endif %}</title>
+   <link rel="shortcut icon" type="image/x-icon" href="https://xharbourcom.github.io/vxh-docs/favicon.ico">
 
-<link rel="shortcut icon" type="image/x-icon" href="https://xharbourcom.github.io/vxh-docs/favicon.ico">
-<link rel="stylesheet" href="https://xharbourcom.github.io/vxh-docs/css/styles.css">
+   <style>
+      body {
+         margin: 0;
+         font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .top-container {
+         background-color: #f1f1f1;
+         padding: 30px;
+         text-align: center;
+      }
+
+      .header {
+         padding: 10px 16px;
+         background: #555;
+         color: #f1f1f1;
+      }
+
+      .content {
+         padding: 16px;
+      }
+
+      .sticky {
+         position: fixed;
+         top: 0;
+         width: 100%;
+      }
+
+      .sticky+.content {
+         padding-top: 102px;
+      }
+
+
+      .sidenav {
+
+         height: 100%;
+         width: 200;
+         position: fixed;
+         z-index: 1;
+         top: 101;
+         left: 0;
+         background-color: #eee;
+         overflow-x: hidden;
+         padding-top: 20px;
+      }
+
+      .sidenav a {
+         padding: 6px 8px 6px 16px;
+         text-decoration: none;
+         font-size: 16px;
+         color: #2196F3;
+         display: block;
+      }
+
+      .sidenav a:hover {
+         color: #064579;
+      }
+
+
+      .right_main {
+         margin-left: 210px;
+         /* Same width as the sidebar + left position in px */
+         /* font-size: 28px; */
+         /* Increased text to enable scrolling */
+         padding: 0px 10px;
+      }
+   </style>
+
+
+
+</head>
