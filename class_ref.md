@@ -3469,7 +3469,7 @@ Zip:New( <cFile> )
 * FullPath
 * Password
 
-# Methods
+### Methods
 * AddFile()
 * Close()
 
