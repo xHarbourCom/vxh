@@ -1149,12 +1149,6 @@ pre, code {
   }
 }
 
-@media (prefers-reduced-motion) {
-  .header-text:hover .header-version {
-    animation: none;
-  }
-}
-
 .sidenav {
 
   height: 100%;
@@ -1188,4 +1182,19 @@ pre, code {
   /* font-size: 28px; */
   /* Increased text to enable scrolling */
   padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+     padding-top: 15px;
+  }
+
+  .sidenav a {
+     font-size: 18px;
+  }
+}
+@media (prefers-reduced-motion) {
+  .header-text:hover .header-version {
+    animation: none;
+  }
 }
