@@ -1,8 +1,59 @@
 ---
-layout: class_ref
+layout: default
+title: Class Reference
 ---
+
+<div markdown="1" class="components">
+
+
+<aside>
+
+      <a href="#activex">ActiveX</a>
+      <a href="#adsdatatable">AdsDataTable</a>
+      <a href="#adsserver">AdsServer</a>
+      <a href="#advantage">Advantage</a>
+      <a href="#anchor">Anchor</a>
+      <a href="#animation">Animation</a>
+      <a href="#application">Application</a>
+      <a href="#backgroundimage">BackgroundImage</a>
+      <a href="#band">Band</a>
+      <a href="#button">Button</a>
+      <a href="#checkbox">CheckBox</a>
+      <a href="#cmenuitem">CMenuItem</a>
+      <a href="#colordialog">ColorDialog></a>
+      <a href="#colorpicker">ColorPicker</a>
+      <a href="#combobox">ComboBox</a>
+      <a href="#comboboxex">ComboBoxEx</a>
+      <a href="#contextmenu">ContextMenu</a>
+      <a href="#coolbar">CoolBar</a>
+      <a href="#coolbarband">CoolBarBand</a>
+      <a href="#coolmenu">CoolMenu></a>
+      <a href="#coolmenuitem">CoolMenuItem</a>
+      <a href="#cursorcombobox">CursorComboBox</a>
+      <a href="#data">Data</a>
+      <a href="#dataconnector">DataConnector</a>
+      <a href="#datagrid">DataGrid</a>
+      <a href="#datasource">DataSource</a>
+      <a href="#datatable">DataTable</a>
+      <a href="#datetimepicker">DateTimePicker</a>
+      <a href="#dock">Dock</a>
+      <a href="#drawing">Drawing</a>
+      <a href="#drivecombobox">DriveComboBox</a>
+      <a href="#editbox">EditBox</a>
+      <a href="#expando">Expando</a>
+      <a href="#exprorerbar">ExplorerBar</a>
+      <a href="#fields">Fields</a>
+      <a href="#folderbrowsedialog">FolderBrowseDialog</a>
+
+
+
+</aside>
+
+
+<main>
+
 Class Reference
-====================
+=================
 
 ---
 
@@ -3436,3 +3487,5 @@ The Zip class creates a zip file, adds files to it along with common Zip functio
 * **LIB**: vxh.lib
 
 ---
+</main>
+</div>
