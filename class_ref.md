@@ -4,8 +4,7 @@ title: Class Reference
 ---
 
 
-<aside>
-
+<div class="sidenav">
       <a href="#activex">ActiveX</a>
       <a href="#adsdatatable">AdsDataTable</a>
       <a href="#adsserver">AdsServer</a>
@@ -42,10 +41,7 @@ title: Class Reference
       <a href="#exprorerbar">ExplorerBar</a>
       <a href="#fields">Fields</a>
       <a href="#folderbrowsedialog">FolderBrowseDialog</a>
-
-
-
-</aside>
+</div>
 
 
 <main>
