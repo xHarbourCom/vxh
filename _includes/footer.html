@@ -8,8 +8,8 @@
     var header = document.getElementById("myHeader");
     var sticky = header.offsetTop;
 
-    var SideNav = document.getElementById("mySidenav");
-    var SideNavTop = SideNav.offsetTop;
+    // var SideNav = document.getElementById("mySidenav");
+    // var SideNavTop = SideNav.offsetTop;
 
 
     function myFunction() {
@@ -19,11 +19,11 @@
         header.classList.remove("sticky");
       }
 
-      if (window.pageYOffset > SideNavTop){
-        SideNav.classList.add("sidenav_sticky");
-      } else {
-        SideNav.classList.remove("sidenav_sticky");
-      }
+      // if (window.pageYOffset > SideNavTop){
+      //   SideNav.classList.add("sidenav_sticky");
+      // } else {
+      //   SideNav.classList.remove("sidenav_sticky");
+      // }
     }
 
 
