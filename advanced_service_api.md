@@ -1,10 +1,49 @@
 ---
 layout: default
 ---
+
+<div class="sidenav">
+
+<div markdown="1">
+
+[AdjustTokenPrivileges](#adjusttokenprivileges)
+[CloseServiceHandle](#CloseServiceHandle)
+[CreateService](#createservice)
+[DeleteService](#deleteservice)
+[GetUserName](#getusername)
+[InitiateSystemShutdown](#initiatesystemshutdown)
+[LookUpPrivilegeValue](#lookupprivilegevalue)
+[OpenProcessToken](#openprocesstoken)
+[OpenSCManager](#openscmanager)
+[OpenService]()(#openservice)
+[RegCloseKey](#regclosekey)
+[RegCreateKey](#regcreatekey)
+[RegCreateKeyEx](#regcreatekeyex)
+[RegDeleteKey](#regdeletekey)
+[RegDeleteValue](#regdeletevalue)
+[RegEnumKey](#RegEnumKey)
+[RegEnumKeyEx](#regenumkeyex)
+[RegEnumValue](#regenumvalue)
+[RegisterServiceCtrlHandler](#registerservicectrlhandler)
+[RegOpenKeyEx](#regopenkeyex)
+[RegQueryValueEx](#regqueryvalueex)
+[RegSetValueEx](#regsetvalueex)
+[SetServiceStatus](#setservicestatus)
+
+</div>
+
+</div>
+
+
+<div class="sidenav">
+
+<div markdown="1">
+
 Advanced Service API
 ====================
 
 ---
+
 
 <SECTION ID="adjusttokenprivileges">
 </SECTION>
@@ -124,7 +163,7 @@ Establishes a connection to the service control manager on the specified compute
 
 ---
 
-<SECTION ID="openscmanager">
+<SECTION ID="OpenService">
 </SECTION>
 ## OpenService
 Opens an existing service.
@@ -320,3 +359,6 @@ Updates the service control manager's status information for the calling service
 * **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winsvc/nf-winsvc-setservicestatus" target="_blank">here</a>
 
 ---
+</div>
+
+</div>
