@@ -1,6 +1,97 @@
 ---
 layout: default
+title: Base Service API
 ---
+
+
+
+<div class="sidenav">
+
+<div markdown="1">
+
+[Beep](#beep)
+[BeginDeferWindowPos](#begindeferwindowpos)
+[CloseHandle](#closehandle)
+[CopyFile](#copyfile)
+[CopyFileEx](#copyfileex)
+[CreateEvent](#createevent)
+[CreateFile](#createfile)
+[CreateMutex](#createmutex)
+[EndUpdateResource](#endupdateresource)
+[EnumResourceTypes](#enumresourcetypes)
+[FindFirstFile](#findfirstfile)
+[FindResource](#findresource)
+[FindResourceEx](#findresourceex)
+[FormatMessage](#formatmessage)
+[FreeLibrary](#freelibrary)
+[GetCommState](#getcommstate)
+[GetComputername](#getcomputername)
+[GetCurrentProcess](#getcurrentprocess)
+[GetCurrentThreadId](#getcurrentthreadid)
+[GetLastError](#getlasterror)
+[GetLocalTime](#getlocaltime)
+[GetLogicalDriveStrings](#getlogicaldrivestrings)
+[GetModuleFilename](#getmodulefilename)
+[GetModuleHandle](#getmodulehandle)
+[GetPrivateProfileInt](#getprivateprofileint)
+[GetPrivateProfileSection](#getprivateprofilesection)
+[GetPrivateProfileString](#getprivateprofilestring)
+[GetProfileInt](#getprofileint)
+[GetProfileString](#getprofilestring)
+[GetShortPathName](#getshortpathname)
+[GetSystemDirectory](#getsystemdirectory)
+[GetSystemTime](#getsystemtime)
+[GetTempFilename](#gettempfilename)
+[GetTempPath](#gettemppath)
+[GetTickCount](#gettickcount)
+[GetVersionEx](#getversionex)
+[GetWindowsDirectory](#getwindowsdirectory)
+[GlobalFree](#globalfree)
+[GlobalLock](#globallock)
+[GlobalMemoryStatus](#globalmemorystatus)
+[GlobalUnlock](#globalunlock)
+[LoadLibraryA](#loadlibrarya)
+[LoadLibraryEx](#loadlibraryex)
+[LoadResource](#loadresource)
+[LockResource](#lockresource)
+[MoveFile](#movefile)
+[OpenFile](#openfile)
+[OpenMutex](#openmutex)
+[OutputDebugString](#outputdebugstring)
+[PurgeComm](#purgecomm)
+[ReleaseMutex](#releasemutex)
+[RemoveDirectory](#removedirectory)
+[SetCommState](#setcommstate)
+[SetCommTimeouts](#setcommtimeouts)
+[SetEnvironmentVariable](#setenvironmentvariable)
+[SetEvent](#setevent)
+[SetSystemTime](#setsystemtime)
+[SizeofResource](#sizeofresource)
+[Sleep](#sleep)
+[TransmitCommChar](#transmitcommchar)
+[UpdateResource](#updateresource)
+[WaitCommEvent](#waitcommevent)
+[WaitForSingleObject](#waitforsingleobject)
+[WinExec](#winexec)
+[WritePrivateProfileSection](#writeprivateprofilesection)
+[WritePrivateProfileString](#writeprivateprofilestring)
+[WriteProfileString](#writeprofilestring)
+
+
+</div>
+
+</div>
+
+
+<div class="right_main">
+
+<div markdown="1">
+
+
+
+
+
+
 Base Service (Kernel) API
 ====================
 
@@ -666,3 +757,6 @@ Note This function is provided only for compatibility with 16-bit Windows-based 
 
 
 ---
+</div>
+
+</div>
