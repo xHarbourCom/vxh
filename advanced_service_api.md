@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Advanced service
+title: Advanced service API
 ---
 
 <div class="sidenav">
