@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Advanced service
 ---
 
 <div class="sidenav">
@@ -35,7 +36,7 @@ layout: default
 </div>
 
 
-<div class="sidenav">
+<div class="right_main">
 
 <div markdown="1">
 
