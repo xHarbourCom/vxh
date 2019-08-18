@@ -17,7 +17,7 @@ title: Class Reference
       <a href="#button">Button</a>
       <a href="#checkbox">CheckBox</a>
       <a href="#cmenuitem">CMenuItem</a>
-      <a href="#colordialog">ColorDialog></a>
+      <a href="#colordialog">ColorDialog</a>
       <a href="#colorpicker">ColorPicker</a>
       <a href="#combobox">ComboBox</a>
       <a href="#comboboxex">ComboBoxEx</a>
@@ -41,7 +41,6 @@ title: Class Reference
       <a href="#exprorerbar">ExplorerBar</a>
       <a href="#fields">Fields</a>
       <a href="#folderbrowsedialog">FolderBrowseDialog</a>
-
       <a href="#folderlist">FolderList</a>
       <a href="#foldertree">FolderTree</a>
       <a href="#fontcombobox">FontComboBox</a>
