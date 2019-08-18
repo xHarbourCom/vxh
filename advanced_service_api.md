@@ -16,7 +16,7 @@ title: Advanced service API
 [LookUpPrivilegeValue](#lookupprivilegevalue)
 [OpenProcessToken](#openprocesstoken)
 [OpenSCManager](#openscmanager)
-[OpenService]()(#openservice)
+[OpenService](#openservice)
 [RegCloseKey](#regclosekey)
 [RegCreateKey](#regcreatekey)
 [RegCreateKeyEx](#regcreatekeyex)
