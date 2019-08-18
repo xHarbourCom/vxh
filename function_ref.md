@@ -1,6 +1,46 @@
 ---
 layout: default
+title: Function reference
 ---
+
+<div class="sidenav">
+
+<div markdown="1">
+
+[AdsConnect101()](#adsconnect101)
+[AdsDDCreate101()](#adsddcreate101)
+[AdsDDDeleteIndex()](#adsdddeleteindex)
+[AdsDDexecuteSQLDirect()](#adsddexecutesqldirect)
+[AdsDDFindObject()](#adsddfindobject)
+[AdsDDFirstObject()](#adsddfirstobject)
+[AdsDDFreeTable()](#adsddfreetable)
+[AdsDDGetDatabaseProperty()](#adsddgetdatabaseproperty)
+[AdsDDGetIndexFileProperty()](#adsddgetindexfileproperty)
+[AdsDDGetIndexProperty()](#adsddgetindexproperty)
+[AdsDDGrantPermission()](#adsddgrantpermission)
+[AdsDDRemoveIndexFile()](#adsddremoveindexfile)
+[AdsDDRevokePermission()](#adsddrevokepermission)
+[AdsDDSetDatabaseProperty()](#adsddsetdatabaseproperty)
+[AdsDDSetTableProperty()](#adsddsettableproperty)
+[AdsNull2Blank()](#adsnull2blank)
+[FTSValidatePhrase()](#ftsvalidatephrase)
+[GetRegOle()](#getregole)
+[GetRegOleBmp()](#getregolebmp)
+[GetShortPathName()](#getshortpathname)
+[IsComObject()](#iscomobject)
+[IsDotNet()](#isdotnet)
+[RegisterDotNetComponent()](#registerdotnetcomponent)
+[SetSystemCursor()](#setsystemcursor)
+
+</div>
+
+</div>
+
+
+<div class="right_main">
+
+<div markdown="1">
+
 Function Reference
 ====================
 
@@ -286,3 +326,7 @@ RegisterDotNetComponent( <cDotNetDLL> , <cProgId> , <cError> )  --> Logical
 From MSDN: "Enables an application to customize the system cursors. It replaces the contents of the system cursor specified by the id parameter with the contents of the cursor specified by the hcur parameter and then destroys hcur."
 
 ---
+
+</div>
+
+</div>
