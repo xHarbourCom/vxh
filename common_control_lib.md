@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Common Control Library
 ---
 
 <div class="sidenav">
