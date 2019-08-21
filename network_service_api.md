@@ -3,7 +3,7 @@ layout: default
 title: Network Service API
 ---
 
-div class="sidenav">
+<div class="sidenav">
 
 <div markdown="1">
 
