@@ -689,6 +689,13 @@ Note The global functions have greater overhead and provide fewer features than 
 <SECTION ID="globalmemorystatus">
 </SECTION>
 ## GlobalMemoryStatus
+[GlobalMemoryStatus can return incorrect information. Use the GlobalMemoryStatusEx function instead. ] Retrieves information about the system's current usage of both physical and virtual memory.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-globalmemorystatus" target="_blank">here</a>
+
 
 
 
@@ -697,153 +704,405 @@ Note The global functions have greater overhead and provide fewer features than 
 <SECTION ID="globalunlock">
 </SECTION>
 ## GlobalUnlock
+Decrements the lock count associated with a memory object that was allocated with GMEM_MOVEABLE. This function has no effect on memory objects allocated with GMEM_FIXED.
+
+### Description
+Note The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/en-in/windows/win32/memory/heap-functions" target="_blank">heap functions</a> unless documentation states that a global function should be used. For more information, see <a href="https://docs.microsoft.com/en-in/windows/win32/memory/global-and-local-functions"  target="_blank">Global and Local Functions</a>.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-globalunlock" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="loadlibrarya">
 </SECTION>
 ## LoadLibraryA
+Loads the specified module into the address space of the calling process. The specified module may cause other modules to be loaded.
+
+### Description
+For additional load options, use the [LoadLibraryEx](#loadlibraryex) function.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="loadlibraryex">
 </SECTION>
 ## LoadLibraryEx
+Loads the specified module into the address space of the calling process. The specified module may cause other modules to be loaded.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexa" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="loadresource">
 </SECTION>
 ## LoadResource
+Retrieves a handle that can be used to obtain a pointer to the first byte of the specified resource in memory.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource" target="_blank">here</a>
+
+
+---
+
+<SECTION ID="lockresource">
+</SECTION>
+## LockResource
+Retrieves a pointer to the specified resource in memory.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/libloaderapi/nf-libloaderapi-lockresource" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="movefile">
 </SECTION>
 ## MoveFile
+Moves an existing file or a directory, including its children.
+
+### Description
+To specify how to move the file, use the MoveFileEx or MoveFileWithProgress function.<br>
+To perform this operation as a transacted operation, use the MoveFileTransacted function.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-movefile" target="_blank">here</a>
+
+
+
 
 ---
 
 <SECTION ID="openfile">
 </SECTION>
 ## OpenFile
+Creates, opens, reopens, or deletes a file. Note This function has limited capabilities and is not recommended. For new application development, use the CreateFile function.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-openfile" target="_blank">here</a>
+
+
+
+
+---
+
+<SECTION ID="openmutex">
+</SECTION>
+## OpenMutex
+Opens an existing named mutex object.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/synchapi/nf-synchapi-openmutexw" target="_blank">here</a>
+
+
+
 
 ---
 
 <SECTION ID="outputdebugstring">
 </SECTION>
 ## OutputDebugString
+Sends a string to the debugger for display.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="purgecomm">
 </SECTION>
 ## PurgeComm
+Discards all characters from the output or input buffer of a specified communications resource. It can also terminate pending read or write operations on the resource.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-purgecomm" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="releasemutex">
 </SECTION>
 ## ReleaseMutex
+Releases ownership of the specified mutex object.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/synchapi/nf-synchapi-releasemutex" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="removedirectory">
 </SECTION>
 ## RemoveDirectory
+Deletes an existing empty directory. To perform this operation as a transacted operation, use the RemoveDirectoryTransacted function.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/fileapi/nf-fileapi-removedirectorya" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="setcommstate">
 </SECTION>
 ## SetCommState
+Configures a communications device according to the specifications in a device-control block (a DCB structure). The function reinitializes all hardware and control settings, but it does not empty output or input queues.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-setcommstate" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="setcommtimeouts">
 </SECTION>
 ## SetCommTimeouts
+Sets the time-out parameters for all read and write operations on a specified communications device.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-setcommtimeouts" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="setenvironmentvariable">
 </SECTION>
 ## SetEnvironmentVariable
+Sets the contents of the specified environment variable for the current process.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/processenv/nf-processenv-setenvironmentvariablea" target="_blank">here</a>
+
+
+
 
 ---
 
 <SECTION ID="setevent">
 </SECTION>
 ## SetEvent
+Sets the specified event object to the signaled state.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/synchapi/nf-synchapi-setevent" target="_blank">here</a>
+
+
+
 
 ---
 
 <SECTION ID="setsystemtime">
 </SECTION>
 ## SetSystemTime
+Sets the current system time and date. The system time is expressed in Coordinated Universal Time (UTC).
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/sysinfoapi/nf-sysinfoapi-setsystemtime" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="sizeofresource">
 </SECTION>
 ## SizeofResource
+Retrieves the size, in bytes, of the specified resource.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/libloaderapi/nf-libloaderapi-sizeofresource" target="_blank">here</a>
+
+
+
 
 ---
 
 <SECTION ID="sleep">
 </SECTION>
 ## Sleep
+Suspends the execution of the current thread until the time-out interval elapses. To enter an alertable wait state, use the SleepEx function.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/synchapi/nf-synchapi-sleep" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="tranmitcommchar">
 </SECTION>
 ## TranmitCommChar
+Transmits a specified character ahead of any pending data in the output buffer of the specified communications device.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-transmitcommchar" target="_blank">here</a>
+
+
+
 
 ---
 
 <SECTION ID="updateresource">
 </SECTION>
 ## UpdateResource
+Adds, deletes, or replaces a resource in a portable executable (PE) file. There are some restrictions on resource updates in files that contain Resource Configuration (RC Config) data: language-neutral (LN) files and lan.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-updateresourcea" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="waitcommevent">
 </SECTION>
 ## WaitCommEvent
+Waits for an event to occur for a specified communications device. The set of events that are monitored by this function is contained in the event mask associated with the device handle.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-waitcommevent" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="waitforsingleobject">
 </SECTION>
 ## WaitForSingleObject
+Waits until the specified object is in the signaled state or the time-out interval elapses.
+
+### Description
+To enter an alertable wait state, use the WaitForSingleObjectEx function. To wait for multiple objects, use the WaitForMultipleObjects.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="winexec">
 </SECTION>
 ## WinExec
+Runs the specified application. Note This function is provided only for compatibility with 16-bit Windows. Applications should use the CreateProcess function.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-winexec" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="writeprivateprofilesection">
 </SECTION>
 ## WritePrivateProfileSection
+Replaces the keys and values for the specified section in an initialization file.
+
+### Description
+Note This function is provided only for compatibility with 16-bit versions of Windows. Applications should store initialization information in the registry.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-writeprivateprofilesectiona" target="_blank">here</a>
+
+
 
 ---
+
 
 <SECTION ID="writeprivateprofilestring">
 </SECTION>
 ## WritePrivateProfileString
+Copies a string into the specified section of an initialization file.
+
+### Description
+Note This function is provided only for compatibility with 16-bit versions of Windows. Applications should store initialization information in the registry.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-writeprivateprofilestringa" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="writeprofilestring">
 </SECTION>
 ## WriteProfileString
+Copies a string into the specified section of the Win.ini file. If Win.ini uses Unicode characters, the function writes Unicode characters to the file. Otherwise, the function writes ANSI characters.
 
+### Description
+Note This function is provided only for compatibility with 16-bit versions of Windows. Applications should store initialization information in the registry.
+
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-writeprofilestringa" target="_blank">here</a>
 
 ---
+
 </div>
 
 </div>
