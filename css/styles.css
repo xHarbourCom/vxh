@@ -38,7 +38,8 @@ h2{
   width: 15%;
   z-index: 1;
   background-color: #eee;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  overflow: auto;
   padding-top: 20px;
 }
 
