@@ -538,72 +538,153 @@ Note This function is provided only for compatibility with 16-bit Windows-based 
 <SECTION ID="getshortpathname">
 </SECTION>
 ## GetShortPathName
+Retrieves the short path form of the specified path. For more information about file and path names, see Naming Files, Paths, and Namespaces.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/fileapi/nf-fileapi-getshortpathnamew" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="getsystemdirectory">
 </SECTION>
 ## GetSystemDirectory
+Retrieves the path of the system directory. The system directory contains system files such as dynamic-link libraries and drivers.
 
----
+### Description
+This function is provided primarily for compatibility. Applications should store code in the Program Files folder and persistent data in the Application Data folder in the user's profile.
 
-<SECTION ID="getsystemdirectory">
-</SECTION>
-## GetSystemDirectory
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="getsystemtime">
 </SECTION>
 ## GetSystemTime
+Retrieves the current system date and time. The system time is expressed in Coordinated Universal Time (UTC).
+
+### Description
+To retrieve the current system date and time in local time, use the GetLocalTime function.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtime" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="gettempfilename">
 </SECTION>
 ## GetTempFilename
+Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/fileapi/nf-fileapi-gettempfilenamea" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="gettemppath">
 </SECTION>
 ## GetTempPath
+Retrieves the path of the directory designated for temporary files.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/fileapi/nf-fileapi-gettemppatha" target="_blank">here</a>
+
 
 ---
 
 <SECTION ID="gettickcount">
 </SECTION>
 ## GetTickCount
+Retrieves the number of milliseconds that have elapsed since the system was started, up to 49.7 days.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/sysinfoapi/nf-sysinfoapi-gettickcount" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="getversionex">
 </SECTION>
 ## GetVersionEx
+Retrieves information about the current operating system.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="getwindowsdirectory">
 </SECTION>
 ## GetWindowsDirectory
+Retrieves the path of the Windows directory.
+
+### Description
+This function is provided primarily for compatibility with legacy applications. New applications should store code in the Program Files folder and persistent data in the Application Data folder in the user's profile
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya" target="_blank">here</a>
+
+
+
 
 ---
 
 <SECTION ID="globalfree">
 </SECTION>
 ## GlobalFree
+Frees the specified global memory object and invalidates its handle.
+
+### Description
+Note The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the [heap functions](https://docs.microsoft.com/en-in/windows/win32/memory/heap-functions) unless documentation states that a global function should be used. For more information, see [Global and Local Functions](https://docs.microsoft.com/en-in/windows/win32/memory/global-and-local-functions).
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-globalfree" target="_blank">here</a>
+
+
 
 ---
 
 <SECTION ID="globallock">
 </SECTION>
 ## GlobalLock
+Locks a global memory object and returns a pointer to the first byte of the object's memory block.
+
+### Description
+Note The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the  [heap functions](https://docs.microsoft.com/en-in/windows/win32/memory/heap-functions) unless documentation states that a global function should be used. For more information, see [Global and Local Functions](https://docs.microsoft.com/en-in/windows/win32/memory/global-and-local-functions).
 
 ---
 
 <SECTION ID="globalmemorystatus">
 </SECTION>
 ## GlobalMemoryStatus
+
+
 
 ---
 
