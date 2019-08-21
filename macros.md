@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Macros (pseudo functions)
 ---
 
 <div class="sidenav">
