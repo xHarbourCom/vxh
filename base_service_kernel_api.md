@@ -659,7 +659,7 @@ This function is provided primarily for compatibility with legacy applications. 
 Frees the specified global memory object and invalidates its handle.
 
 ### Description
-Note The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the [heap functions](https://docs.microsoft.com/en-in/windows/win32/memory/heap-functions) unless documentation states that a global function should be used. For more information, see [Global and Local Functions](https://docs.microsoft.com/en-in/windows/win32/memory/global-and-local-functions).
+Note The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/en-in/windows/win32/memory/heap-functions" target="_blank">heap functions</a> unless documentation states that a global function should be used. For more information, see <a href="https://docs.microsoft.com/en-in/windows/win32/memory/global-and-local-functions"  target="_blank">Global and Local Functions</a>.
 
 ### Info
 * **Category**: bsk api
@@ -676,7 +676,13 @@ Note The global functions have greater overhead and provide fewer features than 
 Locks a global memory object and returns a pointer to the first byte of the object's memory block.
 
 ### Description
-Note The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the  [heap functions](https://docs.microsoft.com/en-in/windows/win32/memory/heap-functions) unless documentation states that a global function should be used. For more information, see [Global and Local Functions](https://docs.microsoft.com/en-in/windows/win32/memory/global-and-local-functions).
+Note The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the  <a href="https://docs.microsoft.com/en-in/windows/win32/memory/heap-functions" target="_blank">heap functions</a> unless documentation states that a global function should be used. For more information, see <a href="https://docs.microsoft.com/en-in/windows/win32/memory/global-and-local-functions"  target="_blank">Global and Local Functions</a>.
+
+### Info
+* **Category**: bsk api
+* **DLL**: Kernel32.dll
+* **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/winbase/nf-winbase-globallock" target="_blank">here</a>
+
 
 ---
 
