@@ -23,8 +23,11 @@ title: Mail API
 Mail API
 ====================
 
+<SECTION ID="mapisenddocuments"></SECTION>
 **MAPISendDocuments**
 
+
+<SECTION ID="mapisendmail"></SECTION>
 **MAPISendMail**
 
 </div>
