@@ -801,8 +801,8 @@ The SelectPalette function selects the specified logical palette into a device c
 
 ---
 
-<SECTION ID="setbkmode"></SECTION>
-## SetBkMode
+<SECTION ID="setbkcolor"></SECTION>
+## SetBkColor
 The SetBkColor function sets the current background color to the specified color value, or to the nearest physical color if the device cannot represent the specified color value.
 
 ### Info
@@ -813,7 +813,7 @@ The SetBkColor function sets the current background color to the specified color
 
 ---
 
-<SECTION ID="setbkmode"></>
+<SECTION ID="setbkmode"></SECTION>
 ## SetBkMode
 The SetBkMode function sets the background mix mode of the specified device context. The background mix mode is used with text, hatched brushes, and pen styles that are not solid lines.
 
