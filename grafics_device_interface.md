@@ -379,7 +379,7 @@ The ExtTextOut function draws text using the currently selected font, background
 ---
 
 <SECTION ID="getbkcolor"></SECTION>
-## GetBkColor## 
+## GetBkColor
 The GetBkColor function returns the current background color for the specified device context.
 
 ### Info
