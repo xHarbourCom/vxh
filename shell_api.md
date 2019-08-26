@@ -40,7 +40,7 @@ Registers whether a window accepts dropped files.
 
 ### Info
 * **Category**: WS API
-* **DLL**:  Shell32.dll (version 4.0 or later)
+* **DLL**: Shell32.dll (version 4.0 or later)
 * **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/shellapi/nf-shellapi-dragacceptfiles" target="_blank">here</a>
 
 ---
@@ -51,7 +51,7 @@ Releases memory that the system allocated for use in transferring file names to 
 
 ### Info
 * **Category**: WS API
-* **DLL**:  Shell32.dll (version 4.0 or later)
+* **DLL**: Shell32.dll (version 4.0 or later)
 * **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/shellapi/nf-shellapi-dragfinish" target="_blank">here</a>
 
 ---
@@ -62,7 +62,7 @@ Retrieves the names of dropped files that result from a successful drag-and-drop
 
 ### Info
 * **Category**: WS API
-* **DLL**:  Shell32.dll (version 4.0 or later)
+* **DLL**: Shell32.dll (version 4.0 or later)
 * **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/shellapi/nf-shellapi-dragqueryfilea" target="_blank">here</a>
 
 ---
@@ -73,7 +73,7 @@ Retrieves the position of the mouse pointer at the time a file was dropped durin
 
 ### Info
 * **Category**: WS API
-* **DLL**:  Shell32.dll (version 4.0 or later)
+* **DLL**: Shell32.dll (version 4.0 or later)
 * **MSDN link**: <a href="https://docs.microsoft.com/en-us/windows/win32/api/shellapi/nf-shellapi-dragquerypoint" target="_blank">here</a>
 
 ---
@@ -84,7 +84,7 @@ Retrieves a handle to an icon from the specified executable file, DLL, or icon f
 
 ### Info
 * **Category**: WS API
-* **DLL**:  Shell32.dll (version 4.0 or later)
+* **DLL**: Shell32.dll (version 4.0 or later)
 * **MSDN link**: <a href="https://docs.microsoft.com/en-us/windows/win32/api/shellapi/nf-shellapi-extracticona" target="_blank">here</a>
 
 ---
@@ -95,7 +95,7 @@ Sends an appbar message to the system.
 
 ### Info
 * **Category**: WS API
-* **DLL**:  Shell32.dll (version 4.0 or later)
+* **DLL**: Shell32.dll (version 4.0 or later)
 * **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/shellapi/nf-shellapi-shappbarmessage" target="_blank">here</a>
 
 ---
@@ -106,7 +106,7 @@ Performs an operation on a specified file.
 
 ### Info
 * **Category**: WS API
-* **DLL**:  Shell32.dll (version 4.0 or later)
+* **DLL**: Shell32.dll (version 4.0 or later)
 * **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/shellapi/nf-shellapi-shellexecutea" target="_blank">here</a>
 
 ---
@@ -117,7 +117,7 @@ Sends a message to the taskbar's status area.
 
 ### Info
 * **Category**: WS API
-* **DLL**:  Shell32.dll (version 4.0 or later)
+* **DLL**: Shell32.dll (version 4.0 or later)
 * **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/shellapi/nf-shellapi-shell_notifyicona" target="_blank">here</a>
 
 ---
@@ -128,7 +128,7 @@ Retrieves information about an object in the file system, such as a file, folder
 
 ### Info
 * **Category**: WS API
-* **DLL**:  Shell32.dll (version 4.0 or later)
+* **DLL**: Shell32.dll (version 4.0 or later)
 * **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/shellapi/nf-shellapi-shgetfileinfoa" target="_blank">here</a>
 
 ---
@@ -141,7 +141,7 @@ Deprecated. Gets the path of a folder identified by a CSIDL value.
 
 ### Info
 * **Category**: WS API
-* **DLL**:  Shell32.dll (version 4.0 or later)
+* **DLL**: Shell32.dll (version 4.0 or later)
 * **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/shlobj_core/nf-shlobj_core-shgetfolderpatha" target="_blank">here</a>
 
 ---
@@ -152,7 +152,7 @@ Gets the path of a folder and appends a user-provided subfolder path.
 
 ### Info
 * **Category**: WS API
-* **DLL**:  Shell32.dll (version 4.0 or later)
+* **DLL**: Shell32.dll (version 4.0 or later)
 * **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/shlobj_core/nf-shlobj_core-shgetfolderpathandsubdira" target="_blank">here</a>
 
 ---
@@ -163,7 +163,7 @@ Creates a pointer to an item identifier list (PIDL) from a path.
 
 ### Info
 * **Category**: WS API
-* **DLL**:  Shell32.dll (version 4.0 or later)
+* **DLL**: Shell32.dll (version 4.0 or later)
 * **MSDN link**: <a href="https://docs.microsoft.com/en-in/windows/win32/api/shlobj_core/nf-shlobj_core-shilcreatefrompath" target="_blank">here</a>
 
 ---
