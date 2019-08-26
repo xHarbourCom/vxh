@@ -137,20 +137,20 @@ Class Reference
 
 ### Methods
 * AxGet()
-   * Syntax
+   Syntax
    ```
-   AxGet( <cName>
+   AxGet( <cName> )
    ```
-   * Arguments
+   Arguments
    ```
    <cName>
    ```
 * AxSet()
-   * Syntax
+   Syntax
    ```
    AxSet( <cName> ,  <xValue> )
    ```
-   * Arguments
+   Arguments
    ```
    <cName>
    <xValue>
