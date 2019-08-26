@@ -137,34 +137,122 @@ Class Reference
 
 ### Methods
 * AxGet()
+
    Syntax
    ```
    AxGet( <cName> )
    ```
+   
    Arguments
    ```
    <cName>
    ```
+
 * AxSet()
+
    Syntax
    ```
    AxSet( <cName> ,  <xValue> )
    ```
+   
    Arguments
    ```
    <cName>
    <xValue>
    ```
+
 * Configure()
+
+   Syntax
+   ```
+   Configure() --> Self
+   ```
+
 * Create()
+
+   Syntax
+   ```
+   Create() --> Self
+   ```
+
 * Init()
+
+   Syntax
+   ```
+   Init( <Parent> ) --> Self
+   ```
+
 * IsRegistered()
+
+   Syntax
+   ```
+   IsRegistered() --> lReg
+   ```
+
 * LinkEvents()
+
+   Syntax
+   ```
+   LinkEvents( [ <oOwner> ] ) --> Self
+   ```
+
+   Arguments
+   ```
+   <oOwner>
+   Defaults to ::Form
+   ```
+
 * OnDestroy()
+
+   Syntax
+   ```
+   OnDestroy() --> NIL
+   ```
+
 * OnGetDlgCode()
+
+   Syntax
+   ```
+   OnGetDlgCode()
+   ```
+
 * SetStyle()
+
+   Syntax
+   ```
+   SetStyle( <nStyle> ,  [ <lAdd> ] ) --> Self
+   ```
+
+   Arguments
+   ```
+   <nStyle>
+   <lAdd>   Defaults to .T.
+   ```
+
 * ShowPropertiesDialog()
+
+   Syntax
+   ```
+   ShowPropertiesDialog( <hWnd> ,  [<Show>] ) --> Self
+   ```
+
+   Arguments
+   ```
+   <hWnd>
+   <lShow>   Defaults to .T.
+   ```
+
 * Translate
+
+   Syntax
+   ```
+   Translate( pMsg )
+   ```
+
+   Arguments
+   ```
+   <pMsg>
+   ```
 
 ### Info
 * **Category** : VXH Class
