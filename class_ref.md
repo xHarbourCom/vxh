@@ -126,17 +126,17 @@ Class Reference
 ## ActiveX
 
 ### Properties
-* BackColor
-* Constants
-* Cursor
-* Font
-* ForeColor
-* hEventHandler
-* oTypeLib
-* ToolTip
+* **BackColor**
+* **Constants**
+* **Cursor**
+* **Font**
+* **ForeColor**
+* **hEventHandler**
+* **oTypeLib**
+* **ToolTip**
 
 ### Methods
-* AxGet()
+* **AxGet()**
 
    Syntax
    ```
@@ -148,7 +148,7 @@ Class Reference
    <cName>
    ```
 
-* AxSet()
+* **AxSet()**
 
    Syntax
    ```
@@ -161,35 +161,35 @@ Class Reference
    <xValue>
    ```
 
-* Configure()
+* **Configure()**
 
    Syntax
    ```
    Configure() --> Self
    ```
 
-* Create()
+* **Create()**
 
    Syntax
    ```
    Create() --> Self
    ```
 
-* Init()
+* **Init()**
 
    Syntax
    ```
    Init( <Parent> ) --> Self
    ```
 
-* IsRegistered()
+* **IsRegistered()**
 
    Syntax
    ```
    IsRegistered() --> lReg
    ```
 
-* LinkEvents()
+* **LinkEvents()**
 
    Syntax
    ```
@@ -202,21 +202,21 @@ Class Reference
    Defaults to ::Form
    ```
 
-* OnDestroy()
+* **OnDestroy()**
 
    Syntax
    ```
    OnDestroy() --> NIL
    ```
 
-* OnGetDlgCode()
+* **OnGetDlgCode()**
 
    Syntax
    ```
    OnGetDlgCode()
    ```
 
-* SetStyle()
+* **SetStyle()**
 
    Syntax
    ```
@@ -229,7 +229,7 @@ Class Reference
    <lAdd>   Defaults to .T.
    ```
 
-* ShowPropertiesDialog()
+* **ShowPropertiesDialog()**
 
    Syntax
    ```
@@ -242,7 +242,7 @@ Class Reference
    <lShow>   Defaults to .T.
    ```
 
-* Translate
+* **Translate**
 
    Syntax
    ```
