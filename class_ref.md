@@ -137,7 +137,24 @@ Class Reference
 
 ### Methods
 * AxGet()
+   * Syntax
+   ```
+   AxGet( <cName>
+   ```
+   * Arguments
+   ```
+   <cName>
+   ```
 * AxSet()
+   * Syntax
+   ```
+   AxSet( <cName> ,  <xValue> )
+   ```
+   * Arguments
+   ```
+   <cName>
+   <xValue>
+   ```
 * Configure()
 * Create()
 * Init()
