@@ -25,7 +25,7 @@ Windows Sockets V2
 ====================
 
 <SECTION ID="wsacreateevent"></SECTION>
-**WSACreateEvent**
+## WSACreateEvent
 The WSACreateEvent function creates a new event object.
 
 ### Info
@@ -36,7 +36,7 @@ The WSACreateEvent function creates a new event object.
 ---
 
 <SECTION ID="wsawaitformultipleevents"></SECTION>
-**WSAWaitForMultipleEvents**
+## WSAWaitForMultipleEvents
 The WSAWaitForMultipleEvents function returns when one or all of the specified event objects are in the signaled state, when the time-out interval expires, or when an I/O completion routine has executed.
 
 ### Info
