@@ -24,6 +24,8 @@ title: Windows Sockets V2
 Windows Sockets V2
 ====================
 
+---
+
 <SECTION ID="wsacreateevent"></SECTION>
 ## WSACreateEvent
 The WSACreateEvent function creates a new event object.
